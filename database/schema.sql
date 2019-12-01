@@ -235,5 +235,161 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Environment\nRenewable material (cotton).\nTo lower our environmental impact this product is offered without any packaging.
 \n\nMaterials\nInterliner:\n100 % polypropylene\n\nFilling material:\n100 % polyester - hollow fiber (100% recycled)
 \n\nOuter fabric:\n100 % cotton', 'MALINDA\nChair pad\n\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(21,
+'902.579.58', 'The bed base can be placed at two different heights.\n\nOne crib side can be removed when the child is big enough to climb into/out of the crib.
+\n\nYour baby will sleep both safely and comfortably as the durable materials in the crib base have been tested to ensure they give their body the support it needs.
+\n\nThe crib base is well ventilated for good air circulation which gives your child a pleasant sleeping climate.
+\n\nMattress and bedlinens are sold separately.\n\nConversion kit included.
+\n\nFor your child\'s safety, use a 27½x52\" crib mattress with our cribs.\n\nComplies with US standard 16 CFR 1219.
+\n\nDesigner\nJ Asshoff/H Brogård', 'Length: 53 1/2 "\nWidth: 29 1/2 "\nHeight: 43 3/4 "\nBed width: 27 1/2 
+\n"Bed length: 52 "\nMax. load: 50 lb', 'Wipe clean using a damp cloth and a mild cleaner. \nWipe clean with a dry cloth.', 
+'Environment\nProduct possible to recycle or use for energy recovery, if available in your community.
+\nRenewable material (wood).\n\nMaterials\nFabric:\n100 % nylon\n\nHead/footboard/ Bottom panel/ Drawer bottom/ Drawer front:
+\nFiberboard, Acrylic paint\n\nBedside/ Spindles/ Bed rail/ Bed base frame/ Knob:\nSolid beech, Acrylic paint
+\n\nDrawer back/ Drawer side/ Drawer rail/ Partition:\nSolid beech', 'Packages: 2\n\nGONATT\nCrib\n\nThis product has multiple packages.'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(22,
+'392.414.28', 'Ample storage space is hidden neatly under the bed in 6 large drawers. Perfect for storing quilts, pillows and bed linen.
+\n\nSoft-closing drawers run smoothly, slowly and silently.
+\n\nStorage in the headboard saves space and makes it easier to access boxes or drawers under the bed; and it’s easier to vacuum too.
+\n\nThe soft felt pad absorbs sound, protects from scratches and keeps small items in place.
+\n\nYou can choose where to position the boxes and shelves since they easily slot into the headboard’s grooves.
+\n\nYou can hide cables for lamps and chargers by feeding them through the holes at the back of the shelf.
+\n\nYou decide the height of the headboard since it needs to be mounted to the wall.
+\n\nNORDLI headboard is assembled and mounted on the wall in just a few steps.\n\nEasy to bring home since the headboard is divided into two pieces.
+\n\nIncludes: 2 shelves (12x10⅝x4") and 2 boxes (9½x4x4").\n\nDesigner\nOla Wihlborg', 
+'Height of drawer (inside): 6 1/4 "\nLength: 79 1/2 "\nWidth: 107 7/8 "\nHeight: 11 3/4 "\nDrawer width (inside): 22 7/8 "
+\nDrawer depth (inside): 20 1/8 "\nHeadboard height: 44 7/8 "\nMattress length: 78 3/4 "\nMattress width: 76 "', 
+'Bed frame with storage/headboard\nWipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.', 
+'Environment\nBed frame with storage/headboard:\nAt least 80% (weight) of this product is made of wood, a renewable material.
+\n\nMaterials\nBed frame with storage\nTop frame/ Drawer front/ Head/footboard:\nFiberboard, Printed acrylic paint\n\nBed base slats:
+\nSolid pine\n\nBoard on frame:\nParticleboard and fiberboard with honeycomb paper filling., ABS plastic, Acrylic paint
+\n\nRail:\nSolid wood\n\nHeadboard\nPanel:\nParticleboard, Acrylic paint, Plastic edging\n\nConnection/ Rail:
+\nFiberboard, Acrylic paint\n\nShelf:\nSteel, Epoxy/polyester powder coating', 'Packages: 7\n\nNORDLI\nbed frame with storage
+\nThis product has multiple packages.\n\nNORDLI\nheadboard\nThis product has multiple packages.'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(23,
+'592.688.98', 'Brass-colored details on the headboard, footboard and legs give a unique twist to this classic design.
+\n\nThe powder-coated steel frame is strong, sturdy and easy to maintain.
+\n\nYou can sit up comfortably in bed thanks to the high headboard – just prop some pillows behind your back and you will have a comfortable place to read or watch TV.
+\n\nThere’s plenty of space under the bed for storage boxes – great for stowing extra quilts and sheets.
+\n\nYou can choose the mattress comfort that’s best for you – the high headboard and footboard work well with mattresses of different thicknesses.
+\n\nThe high footboard keeps bed textiles from falling onto the floor while you sleep.
+\n\nWhether you prefer bold or romantic, this versatile bed frame will look great with your choice of textiles and bedroom furniture.
+\n\nThe price for this combination includes SKORVA midbeam, but it is a separate product which you pick from its own shelf at the store. If you buy the bed via the website, SKORVA midbeam is included in the delivery.
+\n\nSlatted bed base and mattress sold separately.\n\nDesigner\nIKEA of Sweden/Paulin Machado', 'Length: 78 "\nWidth: 56 1/4 "
+\nHeight: 55 1/8 "\nFootboard height: 29 1/8 "\nHeadboard height: 55 1/8 "\nHeight under furniture: 9 7/8 "
+\nMattress length: 74 3/8 "\nMattress width: 53 1/8 "', 'Bed sides/center support beam\nWipe clean using a damp cloth and a mild cleaner.
+\nWipe dry with a clean cloth.', 'Materials\nHead/footboards\nMain parts:\nSteel, Steel, Epoxy/polyester powder coating
+\n\nFeet:\nPolypropylene\n\nBed sides\nSteel, Epoxy/polyester powder coating\n\nCenter support beam\nGalvanized steel', 
+'Packages: 3\nSAGSTUA\nhead/footboards\n\nSAGSTUA\nbed sides\n\nSKORVA\ncenter support beam'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(24,
+'992.561.72', 'At first glance, it looks like a classic upholstered bed. But beneath the surface, there’s a big secret: storage space. Perfect for bed storage boxes to store extra comforters and pillows.
+\n\nThe price for this combination includes SKORVA midbeam, but it is a separate product which you pick from its own shelf at the store. If you buy the bed via the website, SKORVA midbeam is included in the delivery.
+\n\nMust be completed with SKORVA center support beam.\n\nDesigner\nIKEA of Sweden/Ola Wihlborg', 
+'Length: 82 1/4 "\nWidth: 70 7/8 "\nHeadboard height: 53 1/8 "\nHeight under furniture: 7 7/8 "\nMattress length: 78 3/4 "\nMattress width: 60 1/4 "', 
+'Materials\nBed frame cover\n53 % linen, 47 % viscose/rayon
+\n\nBed frame\nHeadboard:\nPolyester wadding, Polyester wadding, Polyurethane foam 1.7 lb/cu.ft., Plywood, Solid beech, Solid pine, Fiberboard
+\n\nSide panel/ Front:\nPolyester wadding, Polyester wadding, Plywood\n\nMetal parts/ Corner fitting:\nSteel
+\n\nCenter support beam\nGalvanized steel', 'Packages: 4\n\nGODFJORD\nbed frame cover\n\nHELLEFJORD\nbed frame\nThis product has multiple packages.
+\n\nSKORVA\ncenter support beam'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(25,
+'792.411.86', 'This classic bed frame will look great with your choice of textiles and bedroom furniture. You can even complete the look with other products from the SONGESAND series.
+\n\nAmple storage space is hidden neatly under the bed in 4 large drawers. Perfect for storing quilts, pillows and bed linen.
+\n\nSONGESAND bed storage boxes work perfectly with SONGESAND bed frame. They fit neatly into the space under the bed and will be flush against sides.
+\n\nThe storage boxes are easy to roll out and in thanks to the castors on the base.\n\nYou can separate your linens and quilts since the combination includes one narrow and one wide storage box.
+\n\nAdjustable bed sides allow you to use mattresses of different thicknesses.
+\n\nThe price for this combination includes SKORVA midbeam, but it is a separate product which you pick from its own shelf at the store. If you buy the bed via the website, SKORVA midbeam is included in the delivery.
+\n\nMattress and bedlinens are sold separately.\n\nCoordinates with other furniture in the SONGESAND series.\n\nDesigner\nIKEA of Sweden', 
+'Height of drawer (inside): 5 1/2 "\nLength: 77 1/8 "\nWidth: 57 7/8 "\nHeight: 37 3/8 "\nDrawer width (inside): 22 "\nDrawer depth (inside): 25 1/4 "
+\nFootboard height: 16 1/8 "\nHeadboard height: 37 3/8 "\nMattress length: 74 3/8 "\nMattress width: 53 1/8 "', 
+'Bed frame/underbed storage box, set of 2/center support beam\nWipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.', 
+'Materials\nBed frame\nLeg:\nFiberboard, Paper foil, ABS plastic\n\nBed end filling/ Rail/ Bedside:\nParticleboard, Paper foil, Plastic edging
+\n\nTop rail:\nFiberboard, Paper foil, Plastic edging\n\nUnderbed storage box, set of 2\nDrawer front/ Drawer back/ Drawer sides/ Partition/ Rail:
+\nParticleboard, Paper foil, Plastic edging\n\nDrawer bottom:\nFiberboard, Paint, Paper foil\n\nCenter support beam\nGalvanized steel', 
+'Packages: 5\n\nSONGESAND\nunderbed storage box, set of 2\n\nSONGESAND\nbed frame\n\nSKORVA\ncenter support beam'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(26,
+'392.881.90', 'May be completed with DELAKTIG floor lamp.\n\nSpecially adapted slat is included. Complete with mattress of choice, min. height 7⅛".
+\n\nThe price for this combination includes SKORVA midbeam, but it is a separate product which you pick from its own shelf at the store. If you buy the bed via the website, SKORVA midbeam is included in the delivery.
+\n\nDesigner\nTom Dixon/IKEA of Sweden', 'Length: 81 1/8 "\nWidth: 77 1/2 "\nHeight: 39 "', 'Headrest\nBed frame/headboard/2 side tables
+\n\nWipe clean regularly with a cloth dampened in a mild cleaner.\nVacuum clean.\nWipe dry with a clean cloth.\nThe material can dry out and deteriorate if placed near a heat source.
+\nWipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.', 'Environment\nBed frame:\nAt least 50% of aluminum content of this product is made from recycled aluminum.
+\n\nMaterials\nBed frame\nFrame/ Leg:\nAluminum, Anodized\n\nPlastic stopper:\nSynthetic rubber, Polyamide\n\nLayer glued slats:\nBeech veneer, Birch veneer, Adhesive resin as coating
+\n\nRibbon:\n100 % polyester\n\nHeadboard\nPoplar plywood, Rattan, Clear acrylic lacquer\n\nFixture for headboard\nAluminum, Anodized\n\nCenter support beam
+\nGalvanized steel\n\nSide table for frame\nTable top:\nMolded layer-glued wood veneer, Laminate (melamine)
+\n\nEdge:\nStain, Clear acrylic lacquer\n\nBracket:\nAluminum, Anodized', 'Packages: 7\n\nDELAKTIG\nside table for frame\n\nDELAKTIG\nbed frame
+\n\nDELAKTIG\nheadboard\n\nDELAKTIG\nfixture for headboard\n\nSKORVA\ncenter support beam'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(27,
+'092.752.07', 'Practical storage for an extra pillow, comforter or bedspread.\n\nMade of solid wood, which is a durable and warm natural material.
+\n\nAdjustable bed sides allow you to use mattresses of different thicknesses.\n\nThe 4 large drawers give you an extra storage space under the bed.
+\n\nCoordinates with other furniture in the HEMNES series.\n\nMattress and bedlinens are sold separately.
+\n\nThe price for this combination includes SKORVA midbeam, but it is a separate product which you pick from its own shelf at the store. If you buy the bed via the website, SKORVA midbeam is included in the delivery.
+\n\nDesigner\nIKEA of Sweden', 'Length: 83 7/8 "\nWidth: 65 3/4 "\nFootboard height: 26 "\nHeadboard height: 47 1/4 "\nMattress length: 79 1/2 "\nMattress width: 59 7/8 "', 
+'Bed frame/underbed storage box, set of 2/center support beam\nWipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.', 
+'Environment\nSlatted bed base, adjustable:\nAt least 50% (weight) of this product is made from renewable materials.
+\n\nMaterials\nBed frame\nSolid pine, Stain, Clear acrylic lacquer\n\nUnderbed storage box, set of 2
+\nDrawer front:\nParticleboard, Pine veneer, Stain, Clear acrylic lacquer, Paper foil, Stain, Clear acrylic lacquer
+\n\nDrawer sides/ Drawer back/ Drawer divider:\nParticleboard, Paper foil\n\nDrawer bottom:\nFiberboard, Acrylic paint\n\nBottom rail:\nSolid pine
+\n\nSlatted bed base, adjustable\nBed base frame:\nSolid beech\n\nLayer glued frame:\nBirch veneer\n\nLayer glued slats:
+\nBeech veneer, Birch veneer, Foil, Adhesive resin as coating\n\nBed slat holder:\nHigh impact polystyrene\n\nBed mechanism:\nSteel, Galvanized
+\n\nRibbon:\n100 % polypropylene\n\nCenter support beam\n\nGalvanized steel', 'Packages: 7\n\nHEMNES\nunderbed storage box, set of 2\nPackage(s): 2
+\n\nLEIRSUND\nslatted bed base, adjustable\nPackage(s): 1\n\nSKORVA\ncenter support beam\nPackage(s): 1\n\nHemnes\nbed frame\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(28,
+'692.283.93', 'Easy to get in and out of bed because the mattress base makes the bed higher.
+\n\nNatural latex helps you to fully relax by contouring your body shape to relieve pressure and provide precise support.
+\n\nNatural materials like wool and cotton help air flow through the mattress to make sure you don’t get too warm or cold.
+\n\nComfort zones give very precise support and relieve pressure on your shoulders and hips.
+\n\nThe distinctive texture on the sides of the mattress and mattress base comes from the natural, undyed and unbleached linen that creates subtle variations in the surface.
+\n\nThe textiles closest to your skin are made of 100% cotton from sustainable sources.\n\n25-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
+\n\nMAUSUND latex mattress is included in the price but packaged separately.\n\nESPEVÄR foundation and ESPEVÄR cover are included in the price but packaged separately.
+\n\nLegs are included in the price but packaged separately.\n\nDesigner\nOla Wihlborg/IKEA of Sweden', 'Length: 79 1/2 "\nWidth: 59 7/8 "\nHeight: 26 3/8 "', 
+'Environment\nNatural latex mattress:\nAt least 50% (weight) of this product is made from renewable materials.
+\nAll the cotton in our products comes from more sustainable sources. This means that the cotton is either recycled, or grown with less water, less fertilizers and less pesticides, while increasing profit margins for the farmers.
+\nProduct possible to recycle or use for energy recovery, if available in your community.
+\n\nMaterials\nMattress base\nBed base frame/ Center support beam:\nSolid pine, Solid spruce\n\nBed base slats:\nSolid pine, 100 % polyester
+\n\nCover\nTotal composition/ Cover:\n53 % linen, 47 % viscose/rayon\n\nInner fabric:\n100 % cotton\n\nFilling:\nWool wadding, 100 % cotton
+\n\nNatural latex mattress\nTicking/ Ticking/ Lining:\n100 % cotton\n\nFilling:\nWool wadding\n\nTicking, side/ Piping/ Handles/ Total composition:
+\n53 % linen, 47 % viscose/rayon\n\nComfort material:\n85 % natural/ 15 % synthetic latex\n\nLeg\nSolid oak, Clear acrylic lacquer
+\n\nSupport leg\nSteel, Polypropylene, Epoxy powder coating, Epoxy powder coating', 'Packages: 5\n\nBURFJORD\nleg\nPackage(s): 1
+\n\nESPEVÄR\nmattress base\nPackage(s): 1\n\nSULTAN\nsupport leg\nPackage(s): 1\n\nESPEVÄR\ncover\nPackage(s): 1\n\nMAUSUND\nnatural latex mattress\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(29,
+'492.278.08', 'You can quickly convert the stacked beds into a double bed, twin beds or corner sofa.\n\nThe lightweight frames are easy to lift and move.
+\n\nThe compact design is perfect for tight spaces or under low ceilings, so you can make the most of your available space.
+\n\nThe stacked beds sit evenly since the upper bed has small plastic feet which fit into holes on the lower bed.
+\n\nUntreated pine is a sustainable material with natural variations which gives every piece of furniture a unique look. With glazing paint, oil or paint, you can easily make the surface more durable – and your furniture more personal.
+\n\nCan be used with up to 5" thick mattresses.\n\nStack max. 2 beds on top of each other.\n\nDo not place anything between the stacked beds that risks lifting the upper bed. For safety reasons it is important that all four legs of the upper bed are firmly placed into the holes of the lower bed.
+\n\n2 straps with press studs prevent the beds from sliding apart when they are next to each other.
+\n\nSlatted bed base is included.\n\nBed linen sold separately.\n\nMay be completed with FIXA stick-on floor protectors to protect the underlying surface against wear.
+\n\nDesigner\nHenrik Preutz/IKEA of Sweden', 'Height, 2 beds: 18 1/8 "\nLength: 76 3/4 "\nWidth: 39 3/8 "\nHeight: 9 "\nPackage quantity: 2 pack\nMattress length: 74 3/8 "
+\nMattress width: 38 1/4 "', 'Stackable bed with 2 mattresses\nStains can be removed by using an eraser or fine sandpaper.
+\n\nStackable bed\nWipe clean with a damp cloth.\nWipe dry with a clean cloth.\n\nSpring mattress\nWipe clean with a damp cloth.', 
+'Environment\nStackable bed:\nRenewable material (wood).\n\nMaterials\nStackable bed\nBedside/ Supporting rail:\nSolid pine, Solid pine
+\n\nHead/footboard:\nSolid pine, Solid pine, Solid pine\n\nLeg:\nSolid pine\n\nLayer glued slats:\nBeech veneer, Birch veneer, Adhesive resin as coating
+\n\nRibbon:\n100 % polyester\n\nSpring mattress\nTicking/ Ticking, side/ Ticking, underside/ Ticking/ Ticking:\n64 % cotton, 36 % polyester
+\n\nWadding:\n65% viscose/rayon, 30% polyester, 5% modacrylic fiber wadding\n\nLining:\nNon-woven polypropylene\n\nZipper:\n100 % polyester\n\nComfort material:
+\nPolyurethane foam 1.7 lb/cu.ft.\n\nBonell spring coil:\nSteel, 100 % polyester, Felt liner, 100 % polyester, Felt liner', 
+'Packages: 4\n\nUTÅKER\nstackable bed\nThis product has multiple packages.\nPackage(s): 2\n\nHUSVIKA\nspring mattress\nPackage(s): 2');
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(30,
+'992.916.70', 'A classic continental bed with a soft, fully upholstered headboard – perfect for placing in the middle of the room.
+\n\nIf you read or watch TV in bed the soft headboard is comfortable to lean against.\n\n17 layer-glued slats adjust to your body weight and increase the suppleness of the mattress.
+\n\nMattress is sold separately.\n\nLegs included.\n\nSlatted bed base is included in the price but packaged separately.
+\n\nThe price for this combination includes SKORVA midbeam, but it is a separate product which you pick from its own shelf at the store. If you buy the bed via the website, SKORVA midbeam is included in the delivery.
+\n\nFits a Queen size bed frame.\n\nDesigner\nIKEA of Sweden/Ola Wihlborg', 'Length: 86 5/8 "\nWidth: 63 "\nHeight: 49 1/4 "\nHeadboard height: 58 5/8 "\nHeight under furniture: 7 7/8 "
+\nMattress length: 79 1/2 "\nMattress width: 59 7/8 "', 'Cover\nBed frame\n\nMachine wash warm, normal cycle.\nDo not bleach.\nDo not tumble dry.
+\nIron medium temperature, max 300°F/150°C.\nDo not dry clean.', 'Materials\nBed frame\nHeadboard:
+\nPolyester wadding, Polyester wadding, Polyurethane foam 1.7 lb/cu.ft., Polyurethane foam 24 kg/cu.m., Plywood, Solid pine, Fiberboard, Solid beech
+\n\nMetal parts/ Corner fitting:\nSteel\n\nSide panel/ Foot:\nPolyester wadding, Polyester wadding, Plywood\n\nTotal composition:\n53 % linen, 47 % viscose/rayon
+\n\nSlatted bed base\nLayer glued slats:\nEucalyptus veneer, Pine veneer, Adhesive resin as coating\n\nRibbon/ Ribbon:\n100 % polyester\n\nLayer glued slats:
+\nBeech veneer, Birch veneer, Adhesive resin as coating\n\nCenter support beam\nGalvanized steel\n\nLeg\nSolid oak, Clear acrylic lacquer', 
+'Packages: 5\n\nLURÖY\nslatted bed base\nPackage(s): 1\n\nBURFJORD\nleg\nPackage(s): 1\n\nKVALFJORD\nbed frame\nThis product has multiple packages.\nPackage(s): 2
+\n\nSKORVA\ncenter support beam\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(31,
+'792.486.06', 
+
+
+
+
+
+
+
+
 
 
