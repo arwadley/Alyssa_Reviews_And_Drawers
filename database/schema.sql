@@ -382,7 +382,233 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Packages: 5\n\nLURÖY\nslatted bed base\nPackage(s): 1\n\nBURFJORD\nleg\nPackage(s): 1\n\nKVALFJORD\nbed frame\nThis product has multiple packages.\nPackage(s): 2
 \n\nSKORVA\ncenter support beam\nPackage(s): 1'); 
 INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(31,
-'792.486.06', 
+'792.486.06', 'The compact design is perfect for tight spaces or under low ceilings, so you can make the most of your available space.
+\n\nThe hard-wearing solid pine has natural variations in grain, color and texture, giving every piece a unique look.
+\n\nIf you oil, wax, lacquer or stain the untreated solid wood surface it will be more durable and easy to care for.
+\n\nIf you read or watch TV in bed the angled headboard is comfortable to lean against.\n\nThere’s plenty of space under the bed for storage boxes - perfect for storing extra quilts and pillows.
+\n\nYou can easily vacuum under the bed frame to keep the space clean and dust-free.\n\nMattress and bedlinens are sold separately.\n\nLURÖY slatted bed base is included in the price, but is packaged separately.
+\n\nCenter support beam included.\n\nDesigner\nIKEA of Sweden/Jon Karlsson', 'Length: 76 3/4 "\nWidth: 54 3/4 "\nFootboard height: 11 3/4 "\nHeadboard height: 25 5/8 "
+\nHeight under furniture: 7 7/8 "\nMattress length: 74 3/8 "\nMattress width: 53 1/8 "', 'Wood\nSlatted bed base\nWipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.
+\n\nWood\nBed frame\nStains can be removed by using an eraser, fine sandpaper, soap, dishwashing detergent or paint thinner.', 
+'Environment\nBed frame:\nRenewable material (wood).
+\nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. 
+\nBy 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.\n\nMaterials\nBed frame
+\nSolid pine\n\nSlatted bed base\nLayer glued slats:\nBeech veneer, Birch veneer, Adhesive resin as coating\n\nRibbon/ Ribbon:
+\n100 % polyester\n\nLayer glued slats:\nEucalyptus veneer, Pine veneer, Adhesive resin as coating', 
+'Packages: 2\n\nLURÖY\nslatted bed base\nPackage(s): 1\n\nNEIDEN\nbed frame\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(32,
+'503.334.50', 'With your imagination and a caravan in tow, you can travel wherever you like. 
+\nWho knows, maybe you can visit tigers and lions in the kitchen or meet cowboys in the living room?\nRecommended for children 18 months and older.
+\n\nDesignerMalin Unnborn', 'Length: 51 ¼ "\nWidth: 31 ½ "\nHeight: 47 ¼ "', 'Hand wash warm water.\nDo not bleach.\nDo not tumble dry.\nDo not iron.
+\nDo not dry clean.', 'Materials\nFabric:\n100 % polyester\nFilling:\nPolyester fiber fill', 'HEMMAHOS
+\nChildren\'s tent\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(33,
+'403.384.05', 'The bed canopy is easy to mount to the wall above the bed or can be used to create a small and cozy corner with soft blankets and pillows. If it gets dirty, you can easily take it apart and wash it.
+\n\nEasy to clean; machine wash, warm 104°F (40°C).\nThe fabric is made of 100% polyester, a durable material which is tested, approved, and free from harmful substances and additives.
+\n\nWith a bed canopy over the cradle, crib or bed, you create a calm place that makes a child\'s room extra cozy, like in a fairytale. Here, your child will sleep like a prince or princess.
+\n\nCan also be hung alone on the wall and at a lower height to make a cozy spot where your child can sit and play or read.
+\n\nDifferent wall materials require different types of fasteners. Use fasteners suitable for the walls in your home.\n\nDesigner\nA Huldén/S Dahlman', 
+'Length: 54 "\nWidth: 35 "', 'Hand wash warm water.\nDo not bleach.\nDo not tumble dry.\nIron medium temperature, max 300°F/150°C.\nDo not dry clean.', 
+'Materials\n100 % polyester', 'LÖVA\nBed canopy\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(34,
+'591.246.21', 'Extendable, so it can be pulled out as your child grows.\n\nLURÖY slatted bed base is included in the price, but is packaged separately.
+\n\nMax load indicates static weight, in other words the load which the bed withstands if you lie or sit on it.
+\n\nMattress and bedlinens are sold separately.\n\nDesigner\n\nIKEA of Sweden/Tina Christensen', 
+'Min. length: 49 1/4 "\nMax. length: 76 3/4 "\nWidth: 40 1/8 "\nFootboard height: 28 3/8 "\nHeadboard height: 36 1/4 "
+\nHeight under furniture: 9 "\nMax. load: 220 lb\nMattress length: 38 1/4 "\nMattress width: 74 3/4 "', 
+'Environment\nSlatted bed base:\nAt least 50% (weight) of this product is made from renewable materials.
+\nRenewable material (wood).\n\nMaterials\nExtendable bed frame\nSteel, Steel, Steel, Epoxy/polyester powder coating
+\nSlatted bed base\nLayer glued slats:Beech veneer, Birch veneer, Adhesive resin as coating\n\nRibbon:\n100 % polyester', 
+'Packages: 2\n\nLURÖY\nslatted bed base\nPackage(s): 1\n\nMINNEN\nextendable bed frame\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(35,
+'992.919.91', 'The drawers are easy to open and spacious enough with room for toys, clothes and other gadgets that teenagers usually like to "store" on the floor.
+\n\nSoft edges, recessed handles and just a few visible fittings make the bedframe safe and give it a clean design.
+\n\nYou can easily adapt the timeless look based on your taste and personal style by completing with different bed textiles, pillows and accessories.
+\n\nThe shelf section can be attached at the headboard or footboard of the bed.
+\n\nIf you need extra storage close at hand, you can hang MÖJLIGHET bed pocket over the headboard or footboard of the bed.
+\n\nYou can also use the bed as a room divider since the back is covered and lacquered in the same color as the rest of the frame.
+\n\nIf you have a thick rug, the drawers at the bottom are still easy to open since the bottom of the frame is slightly higher.
+\n\nMax load indicates static weight, in other words the load which the bed withstands if you lie or sit on it.
+\n\nMay be completed with other products from the SLÄKT series as well as textiles and accessories from the MÖJLIGHET series.
+\n\nMattress and bedlinens are sold separately.\n\nDesigner\nEbba Strandmark/IKEA of Sweden', 'Shelf width: 16 1/2 "
+\nShelf depth: 13 3/4 "\nHeight of drawer (inside): 5 1/2 "\nLength: 77 1/8 "\nWidth: 40 1/2 "\nDrawer width (inside): 28 3/8 "
+\nDrawer depth (inside): 22 1/2 "\nFootboard height: 28 "\nHeadboard height: 35 7/8 "\nMax. load: 220 lb\nMaximum load/drawer: 33 lb
+\nMattress length: 74 3/8 "\nMattress width: 38 1/4 "', 'Environment\n\nSlatted bed base:\nAt least 50% (weight) of this product is made from renewable materials.
+\nRenewable material (wood).\n\nMaterials\n\nBed frame with storage\nFootboard/ Headboard/ Bottom:\nParticleboard, Fiberboard, Plastic edging, Acrylic paint, Paper foil
+\n\nBedside/ Side/ Back:\nParticleboard, Plastic edging, Acrylic paint, Paper foil\n\nBack part:\nFiberboard, Particleboard, Honeycomb structure paper filling (100% recycled), Plastic edging, Acrylic paint, Paper foil
+\n\nRail:\nFiberboard, Particleboard, Plastic edging, Acrylic paint, Paper foil\n\nShelf:\nFiberboard, Particleboard, Plastic edging, Printed acrylic paint, Paper foil
+\n\nDrawer front:\nFiberboard, Acrylic paint\n\nDrawer side:\nParticleboard, Plastic edging, Plastic foil\n\nDrawer back:\nParticleboard, Plastic foil
+\n\nDrawer bottom:\nFiberboard, Acrylic paint, Paper foil\n\nSlatted bed base\nLayer glued slats:\nBeech veneer, Birch veneer, Adhesive resin as coating
+\n\nRibbon:\n100 % polyester', 'Packages: 5\n\nSLÄKT\nbed frame with storage\nPackage(s): 4\n\nLURÖY\nslatted bed base\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(36,
+'293.039.40', 'By making the guard rails out of textiles, we use less of the earths resources since the amount of metal decreases by 30% per bed(!) compared to similar beds – good for our environment.
+\n\nThe desk top is large enough for a laptop and books, but still gives you enough room to fit a cozy nook of pillows or storage space next to it.
+\n\nYou can easily keep the workspace neat and tidy since there is built-in cable management and a channel that holds pens in place.
+\n\nA metal panel is angled against the desk top which has the same height as an A4 piece of paper. Perfect to use as a magnetic noticeboard and with accessories from the SKÅDIS series.
+\n\nEasy to assemble since the fabric is divided into sections and the edge bands are elastic.
+\n\nIf you want to make the bed even more comfortable and personal, you can complete with MÖJLIGHET pillow and bed pocket – they are dimensioned for the VITVAL series.
+\n\nThe construction is light but steady, and has soft shapes.\n\nThe desk top mounts on the right or the left side of the bed.
+\n\nThe ladder mounts on the right or the left side of the bed.\n\nWARNING! Furniture not anchored can tip. This furniture must be secured to the wall.
+\n\nHigh beds and the upper bed of bunk or loft beds are not suitable for children under 6 years of age due to the risk of injury from falls.
+\n\nIt is important not to screw hooks or handles onto the bed or hang ropes or belts in which children can get caught when playing.
+\n\nBed base included.\n\nMattress and bedlinens are sold separately.\n\nMax load indicates static weight, in other words the load which the bed withstands if you lie or sit on it.
+\n\nMin. ceiling height required: 94½\".\n\nDesigner\n\nIKEA of Sweden', 'Desk depth: 17 3/4 "\nWidth with ladder: 55 1/2 "\nLength: 77 1/2 "\nWidth: 40 1/2 "
+\nDesk width: 40 1/8 "\nDesk height: 28 3/4 "\nHeight: 76 3/4 "\nHeight under loft bed: 59 "\nMax. load: 220 lb\nMattress length: \n74 3/8 "\nMattress width: 38 1/4 "
+\nMax. mattress thickness: 5 1/8 "', 'Materials\n\nLoft bed frame\nFabric/ Ribbon/ Total composition:\n100 % polyester
+\n\nLayer glued slats:\nBirch veneer, Beech veneer, Adhesive resin as coating\n\nMain parts/ Slat holder:\nSteel, Epoxy/polyester powder coating
+\n\nDesk top\nSteel, Polyester powder coating', 'Packages: 4\n\nVITVAL\ndesk top\nPackage(s): 1\n\nVITVAL\nloft bed framePackage(s): 2');
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(37,
+'702.992.85', 'A good solution where space is limited.\n\nThe bed is lower than standard beds so that parents can see their child
+\n\nThe bed is lower, which makes it easier to make the bed.\n\nIt’s easier to get in and out of the bed with a centered ladder.\n\nBed base included.
+\n\nHigh beds and the upper bed of bunk or loft beds are not suitable for children under 6 years of age due to the risk of injury from falls.
+\n\nMattress and bedlinens are sold separately.\n\nMax load indicates static weight, in other words the load which the bed withstands if you lie or sit on it.
+\n\nDesigner\nIKEA of Sweden', 'Max. weight/sleeping level: 220 lb\nLength: 77 1/2 "\nWidth: 40 1/2 "\nHeight: 51 3/8 "\nHeight under furniture: 5 3/4 "
+\nMattress length: 74 3/8 "\nMattress width: 38 1/4 "\nDistance between beds: 33 7/8 "\nMax. mattress thickness: 5 1/8"', 'Hand wash cold, 86°F (30°C).
+\nDo not bleach.\nDo not tumble dry.\nDo not iron.\nDo not dry clean.\nLine dry.', 'Materials\n\nFabric:\n100 %polyester\n\nMain parts:\nSteel, Epoxy/polyester powder coating', 
+'Packages: 3\n\nTUFFING\nBunk bed frame\nPackage(s): 3'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(38,
+'502.690.29', 'Can be divided into two single beds.\n\nThe ladder mounts on the right or the left side of the bed.\n\nMade of solid wood, which is a durable and warm natural material.
+\n\nConvenient for limited living spaces.\n\nSlatted bed base is included.\n\nHigh beds and the upper bed of bunk or loft beds are not suitable for children under 6 years of age due to the risk of injury from falls.
+\n\nIt is important not to screw hooks or handles onto the bed or hang ropes or belts in which children can get caught when playing.
+\n\nMattress and bedlinens are sold separately.\n\nDesigner\nHenrik Preutz', 'Length: 77 3/4 "\nWidth: 40 1/8 "\nHeight: 63 "\nMattress length: 74 1/2 "\nMattress width: 38 "
+\nMax. mattress thickness: 5 1/8 "', 'Wipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.', 
+'Environment\nRenewable material (wood).\n\nMaterials\nMain parts:\nSolid pine, Stain, Clear acrylic lacquer\n\nBed frame panel:\nFiberboard, Foil, Printed fiberboard
+\n\nSupporting rail:\nGalvanized steel\n\nBed base slats:\nSolid pine, Solid pine, Stain, Clear acrylic lacquer', 'Packages: 5\n\nNORDDAL
+\nBunk bed frame\nPackage(s): 5'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(39,
+'201.024.51', 'The ladder can mount on the left or right side of the bed.\n\nMade of solid wood, which is a durable and warm natural material.
+\n\nA good solution where space is limited.\n\nMax load indicates static weight, in other words the load which the bed withstands if you lie or sit on it.
+\n\nSlatted bed base is included.\n\nHigh beds and the upper bed of bunk or loft beds are not suitable for children under 6 years of age due to the risk of injury from falls.
+\n\nIt is important not to screw hooks or handles onto the bed or hang ropes or belts in which children can get caught when playing.
+\n\nMattress and bedlinens are sold separately.\n\nDesigner\nIKEA of Sweden', 'Max. weight/sleeping level: 220 lb\nLength: 77 1/8 "\nWidth: 41 "\nHeight: 61 3/4 "
+\nMattress length: 74 3/8 "\nMattress width: 38 1/4 "\nMax. mattress thickness: 8 1/4 "', 'Wipe clean with a damp cloth.\nWipe clean with a dry cloth.', 
+'Environment\nRenewable material (wood).\n\nMaterials\nBed base slats/ Step/ Front leg/ Leg:\nSolid pine\n\nMain parts:\nSolid pine, Adhesive', 
+'Packages: 2\n\nMYDAL\nBunk bed frame\nPackage(s): 2'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(40,
+'003.464.07', 'Only natural ingredients: meat, onion, breadcrumbs, egg, water, salt and pepper.\n\nMeatballs with mashed potatoes, cream sauce and lingonberry jam is Sweden’s No.1 dish.
+\n\nMeatballs should taste like meat. That’s why we’ve seasoned the beef and pork gently with only a few ingredients, every one of them enhancing the meat flavor even more.
+\n\nEasily prepared from frozen in minutes. In the oven, in the microwave or on the stove.\n\nEasily portioned. Prepare the amount needed, leave the rest in the freezer.
+\n\nJust as tasty warm as they are cold, e.g. cut in half as a sandwich topping.\n\nCreate a buffet with meatballs, veggie balls, chicken meatballs and salmon balls. One for every taste.', 
+'Net weight: 2 lb 3 oz', null, null, 'ALLEMANSRÄTTEN\nMeatballs, frozen\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(41,
+'503.472.11', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
+\n\nThe cold-start function prevents hot water waste and saves energy. When you lift the lever straight up, only cold water is released. The function restricts opening the lever fully to the right.
+\n\nHot water is released by turning the lever to the left. It is only then that hot water is consumed.
+\n\nThis is a durable faucet that you can use for many years, since the hard, ceramic discs withstand the friction that always occurs when you change the temperature of the water.
+\n\nStrainer included.\n\nWater and energy saving aerator (1.2 gal/min.) for high-pressure systems included.\n\nConnection hoses with 9/16" connection included. Length: 13¾".
+\n\nA tool is included that makes it easy to install the faucet in place.\n\nTested and certified according to applicable codes and standards including: ASME A112.18.1/CSA B125.1, NSF 61, NSF 372 and EPA WaterSense.
+\n\nThe faucet can be used in high pressure systems. Tested to manage a pressure of max. 10 bar (1000 kPa). Recommended working pressure: 1.0 - 5.0 bar (100 kPa - 500 kPa).
+\n\nFlow rate: 1.2 gal./min. (4.5 l/min.)\n\nMax. temperature hot water system 176°F.\n\nSpare parts are available to prolong the life of your product. For more information, contact IKEA Customer Services at your IKEA store or IKEA.com.
+\n\nIf you are uncertain about the installation, contact a professional. The installation shall be made in accordance with valid local building and plumbing regulations.
+\n\nFits IKEA sinks and standard sinks from other manufacturers.\n\nDesigner\nOla Wihlborg', 'Height: 7 1/2 "', 
+'Wipe clean with a water dampened soft cloth and a mild non-abrasive dish detergent or soap, if necessary.
+\nNever use scouring powder, steel wool or a detergent that is calcium-dissolving, sour or contains alcohol or an abrasive.', 
+'Environment
+\nWater is precious and should not be wasted. That’s why all our faucets and showers have a mechanism that helps save water and energy while keeping the water pressure just right. Good for us and our planet.
+\n\nMaterials\nBrass, Metallized', 'HAMNSKÄR\nBath faucet with strainer\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(42,
+'104.003.33', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
+\n\nThe cold-start function prevents hot water waste and saves energy. When you lift the lever straight up, only cold water is released. The function restricts opening the lever fully to the right.
+\n\nHot water is released by turning the lever to the left. It is only then that hot water is consumed.
+\n\nThis is a durable faucet that you can use for many years, since the hard, ceramic discs withstand the friction that always occurs when you change the temperature of the water.
+\n\nChrome-plated brass is a hard and durable surface that is easy to clean.\n\nStrainer included.
+\n\nWater and energy saving aerator (1.2 gal/min.) for high-pressure systems included.\n\nConnection hoses with 9/16" connection included. Length: 13¾".
+\n\nA tool is included that makes it easy to install the faucet in place.\n\nTested and certified according to applicable codes and standards including: ASME A112.18.1/CSA B125.1, NSF 61, NSF 372 and EPA WaterSense.
+\n\nThe faucet can be used in high pressure systems. Tested to manage a pressure of max. 10 bar (1000 kPa). Recommended working pressure: 1.0 - 5.0 bar (100 kPa - 500 kPa).
+\n\nFlow rate: 1.2 gal./min. (4.5 l/min.)\n\nMax. temperature hot water system 176°F.
+\n\nSpare parts are available to prolong the life of your product. For more information, contact IKEA Customer Services at your IKEA store or IKEA.com.
+\n\nIf you are uncertain about the installation, contact a professional. The installation shall be made in accordance with valid local building and plumbing regulations.
+\n\nFits IKEA sinks and standard sinks from other manufacturers.\n\nDesigner\nMaria Seipel', 'Height: 4 3/4 "', 
+'Wipe clean with a water dampened soft cloth and a mild non-abrasive dish detergent or soap, if necessary.
+\nNever use scouring powder, steel wool or a detergent that is calcium-dissolving, sour or contains alcohol or an abrasive.', 
+'Environment\nWater is precious and should not be wasted. That’s why all our faucets and showers have a mechanism that helps save water and energy while keeping the water pressure just right. Good for us and our planet.
+\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
+\n\nMaterials\nBrass, Metallized', 'LILLSVAN\nBath faucet with strainer\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(43,
+'603.430.62', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
+\n\nThe cold-start function prevents hot water waste and saves energy. When you lift the lever straight up, only cold water is released. The function restricts opening the lever fully to the right.
+\n\nHot water is released by turning the lever to the left. It is only then that hot water is consumed.
+\n\nThis is a durable faucet that you can use for many years, since the hard, ceramic discs withstand the friction that always occurs when you change the temperature of the water.
+\n\nChrome-plated brass is a hard and durable surface that is easy to clean.\n\nStrainer included.\n\nWater and energy saving aerator (1.2 gal/min.) for high-pressure systems included.
+\n\nConnection hoses with 9/16" connection included. Length: 13¾".\n\nA tool is included that makes it easy to install the faucet in place.
+\n\nTested and certified according to applicable codes and standards including: ASME A112.18.1/CSA B125.1, NSF 61, NSF 372 and EPA WaterSense.
+\n\nThe faucet can be used in high pressure systems. Tested to manage a pressure of max. 10 bar (1000 kPa). Recommended working pressure: 1.0 - 5.0 bar (100 kPa - 500 kPa).
+\n\nFlow rate: 1.2 gal./min. (4.5 l/min.)\n\nMax. temperature hot water system 176°F.
+\n\nSpare parts are available to prolong the life of your product. For more information, contact IKEA Customer Services at your IKEA store or IKEA.com.
+\n\nIf you are uncertain about the installation, contact a professional. The installation shall be made in accordance with valid local building and plumbing regulations.
+\n\nSuitable for bathroom countertops only. For mounting behind or to the side of the sink according to assembly instructions.\n\nDesigner\nH Preutz/N Karlsson', 
+'Height: 11 3/4 "', 'Wipe clean with a water dampened soft cloth and a mild non-abrasive dish detergent or soap, if necessary.
+\nNever use scouring powder, steel wool or a detergent that is calcium-dissolving, sour or contains alcohol or an abrasive.', 
+'Environment\nWater is precious and should not be wasted. That’s why all our faucets and showers have a mechanism that helps save water and energy while keeping the water pressure just right. Good for us and our planet.
+\n\nMaterials\nBrass, Metallized', 'VOXNAN\nFaucet, tall\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(44,
+'802.621.25', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
+\n\nThis is a durable faucet that you can use for many years, since the hard, ceramic discs withstand the friction that always occurs when you change the temperature of the water.
+\n\nChrome-plated brass is a hard and durable surface that is easy to clean.\n\nStrainer included.\n\nWater and energy saving aerator (1.2 gal/min.) for high-pressure systems included.
+\n\nConnection hoses with 9/16" connection included. Length: 13¾".\n\nA tool is included that makes it easy to install the faucet in place.
+\n\nTested and certified according to applicable codes and standards including: ASME A112.18.1/CSA B125.1, NSF 61, NSF 372 and EPA WaterSense.
+\n\nThe faucet can be used in high pressure systems. Tested to manage a pressure of max. 10 bar (1000 kPa). Recommended working pressure: 1.0 - 5.0 bar (100 kPa - 500 kPa).
+\n\nFlow rate: 1.2 gal./min. (4.5 l/min.)\n\nMax. temperature hot water system 176°F.
+\n\nSpare parts are available to prolong the life of your product. For more information, contact IKEA Customer Services at your IKEA store or IKEA.com.
+\n\nIf you are uncertain about the installation, contact a professional. The installation shall be made in accordance with valid local building and plumbing regulations.
+\n\nFits IKEA sinks and standard sinks from other manufacturers.\n\nDesigner\nIKEA of Sweden', 'Height: 3 7/8 "', 
+'Wipe clean with a water dampened soft cloth and a mild non-abrasive dish detergent or soap, if necessary.
+\nNever use scouring powder, steel wool or a detergent that is calcium-dissolving, sour or contains alcohol or an abrasive.',
+'Environment\nWater is precious and should not be wasted. That’s why all our faucets and showers have a mechanism that helps save water and energy while keeping the water pressure just right. Good for us and our planet.
+\n\nMaterials\nBrass, Metallized', 'RUNSKÄR\nBath faucet with strainer\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(45,
+'304.468.96', 'Safety film reduces damage if glass is broken.
+\n\nThe frame around the bottom of the mirror forms a shelf where you can put your makeup, mobile phone or wallet.\n\nSuitable for use in most rooms, and tested and approved for bathroom use.
+\n\nThe distinctive grain pattern in the walnut veneer gives each piece of furniture a unique character.\n\nWalnut is a naturally hardwearing material. The surface has been made even more durable by a protective coat of lacquer.
+\n\nDo not use the frame as a shelf for candles.\n\nHang the mirror using the wall brackets on the back of the mirror according to the assembly instructions. Use screws, sold separately, suitable for the wall material in your home.
+\n\nCombines with other furniture in the STOCKHOLM series.\n\nDesigner\n\nOla Wihlborg', 'Depth: 3 7/8 "\nDiameter: 23 5/8 "', 
+'Wood\nWipe dry with a clean cloth.\nWipe clean with a water dampened cloth.
+\n\nGlass\nWipe clean with a damp cloth. Use only water or window-cleaner.\nWipe dry with a clean cloth.', 'Materials\nMirror glass: Glass
+\n\nFrame: Molded plywood, Walnut veneer, Clear lacquer\n\nFixing device: Molded plywood', 'STOCKHOLM\nMirror\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(46,
+'302.174.99', 'You can hang your belts, bags and accessories from the knobs on the side.\n\nSuitable for use in most rooms, and tested and approved for bathroom use.
+\n\nMade of solid wood, which is a durable and warm natural material.\n\nSafety film reduces damage if glass is broken.
+\n\nFor your child’s safety, don’t allow them to climb or stand on the shelf under the mirror.\n\nDesigner\nKai Legaard', 
+'Width: 18 1/2 "\nDepth: 23 1/4 "\nHeight: 71 5/8 "', 'Frame\nWipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.
+\n\nGlass\nWipe clean with a damp cloth. Use only water or window-cleaner.\nWipe dry with a clean cloth.', 'Environment
+\nLead-free mirrors – No lead added in manufacturing of our mirrors.\n\nMaterials\nMain parts:\nSolid pine, Stain, Clear acrylic lacquer\nMirror glass:\nGlass', 
+'ISFJORDEN\nFloor mirror\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(47,
+'002.781.49', 'One side with magnifying mirror.\n\nSuitable for use in high humidity areas since it is water-resistant.\n\nLED life approx. 20,000 hours.
+\n\nLighting duration: Approx. 8 hours with alkaline AA batteries (LR6/1.5V) or approx. 5 hours with rechargeable AA batteries (Ni-MH/1.2V).
+\n\nOne side of the mirror magnifies 3 times.\n\nLight color: warm white (3700 Kelvin).\n\nDo not expose to direct sunlight. The sunbeams may reflect in the mirror glass and ignite flammable material.
+\n\nTested and approved for bathroom use.\n\nBatteries are sold separately, 4-AA size 1.5V (LR6) required.', 
+'Height: 14 5/8 "\nDiameter: 7 7/8 "', '
+Wipe clean with a dry cloth.', 'Environment\nSpecial waste handling may be required. Please contact your local authorities for more information.
+\n\nMaterials\nBase/ Tube: Steel, Nickel plated\nMirror: Glass', 'KAITUM\nMirror with built-in light\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(48,
+'003.069.20', 'The mirror can be placed on a table or chest of drawers, or hung on the wall.\n\nIf you choose to hang the mirror on the wall, you can use the stand as a hanger for scarves and ties.
+\n\nSuitable for use in most rooms, and tested and approved for bathroom use.\n\nSafety film reduces damage if glass is broken.
+\n\nIf you hang the mirror on the wall do not let your child climb or stand on the shelf/hanger.\n\nMounting fittings included.
+\n\nDifferent wall materials require different types of fasteners. Use fasteners suitable for the walls in your home.\n\nDesigner\nOla Wihlborg', 
+'Width: 10 5/8 "\nHeight: 15 3/4 "', 'Frame\nWipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.
+\n\nGlass\nWipe clean with a damp cloth. Use only water or window-cleaner.\nWipe dry with a clean cloth.', 
+'Environment\nLead-free mirrors – No lead added in manufacturing of our mirrors.
+\n\nMaterials\nMain parts: Molded plywood, Ash veneer, Clear acrylic lacquer\nMirror glass: Glass', 
+'IKORNNES\nTable mirror\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(49,
+'504.002.70', 'Helps you organize your jewelry, makeup and bottles.
+\n\n10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
+\n\nDesigner\nIKEA of Sweden', 'Length: 9 ½ "\nWidth: 7 ¾ "\nHeight: 4 "', 
+'Sizes: 1 box (9½x8x3¾", 1 gal), 1 box (8⅝x3x3¾", 40 oz) and 3 boxes (4x3x3¾", 17 oz).',
+'Wipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.', 
+'Environment\nPlastic can be recycled multiple times, reducing our environmental footprint. All products containing recycled materials meet the same quality and safety demands as we have on all our products.
+\n\nMaterials\nPET plastic', 'GODMORGON\nBox with lid, set of 5\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(50,
+'403.918.79', 'You can place the jars individually, stacked or grouped thanks to the cork lids and tray that keep them in place.
+\n\nCan be used with other SAXBORGA products.\n\nDesigner\nH Preutz/M Seipel',
+'Sizes: 2 jars dia. 3", height 2", 2 jars dia. 3", height 4⅜" and 1 tray length 10", width 4" and height 1".',
+'Wipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.', 
+'Environment\nRenewable material (cork).\n\nMaterials\nJar: Glass\nLid/ Tray: Cork', 
+'SAXBORGA\nJar with lid and tray, set of 5\nPackage(s): 1'); 
+
+
+
 
 
 
