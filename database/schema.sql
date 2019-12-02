@@ -838,6 +838,296 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
 \n\nMaterials\nHandle/ Knob:\nSynthetic rubber\n\nMetal parts:\nStainless steel\n\nHousing/ Top:\nABS plastic\n\nWhisk:\nReinforced polyamide', 
 'JÄMFÖRLIG\nHand held whisk\nPackage(s): 1'); 
+/*81!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/*/
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(82,
+'292.960.01', "You sit comfortably thanks to the chair's shaped back and seat. \n\nor increased stability, re-tighten the screws about two weeks after assembly and when necessary.", 
+'Length: 55 1/8 "\nWidth: 30 3/4 "\nHeight: 37 3/8 "', 'Bar table/barstool frame/seat shell\nWipe clean with a damp cloth.', 
+'Materials\nBar table\nTable top:\nFiberboard, Acrylic paint\n\nFeet:\nSynthetic rubber\n\nLeg/ Underframe:\nSolid eucalyptus wood, Paint
+\n\nBarstool frame\nLeg/ Leg rail:\nSolid eucalyptus wood, Paint\n\nFeet:\nSynthetic rubber\n\nFitting:\nSteel, Galvanized\n\nSeat shell\nPolypropylene', 
+'Packages: 9\n\nFANBYN\nbar table\nPackage(s): 1\n\nFANBYN\nseat shell\nPackage(s): 4\n\nFANBYN\nbarstool frame\nPackage(s): 4'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(83,
+'392.602.47', 'You sit comfortably thanks to the shaped back and armrests.\n\nMay be combined with FANBYN bar table.
+\n\nFor increased stability, re-tighten the screws about two weeks after assembly and when necessary.', 
+'Tested for: 243 lb\nWidth: 21 1/4 "\nDepth: 24 3/4 "\nHeight: 40 1/8 "\nSeat width: 20 7/8 "\nSeat depth: 16 1/2 "\nSeat height: 25 1/4 "', 
+'Seat shell/barstool frame\nWipe clean with a damp cloth.', 'Materials\nSeat shell\nPolypropylene\n\nBarstool frame\nLeg/ Leg rail:
+\nSolid eucalyptus wood, Paint\n\nFeet:\nSynthetic rubber\n\nFitting:\nSteel, Galvanized', 'Packages: 2\n\nFANBYN\nseat shell\nPackage(s): 1
+\n\nFANBYN\nbarstool frame\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(84,
+'592.530.81', 'You can just shake off water from a light rain, as the cushion cover is water repellent.
+\n\nThe cover is easy to keep clean because it is removable and machine washable.\n\nThe color stays fresh for longer, as the fabric is fade resistant.
+\n\nThe dope-dyeing process reduces consumption of water and dye while improving color fastness compared to traditional dyeing techniques.
+\n\nFits SOLLERÖN, ÄPPLARÖ and KUNGSHOLMEN seating sections.\n\nUse with FRÖSÖN cover for seat pad so that you have a spare cover when you want to change the look of the seat pad or when the cover for the seat pad needs to be washed.
+\n\nDesigner\nIKEA of Sweden/Eva Lilja Löwenhielm', 'Width: 24 3/8 "\nDepth: 24 3/8 "\nThickness: 4 3/4 "', 
+'Seat pad, outdoor\nThe best way to extend the life of your outdoor cushion is by cleaning it regularly and storing it in a cool, dry place indoors or in a storage bag when not in use.
+\nMake sure the cushion is completely dry before storing it away in the storage bag.\nDo not wash.\nDo not bleach.\nDo not tumble dry.\nDo not iron.
+\nDo not dry clean.\nMachine wash warm, normal cycle.\nClose the zipper before washing.\nDo not bleach.\nTumble dry, low, normal cycle.\nIron low.\nDo not dry clean.', 
+'Environment\nCover for seat pad:\nBy using recycled polyester in this product, we consume less new raw materials and lower our environmental footprint.
+\nThe yarn in this product is dope-dyed, a color method for synthetic fibers, which reduces consumption of water and dye while improving color fastness compared to traditional dyeing techniques.
+\nNo perfluorinated chemicals (e.g. PFOS, PFOA, PFOSA) are used to make this product water repellent. As perfluorinated chemicals are non-degradable, it’s better for you and the environment to avoid them.
+\n\nMaterials\nCover for seat pad\n100% polyester (min. 90% recycled)\n\nInner seat pad\nCover/ Filling/ Smolder resistant lining:\nPolyester wadding
+\n\nCore filling:\nPolyurethane foam', 'Packages: 2\n\nDUVHOLMEN\ninner seat pad\nPackage(s): 1\n\nFRÖSÖN\ncover for seat pad\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(85,
+'402.085.31', 'The drop-leaves can be folded and removed, so you can quickly adjust the table size according to your needs.
+\n\nThe hole in the middle of the table top keeps your umbrella in place.
+\n\nFor added durability and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with several layers of semi-transparent wood stain.
+\n\nSeats 4-8.\n\nOnly recommended for outdoor use.\n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.\n\nDesigner\nK Hagberg/M Hagberg', 
+'Length: 78 3/4 "\nMin. length: 55 1/8 "\nMax. length: 102 3/8 "\nWidth: 30 3/4 "\nHeight: 28 3/8 "\nHole diameter: 2 "', 
+'The best way to extend the life of your wooden outdoor furniture is by cleaning it regularly, not leaving it outdoors unprotected more than necessary, and re-staining it on a regular basis.
+\nClean: Use a mild soapy solution. Wipe dry with a clean dry cloth.
+\nMaintenance: To prevent the surface from drying out and cracking, and moisture from penetrating into the wood, we recommend you to re-stain the furniture on a regular basis, for example once or twice a year.
+\nStoring: If possible, store in a cool dry place indoors. If the furniture is stored outside, cover it with a waterproof cover. After a rain or snowfall, wipe off excess water or snow from flat surfaces. Allow air to circulate to avoid condensation',
+'Environment\nProduct possible to recycle or use for energy recovery, if available in your community.
+\nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. By 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.
+\n100% renewable material. (Fixtures excluded)\nMaterials\nSolid acacia wood, Acrylic stain', 
+'ÄPPLARÖ\nDrop-leaf table, outdoor\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(86,
+'102.051.81', 'For added durability and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with several layers of semi-transparent wood stain.
+\n\nThis bench has been tested for home use and meets the requirements for durability and safety, set forth in the following standards: EN 581.
+\n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.\n\nOnly recommended for outdoor use.\n\nDesigner\nK Hagberg/M Hagberg',
+'Width: 44 7/8\n"Depth: 16 1/8 "\nHeight: 17 3/8 "', 'The best way to extend the life of your wooden outdoor furniture is by cleaning it regularly, not leaving it outdoors unprotected more than necessary, and re-staining it on a regular basis.
+\nClean: Use a mild soapy solution. Wipe dry with a clean dry cloth.
+\nMaintenance: To prevent the surface from drying out and cracking, and moisture from penetrating into the wood, we recommend you to re-stain the furniture on a regular basis, for example once or twice a year.
+\nStoring: If possible, store in a cool dry place indoors. If the furniture is stored outside, cover it with a waterproof cover. After a rain or snowfall, wipe off excess water or snow from flat surfaces. Allow air to circulate to avoid condensation.',
+'Environment\nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. By 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.
+\n100% renewable material. (Fixtures excluded)\nProduct possible to recycle or use for energy recovery, if available in your community.
+\n\nMaterials\nSolid acacia wood, Acrylic stain', 'ÄPPLARÖ\nBench, outdoor\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(87,
+'902.085.43', 'The back can be adjusted to five different position.\n\nWheels make it easy to move.
+\n\nYou can make your chaise more comfortable and personal by adding a chaise pad in a style you like.
+\n\nFor added durability and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with several layers of semi-transparent wood stain.
+\n\nCushions are sold separately.\n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.\n\nMay be completed with TOSTERÖ chaise cover.
+\n\nOnly recommended for outdoor use.\n\nDesigner\nK Hagberg/M Hagberg', 'Length: 78 3/8 "\nWidth: 28 "\nHeight: 13 "\nBed width: 23 5/8 "\nBed length: 75 5/8 "',
+'The best way to extend the life of your wooden outdoor furniture is by cleaning it regularly, not leaving it outdoors unprotected more than necessary, and re-staining it on a regular basis.
+\nClean: Use a mild soapy solution. Wipe dry with a clean dry cloth.
+\nMaintenance: To prevent the surface from drying out and cracking, and moisture from penetrating into the wood, we recommend you to re-stain the furniture on a regular basis, for example once or twice a year.
+\nStoring: If possible, store in a cool dry place indoors. If the furniture is stored outside, cover it with a waterproof cover. After a rain or snowfall, wipe off excess water or snow from flat surfaces. Allow air to circulate to avoid condensation.',
+'Environment
+\nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. By 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.
+\n100% renewable material. (Fixtures excluded)\nProduct possible to recycle or use for energy recovery, if available in your community.
+\n\nMaterials\nMain parts:\nSolid acacia wood, Acrylic stain\n\nTire:\nSynthetic rubber', 'ÄPPLARÖ\nChaise\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(88,
+'702.085.39', 'The back can be adjusted to five different position.\n\nEasy to fold up and put away.\n\nYou can make your chair more comfortable and personal by adding a chair pad in a style you like.
+\n\nFor added durability and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with several layers of semi-transparent wood stain.
+\n\nCushions are sold separately.\n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.
+\n\nMay be completed with KUDDARNA, FRÖSÖN/DUVHOLMEN or HÅLLÖ seat/back cushion.\n\nThis chair has been tested for home use and meets the requirements for durability and safety, set forth in the following standards: EN 581.
+\n\nOnly recommended for outdoor use.\n\nDesigner\n\nK Hagberg/M Hagberg', 'Tested for: 243 lb\nWidth: 24 3/4 "\nDepth: 31 1/2 "\nHeight: 39 3/4 "\nSeat width: 17 3/8 "
+\nSeat depth: 18 7/8 "\nSeat height: 16 1/8 "', '
+The best way to extend the life of your wooden outdoor furniture is by cleaning it regularly, not leaving it outdoors unprotected more than necessary, and re-staining it on a regular basis.
+\nClean: Use a mild soapy solution. Wipe dry with a clean dry cloth.
+\nMaintenance: To prevent the surface from drying out and cracking, and moisture from penetrating into the wood, we recommend you to re-stain the furniture on a regular basis, for example once or twice a year.
+\nStoring: If possible, store in a cool dry place indoors. If the furniture is stored outside, cover it with a waterproof cover. After a rain or snowfall, wipe off excess water or snow from flat surfaces. Allow air to circulate to avoid condensation.',
+'Environment\nProduct possible to recycle or use for energy recovery, if available in your community.
+\nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. By 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.
+\n100% renewable material. (Fixtures excluded)\n\nMaterials\nSolid acacia wood, Acrylic stain', 
+'ÄPPLARÖ\nReclining chair, outdoor\nPackage(s): 1');
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(89,
+'892.531.07', 'You can just shake off water from a light rain, as the cushion cover is water repellent.
+\n\nThe color stays fresh for longer, as the fabric is fade resistant.\n\nThe cover is easy to keep clean because it is removable and machine washable.
+\n\nFits SOLLERÖN, ÄPPLARÖ and KUNGSHOLMEN seating sections.\n\nUse with FRÖSÖN cover for back cushion so that you have a spare cover when you want to change the look of the back cushion or when the back cushion cover needs to be washed.
+\n\nDesigner\nIKEA of Sweden/Eva Lilja Löwenhielm', 'Length: 17 3/8 "\nWidth: 24 3/8 "\nThickness: 5 1/2 "',
+'Back cushion, outdoor\nThe best way to extend the life of your outdoor cushion is by cleaning it regularly and storing it in a cool, dry place indoors or in a storage bag when not in use.
+\nMake sure the cushion is completely dry before storing it away in the storage bag.\nDo not wash.\nDo not bleach.\nDo not tumble dry.\nDo not iron.
+\nDo not dry clean.\nMachine wash warm, normal cycle.\nClose the zipper before washing.\nDo not bleach.\nTumble dry, low, normal cycle.\nIron low.\nDo not dry clean.',
+'Environment\nCover for back cushion:\nBy using recycled polyester in this product, we consume less new raw materials and lower our environmental footprint.
+\nThe yarn in this product is dope-dyed, a color method for synthetic fibers, which reduces consumption of water and dye while improving color fastness compared to traditional dyeing techniques.
+\nNo perfluorinated chemicals (e.g. PFOS, PFOA, PFOSA) are used to make this product water repellent. As perfluorinated chemicals are non-degradable, it’s better for you and the environment to avoid them.
+\n\nMaterials\nCover for back cushion\n100% polyester (min. 90% recycled)\n\nInner back cushion\nCover/ Smolder resistant lining:
+\nPolyester wadding\n\nFilling:\n100 % polyester (100% recycled)', 'Packages: 2\n\nDUVHOLMEN\ninner back cushion\nPackage(s): 1
+\n\nFRÖSÖN\ncover for back cushion\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(90,
+'192.519.65', 'In HAVSTEN you sit deep and low with a comfortable resilience thanks to the elastic mesh in the bottom.
+\n\nCreate an armchair, loveseat, a sofa or a sectional as large as you like.
+\n\nYou can just shake off water from a light rain, as the cushion cover is water repellent.
+\n\nThe cushion covers are dope dyed, a process that reduces consumption of water and dyestuff while improving color fastness compared to traditional dyeing techniques.
+\n\nThe cushion has a longer life because it can be turned over and used on both sides.\n\nEasy to keep clean since the cushion cover can be removed and washed.
+\n\nYou can have a personal touch to your sofa by adding one or more decorative cushions to your style and taste.
+\n\nThe firmness of the mesh fabric can be tightened/adjusted with the strap in the back.\n\nDesigner\nAndreas Fredriksson',
+'Width: 64 5/8 "\nDepth: 37 "\nHeight: 35 3/8 "\nSeat depth: 24 3/8 "\nSeat height: 16 1/2 "',
+'Cushion cover\n\nBack cushion, outdoor/seat pad, outdoor\nMachine wash warm, normal cycle.\nDo not bleach.\nTumble dry, low, normal cycle.
+\nIron low.\nDo not dry clean.\n\nLoveseat, in/outdoor
+\nStoring: If possible, store in a cool dry place indoors. If the furniture is stored outside, cover it with a waterproof cover. After a rain or snowfall, wipe off excess water or snow from flat surfaces. Allow air to circulate to avoid condensation.
+\nStore the sofa cushions in a cool, dry place indoors when the season is over, preferably in a storage bag or storage box to protect from dirt and dust. Make sure the cushions are completely dry before storing.
+\nClean: Use a mild soapy solution.\nHand wash warm water.\nDo not bleach.\nDo not tumble dry.\nDo not iron.\nDo not dry clean.',
+'Environment\nBack cushion, outdoor/seat pad, outdoor:
+\nThe yarn in this product is dope-dyed, a color method for synthetic fibers, which reduces consumption of water and dye while improving color fastness compared to traditional dyeing techniques.
+\nNo perfluorinated chemicals (e.g. PFOS, PFOA, PFOSA) are used to make this product water repellent. As perfluorinated chemicals are non-degradable, it’s better for you and the environment to avoid them.
+\nPossible to separate for recycling or energy recovery if available in your community.
+\n\nMaterials\nBack cushion, outdoor\nCushion cover:\n100% polyester (min. 90% recycled)\n\nInner fabric:\n100 % polypropylene\n\nFilling:\n100 % polyester (100% recycled)
+\n\nSeat pad, outdoor\nCushion cover:\n100% polyester (min. 90% recycled)\n\nInner fabric:\n100 % polypropylene\n\nFilling:\nPolyester wadding
+\n\nCore filling:\nPolyurethane foam\n\nSeat and back frame, outdoor\nMesh:\n63% TPE, 37 % polyester\n\nStrap:\n78% polypropylene, 22 % polyester
+\n\nMetal tube:\nSteel, Galvanized, Polyester powder coating\n\nEnd cap:\nReinforced polyamide\n\nBuckle:\nZinc, Galvanized\n\nLocking ring:\nSteel, Chrome plated
+\n\nSeat frame, outdoor\nFrame:\nSteel, Polyester powder coating\n\nFeet:\nPolyamide', 'Packages: 9\n\nHAVSTEN\nseat frame, outdoor
+\nPackage(s): 3\n\nHAVSTEN\nseat pad, outdoor\nPackage(s): 2\n\nHAVSTEN\nseat and back frame, outdoor\nPackage(s): 2\n\nHAVSTEN\nback cushion, outdoor\nPackage(s): 2'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(91,
+'403.326.82', 'Easy to fold up and put away.\n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.\n\nOnly recommended for outdoor use.
+\n\nDesigner\nIKEA of Sweden', 'Width: 18 7/8 "\nDepth: 36 1/4 "\nHeight: 35 "\nSeat width: 16 7/8 "\nSeat depth: 15 3/8 "\nSeat height: 16 7/8 "',
+'The best way to extend the life of your wooden outdoor furniture is by cleaning it regularly, not leaving it outdoors unprotected more than necessary, and re-staining it on a regular basis.
+\nClean: Use a mild soapy solution. Wipe dry with a clean dry cloth.
+\nMaintenance: To prevent the surface from drying out and cracking, and moisture from penetrating into the wood, we recommend you to re-stain the furniture on a regular basis, for example once or twice a year.
+\nStoring: If possible, store in a cool dry place indoors. If the furniture is stored outside, cover it with a waterproof cover. After a rain or snowfall, wipe off excess water or snow from flat surfaces. Allow air to circulate to avoid condensation.',
+'Materials\nFrame:\nSolid acacia wood, Acrylic stain\n\nRope:\nPolypropylene','BROMMÖ\nChaise, outdoor\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(92,
+'202.085.27', 'The curved back ensures that you sit comfortably.\n\nYou can make your chair more comfortable and personal by adding a chair pad in a style you like.
+\n\nFor added durability and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with several layers of semi-transparent wood stain.
+\n\nCushions are sold separately.\n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.
+\n\nMay be completed with KUDDARNA, HÅLLÖ or FRÖSÖN/DUVHOLMEN chair cushion (20x20") or YTTERÖN seat/back cushion.
+\n\nThis chair has been tested for home use and meets the requirements for durability and safety, set forth in the following standards: EN 581.
+\n\nOnly recommended for outdoor use.\n\nDesigner\nK Hagberg/M Hagberg',
+'Tested for: 243 lb\nWidth: 24 3/8 "\nDepth: 25 5/8 "\nHeight: 32 1/4 "\nSeat width: 19 1/4 "\nSeat depth: 19 1/4 "\nSeat height: 16 1/8 "',
+'The best way to extend the life of your wooden outdoor furniture is by cleaning it regularly, not leaving it outdoors unprotected more than necessary, and re-staining it on a regular basis.
+\nClean: Use a mild soapy solution. Wipe dry with a clean dry cloth.
+\nMaintenance: To prevent the surface from drying out and cracking, and moisture from penetrating into the wood, we recommend you to re-stain the furniture on a regular basis, for example once or twice a year.
+\nStoring: If possible, store in a cool dry place indoors. If the furniture is stored outside, cover it with a waterproof cover. After a rain or snowfall, wipe off excess water or snow from flat surfaces. Allow air to circulate to avoid condensation.',
+'Environment\nProduct possible to recycle or use for energy recovery, if available in your community.
+\nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. By 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.
+\n100% renewable material. (Fixtures excluded)\n\nMaterials\nSolid acacia wood, Acrylic stain',
+'ÄPPLARÖ\nArmchair, outdoor\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(93,
+'002.645.38', 'The cover is easy to keep clean because it is removable and machine washable.
+\n\nThe cushion has a longer life because it can be turned over and used on both sides.\n\nFits SOLLERÖN, ÄPPLARÖ and KUNGSHOLMEN seating sections.
+\n\nDesigner\nIKEA of Sweden', 'Width: 24 "\nDepth: 24 "\nThickness: 3 1/8 "', 'Cushion cover\nMachine wash warm, normal cycle.
+\nClose the zipper before washing.\nDo not bleach.\nTumble dry, low, normal cycle.\nIron low.\nDo not dry clean.\n\nInner cushion
+\nDo not wash.\nDo not bleach.\nDo not tumble dry.\nDo not iron.\nDo not dry clean.', 
+'Environment\nProduct possible to recycle or use for energy recovery, if available in your community.\n\nMaterials\nCushion cover:\n100% polyester (min. 90% recycled)
+\n\nInner fabric:\n100 % polypropylene\n\nFilling:\nPolyester wadding\n\nCore filling:\nPolyurethane foam 1.5 lb/cu.ft.',
+'HÅLLÖ\nSeat pad, outdoor\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(94,
+'092.526.87', '
+By combining different seating sections you can create a sofa in a shape and size that perfectly suits your outdoor space.
+\n\nPractical storage space under the seat.\n\nThe color on the seat pad and back cushion stays fresh longer as the cover is fade resistant.
+\n\nYou can just shake off water from a light rain, as the cushion cover is water repellent.\n\nThe cushion cover is easy to keep clean since it can be removed and machine washed.
+\n\nYou can have a personal touch to your sofa by adding one or more decorative cushions to your style and taste.\n\nHardware to connect sections included.
+\n\nMay be completed with TOSTERÖ storage bag.\n\nDesigner\nEva Lilja Löwenhielm/Jonas Hultqvist/IKEA of Sweden',
+'Width: 87 3/4 "\nDepth: 56 3/4 "\nHeight: 34 5/8 "\nSeat width: 73 5/8 "\nSeat depth: 18 7/8 "\nSeat height: 17 3/8 "',
+'Inner cushion\n3-seat modular sofa, outdoor\n\nDo not wash.\nDo not bleach.\nDo not tumble dry.\nDo not iron.\nDo not dry clean.\nMachine wash warm, normal cycle.
+\nClose the zipper before washing.\nDo not bleach.\nTumble dry, low, normal cycle.\nIron low.\nDo not dry clean.
+\nThe best way to extend the life of your outdoor furniture is by cleaning it regularly and not leaving it outdoors unprotected more than necessary.
+\nClean: Use a mild soapy solution.\nMaintenance: Require no maintenance.
+\nStoring: If possible, store in a cool dry place indoors. If the furniture is stored outside, cover it with a waterproof cover. After a rain or snowfall, wipe off excess water or snow from flat surfaces. Allow air to circulate to avoid condensation.',
+'Environment\nCover for back cushion/cover for seat pad:\nBy using recycled polyester in this product, we consume less new raw materials and lower our environmental footprint.
+\nThe yarn in this product is dope-dyed, a color method for synthetic fibers, which reduces consumption of water and dye while improving color fastness compared to traditional dyeing techniques.
+\nNo perfluorinated chemicals (e.g. PFOS, PFOA, PFOSA) are used to make this product water repellent. As perfluorinated chemicals are non-degradable, it’s better for you and the environment to avoid them.
+\n\nMaterials\nArmrest, outdoor\nMain parts:\nPolyethylene, Polypropylene\n\nFrame:\nSteel, Polyester powder coating\n\nOne-seat section, outdoor/ stool, outdoor
+\nMain parts/ Bottom panel:\nPolyethylene, Polypropylene\n\nFrame:\nSteel, Polyester powder coating\n\nElastic webbing:\n100 % nylon
+\n\nCover for back cushion/ cover for seat pad\n100% polyester (min. 90% recycled)\n\nInner back cushion\nCover/ Smolder resistant lining:
+\nPolyester wadding\n\nFilling:\n100 % polyester (100% recycled)\n\nInner seat pad\nCover/ Filling/ Smolder resistant lining:\nPolyester wadding
+\n\nCore filling:\nPolyurethane foam', 'Packages: 19\n\nDUVHOLMEN\ninner back cushion\nPackage(s): 3\n\nSOLLERÖN\narmrest, outdoor\nPackage(s): 1
+\n\nFRÖSÖN\ncover for back cushion\nPackage(s): 3\n\nSOLLERÖN\nstool, outdoor\nPackage(s): 1\n\nDUVHOLMEN\ninner seat pad\nPackage(s): 4
+\n\nSOLLERÖN\none-seat section, outdoor\nPackage(s): 3\n\nFRÖSÖN\ncover for seat pad\nPackage(s): 4'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(95,
+'390.539.31', 'The drop-leaves can be folded and removed, so you can quickly adjust the table size according to your needs.
+\n\nThe hole in the middle of the table top keeps your umbrella in place.\n\nThe curved back ensures that you sit comfortably.
+\n\nFor added durability and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with several layers of semi-transparent wood stain.
+\n\nCushions are sold separately.\n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.\n\nOnly recommended for outdoor use.
+\n\nDesigner\nK Hagberg/M Hagberg', null, 'Drop-leaf table, outdoor/bench, outdoor/bench with backrest, outdoor
+\nThe best way to extend the life of your wooden outdoor furniture is by cleaning it regularly, not leaving it outdoors unprotected more than necessary, and re-staining it on a regular basis.
+\nClean: Use a mild soapy solution. Wipe dry with a clean dry cloth.
+\nMaintenance: To prevent the surface from drying out and cracking, and moisture from penetrating into the wood, we recommend you to re-stain the furniture on a regular basis, for example once or twice a year.
+\nStoring: If possible, store in a cool dry place indoors. If the furniture is stored outside, cover it with a waterproof cover. After a rain or snowfall, wipe off excess water or snow from flat surfaces. Allow air to circulate to avoid condensation.',
+'Environment\nDrop-leaf table, outdoor/bench, outdoor/bench with backrest, outdoor:\n100% renewable material. (Fixtures excluded)
+\nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. By 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.
+\nProduct possible to recycle or use for energy recovery, if available in your community.\n\nMaterials\nSolid acacia wood, Acrylic stain', 
+'Packages: 3\n\nÄPPLARÖ\nbench, outdoor\nPackage(s): 1\n\nÄPPLARÖ\ndrop-leaf table, outdoor\nPackage(s): 1\n\nÄPPLARÖ\nbench with backrest, outdoor\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(96,
+'900.954.28', 'Easy to fold up and put away.\n\nFor added durability, and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with a layer of semi-transparent wood stain.
+\n\nCushions are sold separately.\n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.
+\n\nMay be completed with KUDDARNA chair cushion (12⅝x14⅛"), FRÖSÖN/DUVHOLMEN or YTTERÖN chair cushion or BENÖ chair pad (dia. 13⅜").
+\n\nThis chair has been tested for home use and meets the requirements for durability and safety, set forth in the following standards: EN 581.
+\n\nOnly recommended for outdoor use.\n\nDesigner\nIKEA of Sweden', 'Tested for: 243 lb\nWidth: 15 3/8 "\nDepth: 15 3/4 "\nHeight: 31 1/8 "
+\nSeat width: 15 3/8 "\nSeat depth: 11 "\nSeat height: 17 3/4 "', 
+'The best way to extend the life of your wooden outdoor furniture is by cleaning it regularly, not leaving it outdoors unprotected more than necessary, and re-staining it on a regular basis.
+\nClean: Use a mild soapy solution. Wipe dry with a clean dry cloth.
+\nMaintenance: To prevent the surface from drying out and cracking, and moisture from penetrating into the wood, we recommend you to re-stain the furniture on a regular basis, for example once or twice a year.
+\nStoring: If possible, store in a cool dry place indoors. If the furniture is stored outside, cover it with a waterproof cover. After a rain or snowfall, wipe off excess water or snow from flat surfaces. Allow air to circulate to avoid condensation.',
+'Environment\nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. By 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.
+\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
+\nRenewable material (wood).\n\nMaterials\nSeat/ Back:\nSolid acacia wood, Acrylic stain\n\nLeg/ Seat rail/ Support:\nSteel, Polyester powder coating\n\nFeet:\nPolypropylene',
+'TÄRNÖ\nChair, outdoor\nackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(97,
+'704.114.99', 'TOSTERÖ waterproof covers will protect your outdoor furniture from rain, sun, snow, dirt, dust, and pollen when not in use.
+\n\nProtecting your outdoor furniture with a waterproof cover is an easy and effective way to keep it looking fresh and new longer, before any maintenance is needed.
+\n\nFits for example outdoor 3-seat corner sofas and a coffee table with total max. length 102", max. width 65" and max. height 34".
+\n\nFits for example outdoor 3-seat sofas together with an armchair and a coffee table with total max. length 102", max. width 65" and max. height 34".
+\n\nThe cover is not reversible. The glossy side must always face in, towards the furniture.
+\n\nMake sure the furniture is completely dry before putting on the cover.
+\n\nTo prevent condensation from forming, leave the cover open slightly at the bottom permitting air to circulate.
+\n\nTo keep the cover in place during windy days, tuck in the lower edge underneath the corners of the furniture.
+\n\nYou can use the cover to protect the furniture with cushions or pads during the outdoor season. During the off-season we recommend to store the cushions and pads in a dry, cool place indoors.
+\n\nStorage bag with drawstring included.\n\nDesigner\nIKEA of Sweden',
+'Length: 102 3/8 "\nWidth: 65 "\nHeight: 33 1/2 "', 'Cover\n\nHand wash warm water.\nDo not bleach.\nDo not tumble dry.\nDo not iron.\nDo not dry clean.',
+'Environment\nNo perfluorinated chemicals (e.g. PFOS, PFOA, PFOSA) are used to make this product waterproof. As perfluorinated chemicals are non-degradable, it’s better for you and the environment to avoid them.
+\n\nMaterials\n100 % polyester', 'TOSTERÖ\n\nCover for outdoor furniture\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(98,
+'192.622.90', 'The furniture is made of eucalyptus, a naturally durable and sturdy hardwood because of the high density of its wood fibers.
+\n\nFor added durability and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with several layers of semi-transparent wood stain.
+\n\nThe seat cushion provides great comfort, thanks to its thick high resilience foam filling.\n\nYou can just shake off water from a light rain, as the cushion cover is water repellent.
+\n\nThe cushion covers are dope dyed, a process that reduces consumption of water and dyestuff while improving color fastness compared to traditional dyeing techniques.
+\n\nThe cover on the seat pad and back cushion is easy to keep clean and fresh, as you can take it off and machine wash it.\n\nOnly recommended for outdoor use.
+\n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.\n\nDesigner\nEva Lilja Löwenhielm/IKEA of Sweden',
+'Furniture\n4-seat conversation set, outdoor
+\n\nThe best way to extend the life of your wooden outdoor furniture is by cleaning it regularly, not leaving it outdoors unprotected more than necessary, and re-staining it on a regular basis.
+\nClean: Use a mild soapy solution. Wipe dry with a clean dry cloth.
+\nMaintenance: To prevent the surface from drying out and cracking, and moisture from penetrating into the wood, we recommend you to re-stain the furniture on a regular basis, for example once or twice a year.
+\nStoring: If possible, store in a cool dry place indoors. If the furniture is stored outside, cover it with a waterproof cover. After a rain or snowfall, wipe off excess water or snow from flat surfaces. Allow air to circulate to avoid condensation.
+\nMachine wash warm, normal cycle.\nClose the zipper before washing.\nDo not bleach.\nTumble dry, low, normal cycle.\nIron low.\nDo not dry clean.
+\nDo not wash.\nDo not bleach.\nDo not tumble dry.\nDo not iron.\nDo not dry clean.', 
+'Environment\nCover for back cushion/cover for seat pad:\nBy using recycled polyester in this product, we consume less new raw materials and lower our environmental footprint.
+\nThe yarn in this product is dope-dyed, a color method for synthetic fibers, which reduces consumption of water and dye while improving color fastness compared to traditional dyeing techniques.
+\nNo perfluorinated chemicals (e.g. PFOS, PFOA, PFOSA) are used to make this product water repellent. As perfluorinated chemicals are non-degradable, it’s better for you and the environment to avoid them.
+\n\nArmchair, outdoor/coffee table, outdoor/loveseat, outdoor:\n100% renewable material. (Fixtures excluded)
+\nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. By 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.
+\nProduct possible to recycle or use for energy recovery, if available in your community.
+\n\nMaterials\nInner back cushion\nCover/ Smolder resistant lining:\nPolyester wadding\n\nFilling:\n100 % polyester (100% recycled)
+\n\nInner seat pad\nCover/ Filling/ Smolder resistant lining:\nPolyester wadding\n\nCore filling:\nPolyurethane foam\n\nCover for back cushion/ cover for seat pad
+\n100% polyester (min. 90% recycled)\n\nArmchair, outdoor/ coffee table, outdoor/ loveseat, outdoor\nSolid eucalyptus wood, Acrylic stain',
+'Packages: 20\n\nDUVHOLMEN\ninner back cushion\nPackage(s): 4\n\nKLÖVEN\narmchair, outdoor\nPackage(s): 2\n\nFRÖSÖN\ncover for back cushion
+\nPackage(s): 4\n\nDUVHOLMEN\ninner seat pad\nPackage(s): 4\n\nKLÖVEN\ncoffee table, outdoor\nPackage(s): 1\n\nKLÖVEN\nloveseat, outdoor
+\nPackage(s): 1\n\nFRÖSÖN\ncover for seat pad\nPackage(s): 4'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(99,
+'392.879.25', 'By combining different seating sections you can create a sofa in a shape and size that perfectly suits your outdoor space.
+\n\nPractical storage space under the seat.\n\nThe color on the seat pad and back cushion stays fresh longer as the cover is fade resistant.
+\n\nYou can just shake off water from a light rain, as the cushion cover is water repellent.\n\nThe cushion cover is easy to keep clean since it can be removed and machine washed.
+\n\nYou can have a personal touch to your sofa by adding one or more decorative cushions to your style and taste.\n\nHardware to connect sections included.
+\n\nMay be completed with TOSTERÖ storage bag.\n\nDesigner\nEva Lilja Löwenhielm/Jonas Hultqvist/IKEA of Sweden',
+'Inner cushion\n4-seat conversation set, outdoor
+\n\nDo not wash.\nDo not bleach.\nDo not tumble dry.\nDo not iron.\nDo not dry clean.\nMachine wash warm, normal cycle.\nClose the zipper before washing.
+\nDo not bleach.\nTumble dry, low, normal cycle.\nIron low.\nDo not dry clean.
+\nThe best way to extend the life of your outdoor furniture is by cleaning it regularly and not leaving it outdoors unprotected more than necessary.
+\nClean: Use a mild soapy solution.\nMaintenance: Require no maintenance.
+\nStoring: If possible, store in a cool dry place indoors. If the furniture is stored outside, cover it with a waterproof cover. After a rain or snowfall, wipe off excess water or snow from flat surfaces. Allow air to circulate to avoid condensation.',
+'Environment\nCover for back cushion/cover for seat pad:
+\nBy using recycled polyester in this product, we consume less new raw materials and lower our environmental footprint.
+\nThe yarn in this product is dope-dyed, a color method for synthetic fibers, which reduces consumption of water and dye while improving color fastness compared to traditional dyeing techniques.
+\nNo perfluorinated chemicals (e.g. PFOS, PFOA, PFOSA) are used to make this product water repellent. As perfluorinated chemicals are non-degradable, it’s better for you and the environment to avoid them.
+\n\nMaterials\nInner seat pad\nCover/ Filling/ Smolder resistant lining:\nPolyester wadding\n\nCore filling:\nPolyurethane foam
+\n\nInner back cushion\nCover/ Smolder resistant lining:\nPolyester wadding\n\nFilling:\n100 % polyester (100% recycled)\n\nCover for back cushion/ cover for seat pad
+\n100% polyester (min. 90% recycled)\n\nArmrest, outdoor\nMain parts:\nPolyethylene, Polypropylene\n\nFrame:\nSteel, Polyester powder coating
+\n\nOne-seat section, outdoor\nMain parts/ Bottom panel:\nPolyethylene, Polypropylene\n\nFrame:\nSteel, Polyester powder coating\n\nElastic webbing:\n100 % nylon
+\n\nCoffee table, outdoor\nUnderframe:\nAluminum, Polyester powder coating\n\nUpper frame/ Top panel:\nSteel, Polyester powder coating\n\nWeaving:\nPolyethylene, Polypropylene
+\n\nTable top:\nTempered glass',
+'Packages: 24\n\nDUVHOLMEN\ninner back cushion\nPackage(s): 4\n\nFRÖSÖN\ncover for back cushion\nPackage(s): 4\n\nDUVHOLMEN\ninner seat pad
+\nPackage(s): 4\n\nSOLLERÖN\ncoffee table, outdoor\nPackage(s): 1\n\nSOLLERÖN\none-seat section, outdoor\nPackage(s): 4
+\n\nSOLLERÖN\narmrest, outdoor\nPackage(s): 3\n\nFRÖSÖN\ncover for seat pad\nPackage(s): 4'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(100,
+'292.875.63', 'The color stays fresh longer as the cover is fade resistant.\n\nThe cover is easy to keep clean because it is removable and machine washable.
+\n\nWhen your mood changes, you can quickly change the look of your outdoor space with the separate OTTERÖN ottoman covers.\n\nDesigner\nIKEA of Sweden/Maria Vinka',
+'Height: 16 1/8 "\nDiameter: 18 7/8 "', 'Pouffe cover, indoor/outdoor\nThe best way to extend the life of your product is to clean it regularly and store it in a cool, dry place indoors, or in a storage bag or storage box when not in use.
+\nMake sure the product is completely dry before storing it away in a storage bag or storage box.
+\n\nCover\nPouffe, in/outdoor\nMachine wash, warm, durable-press cycle.\nDo not bleach.\nTumble dry, low, normal cycle.\nIron low.\nDo not dry clean.',
+'Environment\nPouffe cover, indoor/outdoor:\nThis product is dope-dyed, a dyeing technique for synthetic fibers, which reduces consumption of water and dye while improving color fastness compared to traditional dyeing techniques.
+\n\nMaterials\nPouffe cover, indoor/outdoor\n100 % polypropylene
+\n\nPouffe frame, indoor/outdoor\nFrame/ Rim:\nSteel, Polyester powder coating\n\nRivet:\nSteel, Galvanized\n\nFeet:\nPolyamide',
+'Packages: 2\n\nINNERSKÄR\npouffe frame, indoor/outdoor\nPackage(s): 1\n\nOTTERÖN\npouffe cover, indoor/outdoor\nPackage(s): 1'); 
+
+
+
+
+
+
+
+
+
+
 
 
 
