@@ -12,20 +12,35 @@
 #aw_last_drawer:hover{
     background-color: #F5F5F5; 
 }
-.aw_drawer_label_styling{
+.aw_drawer_label_styling, 
+.aw_x_icon{
+    display: inline-block; 
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 1.2rem;
-    font-weight: 550;
+    font-weight: 550; 
 }
 
 .aw_drawer_label_text{
     padding-left: 2rem;
 }
 .aw_x_icon {
-    padding-bottom: 30%;
+    padding-top: auto; 
+    padding-bottom: auto; 
     padding-left: 10px; 
 }
 
 #aw_last_drawer {
     border-bottom: 1px solid #C8C8C8;
+}
+
+.rotate {
+    transition: transform 0.2s;
+    transform: rotate(-45deg) translateY(5px);  
+    transform-origin: center; 
+}
+
+.rotate_original {
+    transition: transform 0.2s;
+    transform: rotate(0deg);  
+    transform-origin: center;
 }
