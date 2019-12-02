@@ -1,7 +1,9 @@
 let express = require('express'); 
 let app = express(); 
-
+let db = require('../database/db.js'); 
 const port = 3020; 
+
+db.connection.connect(() => console.log('connected to db')); 
 
 app.use(express.json());
 

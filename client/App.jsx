@@ -1,5 +1,5 @@
 import React from 'react'; 
-import ReactDOM from 'react-dom'; 
+
 
 export default class App extends React.Component{
     constructor(props){
@@ -9,9 +9,39 @@ export default class App extends React.Component{
     render(){
         return(
         <div>
-            <span>+</span>
-            <span>Product description</span>
-        </div>
+          <div className='aw_container_horizontal'>
+              <span className='aw_drawer_label_styling aw_x_icon '>+</span>
+              <span className='aw_drawer_label_styling  aw_drawer_label_text'>Product description</span>
+          </div>
+          <div className='aw_container_horizontal'>
+              <span className='aw_drawer_label_styling aw_x_icon '>+</span>
+              <span className='aw_drawer_label_styling  aw_drawer_label_text'>Product size</span>
+          </div> 
+          <div className='aw_container_horizontal'>
+              <span className='aw_drawer_label_styling aw_x_icon '>+</span>
+              <span className='aw_drawer_label_styling  aw_drawer_label_text'>Care instructions</span>
+          </div> 
+          <div className='aw_container_horizontal'>
+              <span className='aw_drawer_label_styling aw_x_icon '>+</span>
+              <span className='aw_drawer_label_styling  aw_drawer_label_text'>Environment & materials</span>
+          </div>
+          <div className='aw_container_horizontal'>
+              <span className='aw_drawer_label_styling aw_x_icon '>+</span>
+              <span className='aw_drawer_label_styling  aw_drawer_label_text'>Package details</span>
+          </div>  
+          <div className='aw_container_horizontal'>
+              <span className='aw_drawer_label_styling aw_x_icon '>+</span>
+              <span className='aw_drawer_label_styling  aw_drawer_label_text'>Assembly & Documents</span>
+          </div> 
+          <div className='aw_container_horizontal'>
+              <span className='aw_drawer_label_styling aw_x_icon '>+</span>
+              <span className='aw_drawer_label_styling  aw_drawer_label_text'>Reviews</span>
+          </div> 
+          <div id='last_drawer'>
+              <span className='aw_drawer_label_styling aw_x_icon '>+</span>
+              <span className='aw_drawer_label_styling  aw_drawer_label_text' >Product availability</span>
+          </div> 
+        </div>     
         )
     }
 }

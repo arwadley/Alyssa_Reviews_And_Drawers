@@ -1,3 +1,31 @@
 .aw_container_horizontal{
-    
+    border-top: 1px solid #C8C8C8; 
+    width: 50%; 
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.aw_drawer_label_styling{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+.aw_drawer_label_text{
+    padding-left: 2rem;
+}
+.aw_x_icon {
+    padding-bottom: 30%;
+    padding-left: 10px; 
+}
+
+#last_drawer {
+    border-top: 1px solid #C8C8C8; 
+    width: 50%; 
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto; 
+    border-bottom: 1px solid #C8C8C8;
 }

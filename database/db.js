@@ -1,8 +1,8 @@
 let mysql = require('mysql');
-let sqlPassword = require('..config');  
+let sqlPassword = require('../config');  
 
 let connection = mysql.createConnection({
-    host: 'local host', 
+    host: 'localhost', 
     user: 'root', 
     password: sqlPassword,
     database: 'ReviewsAndDrawers'
