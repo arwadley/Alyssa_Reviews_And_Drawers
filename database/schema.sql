@@ -30,16 +30,16 @@ CREATE TABLE reviews (
     FOREIGN KEY(product_id) REFERENCES items(id)
 ); 
 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(1, '892.284.34', 
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(1, '892.284.34', 
 'A highchair makes it easier for small children to sit at the same table as adults, which helps them develop social and eating skills.\nEasy to disassemble and transport.\n
 Raised edge prevents spills from ending up on the floor.\nWe know that children\'s skin is extra sensitive, but not to worry. 
 This product has been tested, approved and is completely free from substances that may harm your child\'s skin or health.\n
-This product is intended for children able to sit up unaided and up to 3 years old or a maximum weight of 33 lbs..\nSafety belt included.', '
-Width: 22 "\nDepth: 24 3/8 " \nHeight: 35 3/8 " \nSeat width: 9 7/8 " \nSeat depth: 8 5/8 " \nSeat height: 21 1/4 "
-\nMax. load: 33 lb', 'Environment\n Seat shell for high chair:\nNo BPA (Bisphenol A) added.\nHigh chair tray: \nNo BPA (Bisphenol A) added.
+This product is intended for children able to sit up unaided and up to 3 years old or a maximum weight of 33 lbs..\nSafety belt included.', 
+'Width: 22 "\nDepth: 24 3/8 " \nHeight: 35 3/8 " \nSeat width: 9 7/8 " \nSeat depth: 8 5/8 " \nSeat height: 21 1/4 "
+\nMax. load: 33 lb', null, 'Environment\n Seat shell for high chair:\nNo BPA (Bisphenol A) added.\nHigh chair tray: \nNo BPA (Bisphenol A) added.
 \nProduct possible to recycle or use for energy recovery, if available in your community. \nMaterials \nSeat shell for high chair/ high chair tray: 
 \nPolypropylene', 'Packages: 3\nANTILOP\nhigh chair tray\nANTILOP\nseat shell for high chair\nANTILOP\nhigh chair leg');
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(2, '803.496.71', 
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(2, '803.496.71', 
 'You sit comfortably thanks to the restful flexibility of the seat and back.\n
 \nDo not use a cleaning agent on the seat shell as the seat shell may be damaged. Use only water for cleaning.\n
 \nThis chair has been tested for home use and meets the requirements for durability and safety, set forth in the following standards: EN 12520 and EN 1022.\n
@@ -48,7 +48,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Materials\n
 Leg frame:\n    Steel, Chrome plated\nSeat shell:\n    Polycarbonate plastic\nFoot:    Polypropylene\nNut:    Zinc, Chrome plated\nBumpers/ Washers:    Synthetic rubber', 
 'Packages: 2\n\nTOBIAS\n\nChair\n\nThis product has multiple packages.'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(3, '492.519.35', 
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(3, '492.519.35', 
 'In HAVSTEN you sit deep and low with a comfortable resilience thanks to the elastic mesh in the bottom.\n\n
 Create an armchair, loveseat, a sofa or a sectional as large as you like.\n\n
 You can just shake off water from a light rain, as the cushion cover is water repellent.\n\n
@@ -69,7 +69,7 @@ Storing: If possible, store in a cool dry place indoors. If the furniture is sto
 \nPossible to separate for recycling or energy recovery if available in your community.\n\nMaterials\nBack cushion, outdoor\nCushion cover:
 \n100% polyester (min. 90% recycled)\nInner fabric:\n100 % polypropylene\nFilling:\n100 % polyester (100% recycled)', 
 'Packages: 5\nHAVSTEN\nseat frame, outdoor\n\nHAVSTEN\nseat pad, outdoor\n\nHAVSTEN\nseat and back frame, outdoor\n\nHAVSTEN\nback cushion, outdoor'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(4, '601.317.34', 
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(4, '601.317.34', 
 'The stool can be stacked, so you can keep several on hand and store them in the same space as one.\n\nSuitable for bar height 35⅜".
 \n\nThis bar stool has been tested for home use and meets the requirements for durability and safety, set forth in the following standards: EN 12520 and EN 1022.
 \n\nDo not use a cleaning agent on the seat shell as the seat shell may be damaged. Use only water for cleaning.\n\nDesigner\nMarcus Arvonen', 
@@ -77,7 +77,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Wipe clean with a water dampened cloth.\n\nFor maximum quality, re-tighten the screws when necessary.', 
 'Materials\nLeg frame: Steel, Chrome plated\n\nFeet: Polypropylene\n\nSeat shell: Polycarbonate plastic\n\nBumpers: Polyethylene\n\nInsert: Brass', 
 'GLENN\nBar stool\n\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(5, '704.048.75', 
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(5, '704.048.75', 
 'You can fold the chairs, so they take less space when you are not using them.\n\nFootrest for extra sitting comfort.\n\nThe plastic feet allow the chair to stand evenly and reduces the risk of pressure marks on a soft floor.
 \n\nThe built-in safety lock prevents the bar stool from accidentally folding up when you move it.\n\nSuitable for bar height 35⅜\".
 \n\nThis bar stool has been tested for home use and meets the requirements for durability and safety, set forth in the following standards: EN 12520 and EN 1022.
@@ -86,7 +86,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nFor maximum quality, re-tighten the screws when necessary.', 'Materials\nSeat and back: Molded layer-glued wood veneer, Laminate (melamine), 
 \nEdge: Clear lacquer\nBracket: Reinforced polyamide\nCrank/ Tubular frame/ Footrest: Steel, Epoxy/polyester powder coating
 \nProtector: Polypropylene', 'FRANKLIN\nBar stool with backrest, foldable\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(6, '392.077.16', 
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(6, '392.077.16', 
 'You sit comfortably since the chair is adjustable in height.
 \n\nThe safety casters have a pressure-sensitive brake mechanism that keeps the chair in place when you stand up, and releases automatically when you sit down.
 \n\nThis product has been developed and tested for domestic use.\n\nRecommended for children 4-12 years of age.
@@ -99,7 +99,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nJunior chair frame, swivel\nCasters/ Casters:\nPolypropylene\n\nStar base/ Seat and back holder:
 \n\nSteel, Epoxy/polyester powder coating', 'Packages: 2\nJULES\njunior chair frame, swivel
 \n\nJULES\njunior seat shell'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(7, '993.030.36', 
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(7, '993.030.36', 
 'High-quality density foam will keep the chair comfortable for many years to come.
 \n\nYou sit comfortably since the chair is adjustable in height.
 \n\nThe safety casters have a pressure-sensitive brake mechanism that keeps the chair in place when you stand up, and releases automatically when you sit down.
@@ -115,7 +115,7 @@ Base plate/ Adjustment lever: Steel, Epoxy powder coating
 \nTube caps: Reinforced polypropylene \n\nSeat shell\nBack foam/ Seat foam: Polyurethane foam.
 \nSeat and back frame: Steel, Epoxy powder coating\nSeat and back: Molded eucalyptus plywood\nFabric: 100 %polyester', 
 'Packages: 2\n\nÖRFJÄLL\nchair frame, swivel\n\nÖRFJÄLL\nseat shell'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(8, '903.200.97', 
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(8, '903.200.97', 
 'Handwoven back rest and seat, making each and every GRÖNADAL chair one of a kind.
 \n\nMade from rattan and ash, natural materials that age with grace.
 \n\nThe transparent woven pattern in the back and seat give the rocking chair an airy look, making it flexible and easy to fit in at home.
@@ -124,7 +124,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Wipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.\nThe material can dry out and deteriorate if placed near a heat source.', 
 'Materials\nWeaving: Rattan, Clear acrylic lacquer\nRocker/ Backside rail/ Armrest: Solid ash, Clear acrylic lacquer
 \nArmrest frame/ Seat frame/ Back frame/ Crossbar: Steel, Epoxy/polyester powder coating', 'GRÖNADAL/nRocking chair\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(9, '290.066.95', 
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(9, '290.066.95', 
 'You sit comfortably since the chair is adjustable in height.\n\nThe safety casters have a pressure-sensitive brake mechanism that keeps the chair in place when you stand up, and releases automatically when you sit down.
 \n\nThis product has been developed and tested for domestic use.\n\nMay be used with KOLON floor protector.\n\nDesigner\nEva Lilja Löwenhielm/IKEA of Sweden', 
 'Tested for: 243 lb\nWidth: 29 1/8 "\nDepth: 29 1/8 "\nSeat width: 17 3/4 "\nSeat depth: 15 3/8 "\nMin. seat height: 16 1/2 "
@@ -133,7 +133,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nChair frame, swivelCastor/ Cover: \nPolypropylene\n\nStar base center/ Star base leg/ Base plate:
 \nSteel, Epoxy/polyester powder coating\n\nTube caps:\nReinforced polypropylene', 
 'Packages: 2\n\nSPORREN\nchair frame, swivel\n\nVÅGSBERG\nseat shell'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(10, '702.886.30', 
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(10, '702.886.30', 
 'The dampers allow you to stack the chairs.\n\nThe self-adjusting plastic feet adds stability to the chair.
 \n\nCan be hung with the armrests on a table top for easy cleaning.\n\nYou sit comfortably thanks to the armrests.
 \n\nDurable and hard-wearing. Meets the requirements on furniture for public use.
@@ -144,13 +144,13 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Environment\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
 \n\nMaterials\nFrame:\nSteel, Chrome plated\n\nArmrest cover:\nSynthetic rubber', 
 'DIETMAR\nUnderframe for armchair\n\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(11,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(11,
 '003.308.16', "We know that children's skin is extra sensitive, but not to worry. \nThis product has been tested, approved and is completely free from substances that may harm your child's skin or health.
 \nRaised edge prevents spills from ending up on the floor.\nThe smooth surface has no nooks or corners which are difficult to reach, making the chair easy to clean.
 \n\nDesigner\nJ Fritzdorf/J Feldman/J Hedberg", 'Width: 17 3/8 "\nDepth: 16 1/2 "\nThickness: 1 5/8 "', 
 'Wipe clean with a mild soapy solution.\n\nWipe dry with a clean cloth.', 'Environment\nNo BPA (Bisphenol A) added.
 \n\nMaterials\nPolypropylene', 'LANGUR\nHigh chair tray\n\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(12, 
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(12, 
 '502.111.04', 'Easy to bring home since the whole dining set is packed in one box.
 \n\nThe wood expression and design of the backrest bring a traditional look to the room.
 \n\nEnhance the comfort by adding soft chair pads that fit the seat perfectly.\n\nPine ages beautifully as the color deepens and becomes richer over time.
@@ -163,7 +163,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. By 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.
 \n\nProduct possible to recycle or use for energy recovery, if available in your community.\n\nMaterials\nSolid pine, Stain, Clear acrylic lacquer',
 'JOKKMOKK\nTable and 4 chairs\n\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(13,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(13,
 '002.110.88', 'Solid wood is a durable natural material.\n\nFor increased stability, re-tighten the screws about two weeks after assembly and when necessary.
 \n\nMay be completed with FIXA self-adhesive floor protectors to protect the underlying surface against wear.
 \n\nThis chair has been tested for home use and meets the requirements for durability and safety, set forth in the following standards: EN 12520 and EN 1022.
@@ -171,7 +171,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nSeat depth: 15 3/8 "\nSeat height: 17 3/4 "', 'Wipe clean with a mild soapy solution.\n\nWipe dry with a clean cloth.
 \n\nFor maximum quality, re-tighten the screws when necessary.', 'Materials\nSolid pine, Stain, Clear acrylic lacquer', 
 'STEFAN\nChair\n\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(14,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(14,
 '804.343.58', "Easy to assemble without tools or screws.\n\nYou sit comfortably thanks to the chair's shaped back and seat.
 \n\nDesigner\nCarl Öjerstam", 'Tested for: 220 lb\nWidth: 22 7/8 "\nDepth: 22 "\nHeight: 33 1/2 "\nSeat width: 17 3/8 "
 \nSeat depth: 17 3/8 "\nSeat height: 17 3/4 "', 'Do not wash.\n\nDo not bleach.\n\nDo not tumble dry.
@@ -179,7 +179,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n65 % polyester, 35 % cotton\n\nFoot:\nPolypropylene\n\nSeat frame:\nReinforced polypropylene\n\nSeat shell:
 \nPolyester fiber fill, Non-woven polyester fabric\n\nSeat cushion:\nPolypropylene, High resilient polyurethane foam (cold foam).
 \n\nLeg:\nSolid ash, Tinted clear acrylic lacquer', 'BALTSAR\nChair\n\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(15,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(15,
 '704.531.25', 'You sit comfortably thanks to the high back and seat with polyester wadding.\n\nThe chair legs are made of solid wood, which is a durable natural material.
 \n\nMachine washable cover; easy to keep clean.\n\nFor increased stability, re-tighten the screws about two weeks after assembly and when necessary.
 \n\nMay be completed with FIXA stick-on floor protectors to protect the underlying surface against wear.\n\nDesigner\nIKEA of Sweden', 
@@ -190,13 +190,13 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nMaterials\nTotal composition/ Cover:\n100 % polyester\n\nFrame:\nSolid eucalyptus wood, Stain, Clear acrylic lacquer
 \n\nSeat:\nFiberboard, Polyurethane foam., Polyester wadding\n\nBack:\n100% recycled solid cardboard, Polyurethane foam., Polyester wadding
 \n\nLining:\nNon-woven polypropylene', 'HARRY\nChair\n\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(16,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(16,
 '101.356.59', 'The stool can be stacked, so you can keep several on hand and store them in the same space as one.
 \n\nThis stool has been tested for home use and meets the requirements for durability and safety, set forth in the following standards: EN 12520 and EN 1022.
 \n\nDesigner\nOla Wihlborg', 'Tested for: 220 lb\nSeat diameter: 12 5/8 "\nWidth: 15 3/4 "\nSeat height: 17 3/4 "', 
 'Wipe clean with a mild soapy solution.\nWipe dry with a clean cloth.\nFor maximum quality, re-tighten the screws when necessary.', 
 'Materials\nSeat/ Foot:\nPolypropylene\n\nLeg:\nSteel, Epoxy powder coating', 'MARIUS\nStool\n\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(17,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(17,
 '092.195.27', "You can stack the chairs, so they take less space when you're not using them.
 \n\nThe self-adjusting plastic feet adds stability to the chair.\n\nFor increased stability, re-tighten the screws about two weeks after assembly and when necessary.
 \n\nDesigner\nIKEA of Sweden", 'Tested for: 220 lb\nWidth: 19 1/4 "\nDepth: 20 1/2 "\nHeight: 33 7/8 "\nSeat width: 15 "
@@ -204,7 +204,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nChair\nWipe clean using a damp cloth and a mild cleaner.', 'Materials\nSeat shell
 \nMolded layer-glued wood veneer, Laminate, Clear acrylic lacquer\n\nChair frame\nSteel, Epoxy/polyester powder coating', 
 'Packages: 2\n\nMARTIN\nseat shell\n\nMARTIN\nchair frame'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(18,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(18,
 '603.882.58', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
 \n\nChanging positions between sitting and standing helps you move your body so you both feel and work better.
 \n\nGives an active sitting position, which improves your posture.\n\nThe leather ages beautifully and acquires a nice patina over time.
@@ -218,7 +218,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nMechanism/ Gas cylinder/ Foot ring/ Star base leg:\nSteel, Epoxy powder coating
 \n\nLeg connector:\nReinforced polyamide\n\nFeet:\nSynthetic rubber\n\nMain parts:
 \nDyed through top-grain leather with a treated, embossed and pigmented surface', 'TROLLBERGET\nSit/stand support\n\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(19,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(19,
 '448.811.00', 'Protects flooring against wear and dirt.\n\nSuitable for most types of floors and flat-woven rugs. Not suitable for cork floors or heated wooden floors.
 \n\nIf the floor protector is left lying on the floor for a long period a vacuum may form and cause damage to your floor. Therefore, lift the floor protector at regular intervals for ventilation.
 \n\nDesigner\nIKEA of Sweden', 'Length: 39 3/8 "\nWidth: 47 1/4 "\nThickness: 1/8 "', 
@@ -227,7 +227,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nTherefore, lift the floor protector at regular intervals for ventilation.', 
 'Environment\nProduct possible to recycle or use for energy recovery, if available in your community.
 \n\nMaterials\nPET plastic, Polyurethane plastic', 'KOLON\nFloor protector\n\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(20,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(20,
 '903.078.40', 'Hook and loop fasteners keep the chair pad in place.\n\nThe chair cushion has two identical sides so it can be turned over for even wear.
 \n\nMachine washable for easy care.\n\nFits KAUSTBY and INGOLF chairs.\n\nDesigner\nIKEA of Sweden', 
 'Min. width: 14 "\nMax. width: 16 "\nDepth: 15 "\nThickness: 3 "\nFilling weight: 12 oz\nTotal weight: 16 oz', 
@@ -235,7 +235,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Environment\nRenewable material (cotton).\nTo lower our environmental impact this product is offered without any packaging.
 \n\nMaterials\nInterliner:\n100 % polypropylene\n\nFilling material:\n100 % polyester - hollow fiber (100% recycled)
 \n\nOuter fabric:\n100 % cotton', 'MALINDA\nChair pad\n\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(21,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(21,
 '902.579.58', 'The bed base can be placed at two different heights.\n\nOne crib side can be removed when the child is big enough to climb into/out of the crib.
 \n\nYour baby will sleep both safely and comfortably as the durable materials in the crib base have been tested to ensure they give their body the support it needs.
 \n\nThe crib base is well ventilated for good air circulation which gives your child a pleasant sleeping climate.
@@ -247,7 +247,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nRenewable material (wood).\n\nMaterials\nFabric:\n100 % nylon\n\nHead/footboard/ Bottom panel/ Drawer bottom/ Drawer front:
 \nFiberboard, Acrylic paint\n\nBedside/ Spindles/ Bed rail/ Bed base frame/ Knob:\nSolid beech, Acrylic paint
 \n\nDrawer back/ Drawer side/ Drawer rail/ Partition:\nSolid beech', 'Packages: 2\n\nGONATT\nCrib\n\nThis product has multiple packages.'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(22,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(22,
 '392.414.28', 'Ample storage space is hidden neatly under the bed in 6 large drawers. Perfect for storing quilts, pillows and bed linen.
 \n\nSoft-closing drawers run smoothly, slowly and silently.
 \n\nStorage in the headboard saves space and makes it easier to access boxes or drawers under the bed; and it’s easier to vacuum too.
@@ -266,7 +266,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nRail:\nSolid wood\n\nHeadboard\nPanel:\nParticleboard, Acrylic paint, Plastic edging\n\nConnection/ Rail:
 \nFiberboard, Acrylic paint\n\nShelf:\nSteel, Epoxy/polyester powder coating', 'Packages: 7\n\nNORDLI\nbed frame with storage
 \nThis product has multiple packages.\n\nNORDLI\nheadboard\nThis product has multiple packages.'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(23,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(23,
 '592.688.98', 'Brass-colored details on the headboard, footboard and legs give a unique twist to this classic design.
 \n\nThe powder-coated steel frame is strong, sturdy and easy to maintain.
 \n\nYou can sit up comfortably in bed thanks to the high headboard – just prop some pillows behind your back and you will have a comfortable place to read or watch TV.
@@ -281,17 +281,17 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nWipe dry with a clean cloth.', 'Materials\nHead/footboards\nMain parts:\nSteel, Steel, Epoxy/polyester powder coating
 \n\nFeet:\nPolypropylene\n\nBed sides\nSteel, Epoxy/polyester powder coating\n\nCenter support beam\nGalvanized steel', 
 'Packages: 3\nSAGSTUA\nhead/footboards\n\nSAGSTUA\nbed sides\n\nSKORVA\ncenter support beam'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(24,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(24,
 '992.561.72', 'At first glance, it looks like a classic upholstered bed. But beneath the surface, there’s a big secret: storage space. Perfect for bed storage boxes to store extra comforters and pillows.
 \n\nThe price for this combination includes SKORVA midbeam, but it is a separate product which you pick from its own shelf at the store. If you buy the bed via the website, SKORVA midbeam is included in the delivery.
 \n\nMust be completed with SKORVA center support beam.\n\nDesigner\nIKEA of Sweden/Ola Wihlborg', 
-'Length: 82 1/4 "\nWidth: 70 7/8 "\nHeadboard height: 53 1/8 "\nHeight under furniture: 7 7/8 "\nMattress length: 78 3/4 "\nMattress width: 60 1/4 "', 
+'Length: 82 1/4 "\nWidth: 70 7/8 "\nHeadboard height: 53 1/8 "\nHeight under furniture: 7 7/8 "\nMattress length: 78 3/4 "\nMattress width: 60 1/4 "', null,
 'Materials\nBed frame cover\n53 % linen, 47 % viscose/rayon
 \n\nBed frame\nHeadboard:\nPolyester wadding, Polyester wadding, Polyurethane foam 1.7 lb/cu.ft., Plywood, Solid beech, Solid pine, Fiberboard
 \n\nSide panel/ Front:\nPolyester wadding, Polyester wadding, Plywood\n\nMetal parts/ Corner fitting:\nSteel
 \n\nCenter support beam\nGalvanized steel', 'Packages: 4\n\nGODFJORD\nbed frame cover\n\nHELLEFJORD\nbed frame\nThis product has multiple packages.
 \n\nSKORVA\ncenter support beam'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(25,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(25,
 '792.411.86', 'This classic bed frame will look great with your choice of textiles and bedroom furniture. You can even complete the look with other products from the SONGESAND series.
 \n\nAmple storage space is hidden neatly under the bed in 4 large drawers. Perfect for storing quilts, pillows and bed linen.
 \n\nSONGESAND bed storage boxes work perfectly with SONGESAND bed frame. They fit neatly into the space under the bed and will be flush against sides.
@@ -306,7 +306,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nTop rail:\nFiberboard, Paper foil, Plastic edging\n\nUnderbed storage box, set of 2\nDrawer front/ Drawer back/ Drawer sides/ Partition/ Rail:
 \nParticleboard, Paper foil, Plastic edging\n\nDrawer bottom:\nFiberboard, Paint, Paper foil\n\nCenter support beam\nGalvanized steel', 
 'Packages: 5\n\nSONGESAND\nunderbed storage box, set of 2\n\nSONGESAND\nbed frame\n\nSKORVA\ncenter support beam'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(26,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(26,
 '392.881.90', 'May be completed with DELAKTIG floor lamp.\n\nSpecially adapted slat is included. Complete with mattress of choice, min. height 7⅛".
 \n\nThe price for this combination includes SKORVA midbeam, but it is a separate product which you pick from its own shelf at the store. If you buy the bed via the website, SKORVA midbeam is included in the delivery.
 \n\nDesigner\nTom Dixon/IKEA of Sweden', 'Length: 81 1/8 "\nWidth: 77 1/2 "\nHeight: 39 "', 'Headrest\nBed frame/headboard/2 side tables
@@ -317,7 +317,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nGalvanized steel\n\nSide table for frame\nTable top:\nMolded layer-glued wood veneer, Laminate (melamine)
 \n\nEdge:\nStain, Clear acrylic lacquer\n\nBracket:\nAluminum, Anodized', 'Packages: 7\n\nDELAKTIG\nside table for frame\n\nDELAKTIG\nbed frame
 \n\nDELAKTIG\nheadboard\n\nDELAKTIG\nfixture for headboard\n\nSKORVA\ncenter support beam'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(27,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(27,
 '092.752.07', 'Practical storage for an extra pillow, comforter or bedspread.\n\nMade of solid wood, which is a durable and warm natural material.
 \n\nAdjustable bed sides allow you to use mattresses of different thicknesses.\n\nThe 4 large drawers give you an extra storage space under the bed.
 \n\nCoordinates with other furniture in the HEMNES series.\n\nMattress and bedlinens are sold separately.
@@ -332,7 +332,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nBeech veneer, Birch veneer, Foil, Adhesive resin as coating\n\nBed slat holder:\nHigh impact polystyrene\n\nBed mechanism:\nSteel, Galvanized
 \n\nRibbon:\n100 % polypropylene\n\nCenter support beam\n\nGalvanized steel', 'Packages: 7\n\nHEMNES\nunderbed storage box, set of 2\nPackage(s): 2
 \n\nLEIRSUND\nslatted bed base, adjustable\nPackage(s): 1\n\nSKORVA\ncenter support beam\nPackage(s): 1\n\nHemnes\nbed frame\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(28,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(28,
 '692.283.93', 'Easy to get in and out of bed because the mattress base makes the bed higher.
 \n\nNatural latex helps you to fully relax by contouring your body shape to relieve pressure and provide precise support.
 \n\nNatural materials like wool and cotton help air flow through the mattress to make sure you don’t get too warm or cold.
@@ -340,7 +340,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nThe distinctive texture on the sides of the mattress and mattress base comes from the natural, undyed and unbleached linen that creates subtle variations in the surface.
 \n\nThe textiles closest to your skin are made of 100% cotton from sustainable sources.\n\n25-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
 \n\nMAUSUND latex mattress is included in the price but packaged separately.\n\nESPEVÄR foundation and ESPEVÄR cover are included in the price but packaged separately.
-\n\nLegs are included in the price but packaged separately.\n\nDesigner\nOla Wihlborg/IKEA of Sweden', 'Length: 79 1/2 "\nWidth: 59 7/8 "\nHeight: 26 3/8 "', 
+\n\nLegs are included in the price but packaged separately.\n\nDesigner\nOla Wihlborg/IKEA of Sweden', 'Length: 79 1/2 "\nWidth: 59 7/8 "\nHeight: 26 3/8 "', null,
 'Environment\nNatural latex mattress:\nAt least 50% (weight) of this product is made from renewable materials.
 \nAll the cotton in our products comes from more sustainable sources. This means that the cotton is either recycled, or grown with less water, less fertilizers and less pesticides, while increasing profit margins for the farmers.
 \nProduct possible to recycle or use for energy recovery, if available in your community.
@@ -350,7 +350,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n53 % linen, 47 % viscose/rayon\n\nComfort material:\n85 % natural/ 15 % synthetic latex\n\nLeg\nSolid oak, Clear acrylic lacquer
 \n\nSupport leg\nSteel, Polypropylene, Epoxy powder coating, Epoxy powder coating', 'Packages: 5\n\nBURFJORD\nleg\nPackage(s): 1
 \n\nESPEVÄR\nmattress base\nPackage(s): 1\n\nSULTAN\nsupport leg\nPackage(s): 1\n\nESPEVÄR\ncover\nPackage(s): 1\n\nMAUSUND\nnatural latex mattress\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(29,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(29,
 '492.278.08', 'You can quickly convert the stacked beds into a double bed, twin beds or corner sofa.\n\nThe lightweight frames are easy to lift and move.
 \n\nThe compact design is perfect for tight spaces or under low ceilings, so you can make the most of your available space.
 \n\nThe stacked beds sit evenly since the upper bed has small plastic feet which fit into holes on the lower bed.
@@ -367,7 +367,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nWadding:\n65% viscose/rayon, 30% polyester, 5% modacrylic fiber wadding\n\nLining:\nNon-woven polypropylene\n\nZipper:\n100 % polyester\n\nComfort material:
 \nPolyurethane foam 1.7 lb/cu.ft.\n\nBonell spring coil:\nSteel, 100 % polyester, Felt liner, 100 % polyester, Felt liner', 
 'Packages: 4\n\nUTÅKER\nstackable bed\nThis product has multiple packages.\nPackage(s): 2\n\nHUSVIKA\nspring mattress\nPackage(s): 2');
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(30,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(30,
 '992.916.70', 'A classic continental bed with a soft, fully upholstered headboard – perfect for placing in the middle of the room.
 \n\nIf you read or watch TV in bed the soft headboard is comfortable to lean against.\n\n17 layer-glued slats adjust to your body weight and increase the suppleness of the mattress.
 \n\nMattress is sold separately.\n\nLegs included.\n\nSlatted bed base is included in the price but packaged separately.
@@ -381,7 +381,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nBeech veneer, Birch veneer, Adhesive resin as coating\n\nCenter support beam\nGalvanized steel\n\nLeg\nSolid oak, Clear acrylic lacquer', 
 'Packages: 5\n\nLURÖY\nslatted bed base\nPackage(s): 1\n\nBURFJORD\nleg\nPackage(s): 1\n\nKVALFJORD\nbed frame\nThis product has multiple packages.\nPackage(s): 2
 \n\nSKORVA\ncenter support beam\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(31,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(31,
 '792.486.06', 'The compact design is perfect for tight spaces or under low ceilings, so you can make the most of your available space.
 \n\nThe hard-wearing solid pine has natural variations in grain, color and texture, giving every piece a unique look.
 \n\nIf you oil, wax, lacquer or stain the untreated solid wood surface it will be more durable and easy to care for.
@@ -396,13 +396,13 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nSolid pine\n\nSlatted bed base\nLayer glued slats:\nBeech veneer, Birch veneer, Adhesive resin as coating\n\nRibbon/ Ribbon:
 \n100 % polyester\n\nLayer glued slats:\nEucalyptus veneer, Pine veneer, Adhesive resin as coating', 
 'Packages: 2\n\nLURÖY\nslatted bed base\nPackage(s): 1\n\nNEIDEN\nbed frame\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(32,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(32,
 '503.334.50', 'With your imagination and a caravan in tow, you can travel wherever you like. 
 \nWho knows, maybe you can visit tigers and lions in the kitchen or meet cowboys in the living room?\nRecommended for children 18 months and older.
 \n\nDesignerMalin Unnborn', 'Length: 51 ¼ "\nWidth: 31 ½ "\nHeight: 47 ¼ "', 'Hand wash warm water.\nDo not bleach.\nDo not tumble dry.\nDo not iron.
 \nDo not dry clean.', 'Materials\nFabric:\n100 % polyester\nFilling:\nPolyester fiber fill', 'HEMMAHOS
 \nChildren\'s tent\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(33,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(33,
 '403.384.05', 'The bed canopy is easy to mount to the wall above the bed or can be used to create a small and cozy corner with soft blankets and pillows. If it gets dirty, you can easily take it apart and wash it.
 \n\nEasy to clean; machine wash, warm 104°F (40°C).\nThe fabric is made of 100% polyester, a durable material which is tested, approved, and free from harmful substances and additives.
 \n\nWith a bed canopy over the cradle, crib or bed, you create a calm place that makes a child\'s room extra cozy, like in a fairytale. Here, your child will sleep like a prince or princess.
@@ -410,17 +410,17 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nDifferent wall materials require different types of fasteners. Use fasteners suitable for the walls in your home.\n\nDesigner\nA Huldén/S Dahlman', 
 'Length: 54 "\nWidth: 35 "', 'Hand wash warm water.\nDo not bleach.\nDo not tumble dry.\nIron medium temperature, max 300°F/150°C.\nDo not dry clean.', 
 'Materials\n100 % polyester', 'LÖVA\nBed canopy\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(34,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(34,
 '591.246.21', 'Extendable, so it can be pulled out as your child grows.\n\nLURÖY slatted bed base is included in the price, but is packaged separately.
 \n\nMax load indicates static weight, in other words the load which the bed withstands if you lie or sit on it.
 \n\nMattress and bedlinens are sold separately.\n\nDesigner\n\nIKEA of Sweden/Tina Christensen', 
 'Min. length: 49 1/4 "\nMax. length: 76 3/4 "\nWidth: 40 1/8 "\nFootboard height: 28 3/8 "\nHeadboard height: 36 1/4 "
-\nHeight under furniture: 9 "\nMax. load: 220 lb\nMattress length: 38 1/4 "\nMattress width: 74 3/4 "', 
+\nHeight under furniture: 9 "\nMax. load: 220 lb\nMattress length: 38 1/4 "\nMattress width: 74 3/4 "', null, 
 'Environment\nSlatted bed base:\nAt least 50% (weight) of this product is made from renewable materials.
 \nRenewable material (wood).\n\nMaterials\nExtendable bed frame\nSteel, Steel, Steel, Epoxy/polyester powder coating
 \nSlatted bed base\nLayer glued slats:Beech veneer, Birch veneer, Adhesive resin as coating\n\nRibbon:\n100 % polyester', 
 'Packages: 2\n\nLURÖY\nslatted bed base\nPackage(s): 1\n\nMINNEN\nextendable bed frame\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(35,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(35,
 '992.919.91', 'The drawers are easy to open and spacious enough with room for toys, clothes and other gadgets that teenagers usually like to "store" on the floor.
 \n\nSoft edges, recessed handles and just a few visible fittings make the bedframe safe and give it a clean design.
 \n\nYou can easily adapt the timeless look based on your taste and personal style by completing with different bed textiles, pillows and accessories.
@@ -433,14 +433,14 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nMattress and bedlinens are sold separately.\n\nDesigner\nEbba Strandmark/IKEA of Sweden', 'Shelf width: 16 1/2 "
 \nShelf depth: 13 3/4 "\nHeight of drawer (inside): 5 1/2 "\nLength: 77 1/8 "\nWidth: 40 1/2 "\nDrawer width (inside): 28 3/8 "
 \nDrawer depth (inside): 22 1/2 "\nFootboard height: 28 "\nHeadboard height: 35 7/8 "\nMax. load: 220 lb\nMaximum load/drawer: 33 lb
-\nMattress length: 74 3/8 "\nMattress width: 38 1/4 "', 'Environment\n\nSlatted bed base:\nAt least 50% (weight) of this product is made from renewable materials.
+\nMattress length: 74 3/8 "\nMattress width: 38 1/4 "', null, 'Environment\n\nSlatted bed base:\nAt least 50% (weight) of this product is made from renewable materials.
 \nRenewable material (wood).\n\nMaterials\n\nBed frame with storage\nFootboard/ Headboard/ Bottom:\nParticleboard, Fiberboard, Plastic edging, Acrylic paint, Paper foil
 \n\nBedside/ Side/ Back:\nParticleboard, Plastic edging, Acrylic paint, Paper foil\n\nBack part:\nFiberboard, Particleboard, Honeycomb structure paper filling (100% recycled), Plastic edging, Acrylic paint, Paper foil
 \n\nRail:\nFiberboard, Particleboard, Plastic edging, Acrylic paint, Paper foil\n\nShelf:\nFiberboard, Particleboard, Plastic edging, Printed acrylic paint, Paper foil
 \n\nDrawer front:\nFiberboard, Acrylic paint\n\nDrawer side:\nParticleboard, Plastic edging, Plastic foil\n\nDrawer back:\nParticleboard, Plastic foil
 \n\nDrawer bottom:\nFiberboard, Acrylic paint, Paper foil\n\nSlatted bed base\nLayer glued slats:\nBeech veneer, Birch veneer, Adhesive resin as coating
 \n\nRibbon:\n100 % polyester', 'Packages: 5\n\nSLÄKT\nbed frame with storage\nPackage(s): 4\n\nLURÖY\nslatted bed base\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(36,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(36,
 '293.039.40', 'By making the guard rails out of textiles, we use less of the earths resources since the amount of metal decreases by 30% per bed(!) compared to similar beds – good for our environment.
 \n\nThe desk top is large enough for a laptop and books, but still gives you enough room to fit a cozy nook of pillows or storage space next to it.
 \n\nYou can easily keep the workspace neat and tidy since there is built-in cable management and a channel that holds pens in place.
@@ -454,10 +454,10 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nBed base included.\n\nMattress and bedlinens are sold separately.\n\nMax load indicates static weight, in other words the load which the bed withstands if you lie or sit on it.
 \n\nMin. ceiling height required: 94½\".\n\nDesigner\n\nIKEA of Sweden', 'Desk depth: 17 3/4 "\nWidth with ladder: 55 1/2 "\nLength: 77 1/2 "\nWidth: 40 1/2 "
 \nDesk width: 40 1/8 "\nDesk height: 28 3/4 "\nHeight: 76 3/4 "\nHeight under loft bed: 59 "\nMax. load: 220 lb\nMattress length: \n74 3/8 "\nMattress width: 38 1/4 "
-\nMax. mattress thickness: 5 1/8 "', 'Materials\n\nLoft bed frame\nFabric/ Ribbon/ Total composition:\n100 % polyester
+\nMax. mattress thickness: 5 1/8 "', null,  'Materials\n\nLoft bed frame\nFabric/ Ribbon/ Total composition:\n100 % polyester
 \n\nLayer glued slats:\nBirch veneer, Beech veneer, Adhesive resin as coating\n\nMain parts/ Slat holder:\nSteel, Epoxy/polyester powder coating
 \n\nDesk top\nSteel, Polyester powder coating', 'Packages: 4\n\nVITVAL\ndesk top\nPackage(s): 1\n\nVITVAL\nloft bed framePackage(s): 2');
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(37,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(37,
 '702.992.85', 'A good solution where space is limited.\n\nThe bed is lower than standard beds so that parents can see their child
 \n\nThe bed is lower, which makes it easier to make the bed.\n\nIt’s easier to get in and out of the bed with a centered ladder.\n\nBed base included.
 \n\nHigh beds and the upper bed of bunk or loft beds are not suitable for children under 6 years of age due to the risk of injury from falls.
@@ -466,7 +466,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nMattress length: 74 3/8 "\nMattress width: 38 1/4 "\nDistance between beds: 33 7/8 "\nMax. mattress thickness: 5 1/8"', 'Hand wash cold, 86°F (30°C).
 \nDo not bleach.\nDo not tumble dry.\nDo not iron.\nDo not dry clean.\nLine dry.', 'Materials\n\nFabric:\n100 %polyester\n\nMain parts:\nSteel, Epoxy/polyester powder coating', 
 'Packages: 3\n\nTUFFING\nBunk bed frame\nPackage(s): 3'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(38,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(38,
 '502.690.29', 'Can be divided into two single beds.\n\nThe ladder mounts on the right or the left side of the bed.\n\nMade of solid wood, which is a durable and warm natural material.
 \n\nConvenient for limited living spaces.\n\nSlatted bed base is included.\n\nHigh beds and the upper bed of bunk or loft beds are not suitable for children under 6 years of age due to the risk of injury from falls.
 \n\nIt is important not to screw hooks or handles onto the bed or hang ropes or belts in which children can get caught when playing.
@@ -475,7 +475,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Environment\nRenewable material (wood).\n\nMaterials\nMain parts:\nSolid pine, Stain, Clear acrylic lacquer\n\nBed frame panel:\nFiberboard, Foil, Printed fiberboard
 \n\nSupporting rail:\nGalvanized steel\n\nBed base slats:\nSolid pine, Solid pine, Stain, Clear acrylic lacquer', 'Packages: 5\n\nNORDDAL
 \nBunk bed frame\nPackage(s): 5'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(39,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(39,
 '201.024.51', 'The ladder can mount on the left or right side of the bed.\n\nMade of solid wood, which is a durable and warm natural material.
 \n\nA good solution where space is limited.\n\nMax load indicates static weight, in other words the load which the bed withstands if you lie or sit on it.
 \n\nSlatted bed base is included.\n\nHigh beds and the upper bed of bunk or loft beds are not suitable for children under 6 years of age due to the risk of injury from falls.
@@ -484,13 +484,13 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nMattress length: 74 3/8 "\nMattress width: 38 1/4 "\nMax. mattress thickness: 8 1/4 "', 'Wipe clean with a damp cloth.\nWipe clean with a dry cloth.', 
 'Environment\nRenewable material (wood).\n\nMaterials\nBed base slats/ Step/ Front leg/ Leg:\nSolid pine\n\nMain parts:\nSolid pine, Adhesive', 
 'Packages: 2\n\nMYDAL\nBunk bed frame\nPackage(s): 2'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(40,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(40,
 '003.464.07', 'Only natural ingredients: meat, onion, breadcrumbs, egg, water, salt and pepper.\n\nMeatballs with mashed potatoes, cream sauce and lingonberry jam is Sweden’s No.1 dish.
 \n\nMeatballs should taste like meat. That’s why we’ve seasoned the beef and pork gently with only a few ingredients, every one of them enhancing the meat flavor even more.
 \n\nEasily prepared from frozen in minutes. In the oven, in the microwave or on the stove.\n\nEasily portioned. Prepare the amount needed, leave the rest in the freezer.
 \n\nJust as tasty warm as they are cold, e.g. cut in half as a sandwich topping.\n\nCreate a buffet with meatballs, veggie balls, chicken meatballs and salmon balls. One for every taste.', 
 'Net weight: 2 lb 3 oz', null, null, 'ALLEMANSRÄTTEN\nMeatballs, frozen\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(41,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(41,
 '503.472.11', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
 \n\nThe cold-start function prevents hot water waste and saves energy. When you lift the lever straight up, only cold water is released. The function restricts opening the lever fully to the right.
 \n\nHot water is released by turning the lever to the left. It is only then that hot water is consumed.
@@ -506,7 +506,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Environment
 \nWater is precious and should not be wasted. That’s why all our faucets and showers have a mechanism that helps save water and energy while keeping the water pressure just right. Good for us and our planet.
 \n\nMaterials\nBrass, Metallized', 'HAMNSKÄR\nBath faucet with strainer\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(42,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(42,
 '104.003.33', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
 \n\nThe cold-start function prevents hot water waste and saves energy. When you lift the lever straight up, only cold water is released. The function restricts opening the lever fully to the right.
 \n\nHot water is released by turning the lever to the left. It is only then that hot water is consumed.
@@ -524,7 +524,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Environment\nWater is precious and should not be wasted. That’s why all our faucets and showers have a mechanism that helps save water and energy while keeping the water pressure just right. Good for us and our planet.
 \nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
 \n\nMaterials\nBrass, Metallized', 'LILLSVAN\nBath faucet with strainer\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(43,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(43,
 '603.430.62', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
 \n\nThe cold-start function prevents hot water waste and saves energy. When you lift the lever straight up, only cold water is released. The function restricts opening the lever fully to the right.
 \n\nHot water is released by turning the lever to the left. It is only then that hot water is consumed.
@@ -541,7 +541,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nNever use scouring powder, steel wool or a detergent that is calcium-dissolving, sour or contains alcohol or an abrasive.', 
 'Environment\nWater is precious and should not be wasted. That’s why all our faucets and showers have a mechanism that helps save water and energy while keeping the water pressure just right. Good for us and our planet.
 \n\nMaterials\nBrass, Metallized', 'VOXNAN\nFaucet, tall\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(44,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(44,
 '802.621.25', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
 \n\nThis is a durable faucet that you can use for many years, since the hard, ceramic discs withstand the friction that always occurs when you change the temperature of the water.
 \n\nChrome-plated brass is a hard and durable surface that is easy to clean.\n\nStrainer included.\n\nWater and energy saving aerator (1.2 gal/min.) for high-pressure systems included.
@@ -556,7 +556,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nNever use scouring powder, steel wool or a detergent that is calcium-dissolving, sour or contains alcohol or an abrasive.',
 'Environment\nWater is precious and should not be wasted. That’s why all our faucets and showers have a mechanism that helps save water and energy while keeping the water pressure just right. Good for us and our planet.
 \n\nMaterials\nBrass, Metallized', 'RUNSKÄR\nBath faucet with strainer\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(45,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(45,
 '304.468.96', 'Safety film reduces damage if glass is broken.
 \n\nThe frame around the bottom of the mirror forms a shelf where you can put your makeup, mobile phone or wallet.\n\nSuitable for use in most rooms, and tested and approved for bathroom use.
 \n\nThe distinctive grain pattern in the walnut veneer gives each piece of furniture a unique character.\n\nWalnut is a naturally hardwearing material. The surface has been made even more durable by a protective coat of lacquer.
@@ -565,7 +565,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Wood\nWipe dry with a clean cloth.\nWipe clean with a water dampened cloth.
 \n\nGlass\nWipe clean with a damp cloth. Use only water or window-cleaner.\nWipe dry with a clean cloth.', 'Materials\nMirror glass: Glass
 \n\nFrame: Molded plywood, Walnut veneer, Clear lacquer\n\nFixing device: Molded plywood', 'STOCKHOLM\nMirror\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(46,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(46,
 '302.174.99', 'You can hang your belts, bags and accessories from the knobs on the side.\n\nSuitable for use in most rooms, and tested and approved for bathroom use.
 \n\nMade of solid wood, which is a durable and warm natural material.\n\nSafety film reduces damage if glass is broken.
 \n\nFor your child’s safety, don’t allow them to climb or stand on the shelf under the mirror.\n\nDesigner\nKai Legaard', 
@@ -573,7 +573,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nGlass\nWipe clean with a damp cloth. Use only water or window-cleaner.\nWipe dry with a clean cloth.', 'Environment
 \nLead-free mirrors – No lead added in manufacturing of our mirrors.\n\nMaterials\nMain parts:\nSolid pine, Stain, Clear acrylic lacquer\nMirror glass:\nGlass', 
 'ISFJORDEN\nFloor mirror\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(47,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(47,
 '002.781.49', 'One side with magnifying mirror.\n\nSuitable for use in high humidity areas since it is water-resistant.\n\nLED life approx. 20,000 hours.
 \n\nLighting duration: Approx. 8 hours with alkaline AA batteries (LR6/1.5V) or approx. 5 hours with rechargeable AA batteries (Ni-MH/1.2V).
 \n\nOne side of the mirror magnifies 3 times.\n\nLight color: warm white (3700 Kelvin).\n\nDo not expose to direct sunlight. The sunbeams may reflect in the mirror glass and ignite flammable material.
@@ -581,7 +581,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Height: 14 5/8 "\nDiameter: 7 7/8 "', '
 Wipe clean with a dry cloth.', 'Environment\nSpecial waste handling may be required. Please contact your local authorities for more information.
 \n\nMaterials\nBase/ Tube: Steel, Nickel plated\nMirror: Glass', 'KAITUM\nMirror with built-in light\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(48,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(48,
 '003.069.20', 'The mirror can be placed on a table or chest of drawers, or hung on the wall.\n\nIf you choose to hang the mirror on the wall, you can use the stand as a hanger for scarves and ties.
 \n\nSuitable for use in most rooms, and tested and approved for bathroom use.\n\nSafety film reduces damage if glass is broken.
 \n\nIf you hang the mirror on the wall do not let your child climb or stand on the shelf/hanger.\n\nMounting fittings included.
@@ -591,22 +591,22 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Environment\nLead-free mirrors – No lead added in manufacturing of our mirrors.
 \n\nMaterials\nMain parts: Molded plywood, Ash veneer, Clear acrylic lacquer\nMirror glass: Glass', 
 'IKORNNES\nTable mirror\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(49,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(49,
 '504.002.70', 'Helps you organize your jewelry, makeup and bottles.
 \n\n10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
+\nSizes: 1 box (9½x8x3¾", 1 gal), 1 box (8⅝x3x3¾", 40 oz) and 3 boxes (4x3x3¾", 17 oz).
 \n\nDesigner\nIKEA of Sweden', 'Length: 9 ½ "\nWidth: 7 ¾ "\nHeight: 4 "', 
-'Sizes: 1 box (9½x8x3¾", 1 gal), 1 box (8⅝x3x3¾", 40 oz) and 3 boxes (4x3x3¾", 17 oz).',
 'Wipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.', 
 'Environment\nPlastic can be recycled multiple times, reducing our environmental footprint. All products containing recycled materials meet the same quality and safety demands as we have on all our products.
 \n\nMaterials\nPET plastic', 'GODMORGON\nBox with lid, set of 5\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(50,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(50,
 '403.918.79', 'You can place the jars individually, stacked or grouped thanks to the cork lids and tray that keep them in place.
 \n\nCan be used with other SAXBORGA products.\n\nDesigner\nH Preutz/M Seipel',
 'Sizes: 2 jars dia. 3", height 2", 2 jars dia. 3", height 4⅜" and 1 tray length 10", width 4" and height 1".',
 'Wipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.', 
 'Environment\nRenewable material (cork).\n\nMaterials\nJar: Glass\nLid/ Tray: Cork', 
 'SAXBORGA\nJar with lid and tray, set of 5\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(51,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(51,
 '092.165.95', "With SKÅDIS pegboard it's easy to organize all the rooms of the home and quickly find what you need.
 \n\nThe accessories are easy to attach anywhere on the board and are easy to move when you like.
 \n\nDifferent wall materials require different types of fasteners. Use fasteners suitable for the walls in your home.
@@ -617,7 +617,7 @@ null, 'Environment\n\nContainer with lid/container/hook/pegboard/shelf:
 \nSteel, Steel, Epoxy/polyester powder coating\n\nHook\nSteel, Galvanized, Powder coating\n\nPegboard\nMain parts:
 \nFiberboard, Acrylic paint\n\nMetal parts:\nSteel, Powder coating', 'Packages: 6\n\nSKÅDIS\nshelf\nPackage(s): 2
 \n\nSKÅDIS\npegboard\nPackage(s): 1\n\nSKÅDIS\ncontainer\nPackage(s): 1\n\nSKÅDIS\nhook\nPackage(s): 1\n\nSKÅDIS\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(52,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(52,
 '601.931.28', "Anti-slip material on the bottom. The potty won't move easily when your child is using it.
 \n\nMade from harmless plastic, the same material used in baby bottles, disposable diapers and food boxes.
 \n\nEasy to empty and clean.\n\nRecommended for children 12 months and older.\n\nDesigner\nMonika Mulder", 
@@ -625,13 +625,13 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
 \nBPA (Bisphenol A) free\nIKEA has banned BPA (Bisphenol A) in plastic products in the children’s range (0-7 years) and in all food-contact products. IKEA phased out BPA in 2006.
 \n\nMaterials\nPolypropylene, Synthetic rubber', "LOCKIG\nChildren's potty\nPackage(s): 1"); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(53,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(53,
 '803.918.82', 'Bring the storage box wherever you like, to put on your contact lenses, jewelry or make-up. You don’t have to look for a mirror, there’s one inside.
 \n\nPerfect for storing tweezers, nail files, scissors, contact lenses or make-up since the storage box has 2 inserts and 12 small compartments.
 \n\nCan be used with other SAXBORGA products.\n\nDesigner\nH Preutz/M Seipel', 'Length: 9 ½ "\nWidth: 6 ¾ "\nHeight: 5 ½ "', 
 'Wipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.', 'Environment\nRenewable material (cork).
 \n\nMaterials\nLid: Cork\nBox: Wood Plastic Composite\nMirror: Glass', 'SAXBORGA\nStorage box with mirrored lid\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(54,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(54,
 '203.242.92', 'Perfect when your child wants to learn how to brush their teeth and hair on their own.
 \n\nYou can quickly mount the storage board at the right height with the four included suction cups. The only thing needed is a smooth surface such as glass, mirrors or tiles.
 \n\nThe storage board has holes which make it easy for your child to hang all the pieces up.
@@ -645,12 +645,12 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nMaterials\nBasket/ Shelf:\nPolypropylene\n\nMirror glass:\nAcrylic, Polypropylene\n\nBoard/ Knob/ Cover cap/ Holder/ Lid:
 \nABS plastic\n\nSuction cups:\nSynthetic rubber\n\nInsert:\nZinc, Galvanized\n\nContainer:\nABS plastic, Sand', 
 'LÅDDAN\n6-piece storage board set\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(55,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(55,
 '603.033.63', 'Suction cups keep the mat safely in place in your bathtub or shower.\n\nYou can keep the mat clean and fresh longer by hanging it up to dry after you’ve used it. The hole in the mat is perfect for hanging.
 \n\nDesigner\nJohanna Jelinek', 'Length: 33 "\nWidth: 13 "', 'Machine wash warm, normal cycle.\nDo not bleach.\nDo not tumble dry.
 \nDo not iron.\nDo not dry clean.\nLine dry.', 'Environment\nProduct possible to recycle or use for energy recovery, if available in your community.
 \n\nMaterials\nNatural rubber, Calcium carbonate', 'DOPPA\nBathtub mat\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(56,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(56,
 '403.812.53', 'Water drains easily through the holes in the bottom.\n\nOne push assembly - clean the wall surface and push to attach. No tools are needed.
 \n\nTo release and remove, insert a credit card (or similar) between the suction cup and the wall. No ugly holes or marks are left behind.
 \n\nThe suction cups have a tight grip on smooth surfaces like glass or tiles.\n\nOnly sticks on flat surfaces such as glass, mirrors, and tiles.
@@ -659,7 +659,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Wipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.', 
 'Materials\nFrame/ Plate:\nPolycarbonate plastic\n\nSuction cup:\nSynthetic rubber\n\nCover/ Body/ Basket:\nRecycled ABS plastic', 
 'TISKEN\nBasket with suction cup\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(57,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(57,
 '601.483.29', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
 \n\nCan be used as a shelf for a soap dish and tumbler, thanks to the depth of the frame.
 \n\nStrainer and water-trap included.\n\nTowel hanger, soap dish and tray in stainless steel included.
@@ -672,7 +672,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nMaterials\nMain parts:\nCeramic, Colored glaze\n\nMain parts/ Strainer/ Stopper/ Knob:\nStainless steel
 \n\nWater trap/ Washer:\nPolypropylene\n\nScrew:\nBrass, Chrome plated\n\nSeal:\nSynthetic rubber, Polyethylene foam
 \n\nShaft:\nAcetal plastic', 'LILLÅNGEN\nSink\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(58,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(58,
 '103.549.63', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
 \n\nUnique water trap design gives room for a full sized drawer.\n\nA countertop sink gives your bathroom a complete, personal look.
 \n\nStrainer and water-trap included.\n\nUse the included measuring template before attaching the sink to the countertop.
@@ -684,7 +684,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Materials\nMain parts:\nChina, Colored glaze\n\nWater trap/ Washer:\nPolypropylene\n\nScrew:\nBrass, Chrome plated
 \n\nStrainer/ Stopper/ Knob:\nStainless steel\n\nSeal:\nSynthetic rubber, Polyethylene foam\n\nShaft:\nAcetal plastic', 
 'GUTVIKEN\nCountertop sink\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(59,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(59,
 '302.915.16', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
 \n\nUnique water trap design gives room for a full sized drawer.\n\nA countertop sink gives your bathroom a complete, personal look.
 \n\nStrainer and water-trap included.\n\nUse the included measuring template before attaching the sink to the countertop.
@@ -697,7 +697,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nMaterials\nMain parts:\nChina, Colored glaze\n\nWater trap/ Washer:\nPolypropylene\n\nScrew:\nBrass, Chrome plated
 \n\nStrainer/ Stopper/ Knob:\nStainless steel\n\nSeal:\nSynthetic rubber, Polyethylene foam\n\nShaft:\nAcetal plastic', 
 'TÖRNVIKEN\nCountertop sink\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(60,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(60,
 '301.483.21', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
 \n\nPerfect for more than one since the sinks has two bowls.\n\nUnique water trap design gives room for a full sized drawer.
 \n\nStrainer and water-trap included.\n\nThe sink is resistant to most chemicals, except for strong acids and strong alkalis.
@@ -710,14 +710,14 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nMaterials\nMain parts:\nCeramic, Colored glaze\n\nWater trap/ Washer:\nPolypropylene\n\nScrew:
 \nBrass, Chrome plated\n\nStrainer/ Stopper/ Knob:\nStainless steel\n\nSeal:\nSynthetic rubber, Polyethylene foam\n\nShaft:
 \nAcetal plastic', 'ODENSVIK\nDouble bowl sink\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(61,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(61,
 '201.301.66', 'Encourages role play which helps children to develop social skills by imitating grown-ups and inventing their own roles.
 \n\nRecommended for children 3 years and older.\n\nThe rolling pin and pastry cutters can be used for regular baking. All other parts are only suitable for play and are not heat-resistant.
 \n\nThis product bears the CE mark.\n\nDesigner\nIKEA of Sweden', null, 'Not oven-safe.\nNot dishwasher-safe.', 
 'Environment\nProduct possible to recycle or use for energy recovery, if available in your community.
 \n\nMaterials\nMold:\nAluminum\n\nBowl/ Plate:\nSteel, Tin plated\n\nTray:\nSteel, Non stick coating\n\nWooden part(s):\nSolid birch, Acrylic paint, Clear acrylic lacquer', 
 'DUKTIG\n7-piece toy baking set\nPackage(s): 1');
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(62,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(62,
 '203.300.66', 'An entire city where your train chugs along through tunnels and goes up steep hills on its journey passing high buildings and lush trees.
 \n\nCan be used with most other railway systems on the market.
 \n\nIn order to conserve our resources, we use as much of the tree as possible when we manufacture the LILLABO series. That’s why each item is unique with varying grain patterns and natural color shifts.
@@ -727,7 +727,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Materials\nTrack:\nSolid beech\n\nVehicles/ Tree:\nSolid beech, Acrylic paint, Clear acrylic lacquer
 \n\nNail/ Axle:\nSteel, Galvanized\n\nWheel:\nPolyethylene\n\nHouse/ Roof/ Post:\nSolid beech, Stain, Clear acrylic lacquer
 \n\nBridge/ Station:\nPolypropylene\n\nCrossing/ Tunnel:\nABS plastic', 'LILLABO\n45-piece train set with track\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(63,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(63,
 '703.568.22', 'Honk and drive! On this rug there are roads, parking spaces, traffic signs and railroads – just like in a city. Perfect to use with toy cars and figures from the LILLABO series.
 \n\nThe pile of the rug dampens sound, creating a snug feeling, and is soft to walk on.
 \n\nChildren\'s play can place tough demands on surroundings, something that also applies to rugs. That’s why the rug is made from durable, stain-resistant synthetic fibers which are easy to care for.
@@ -740,12 +740,12 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nDo not bleach.\nDo not tumble dry.\nDo not iron.\nDo not dry clean.\nShrinkage 4%.\nVacuum and rotate the rug regularly.', 
 'Materials\nPile:\n100 % nylon\n\nBase fabric:\n100 % polypropylene\n\nBacking:\nSynthetic rubber', 
 'STORABO\nRug\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(64,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(64,
 '300.557.60', 'Can be placed on its back or hung on the wall.\n\nScrews are sold separately.\n\nDesigner\nKarl Malmvall', 
 'Width: 4 3/4 "\nDepth: 3 7/8 "\nHeight: 17 3/4 "', 'Wipe clean with a damp cloth.', 'Environment
 \nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
 \n\nMaterials\nStainless steel', 'VURM\n4-bottle wine rack\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(65,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(65,
 '403.712.25', 'You can choose to either mount the dish drainer directly on the wall or in the KUNGSFORS system, or place it on the countertop.
 \n\nRemovable tray underneath to collect water from the drainer.\n\nThe dish drainer has soft plastic feet with an anti-slip surface so the dish drainer stands firm on the countertop.
 \n\nThe spikes on the dish drainer can be folded down if you want to use it as a shelf.\n\nCan be used in high humidity areas.
@@ -758,19 +758,19 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nDo not use scouring-powder, steel wool, hard or sharp tools which can scratch the stainless steel surface.', 
 'Materials\nStrip/ Tray:\nStainless steel, Stainless steel\n\nBracket/ Rivet:\nStainless steel\n\nWire:\nSteel, Galvanized, Powder coating', 
 'KUNGSFORS\nDish drainer\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(66,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(66,
 '301.317.16', 'Suitable for large kitchen utensils.', 'Height: 7 1/8 "\nDiameter: 4 3/4 "', 'Dishwasher-safe.', 'Environment
 \nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
 \n\nMaterials\nStainless steel', 'ORDNING\nUtensil holder\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(67,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(67,
 '002.086.70', 'The paper towel holder has a support bar that makes it easier to tear off a sheet.\n\nDesigner\nIKEA of Sweden', 
 'Height: 11 "', 'Wipe clean with a damp cloth.', 'Environment\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
 \n\nMaterials\nSteel, Galvanized', 'TORKAD\nPapertowel holder\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(68,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(68,
 '101.490.29', 'Levers make uncorking bottles easier.\n\nBottle opener in the handle.', 'Length: 6 ¼ "', 'Handwash only.', 'Environment
 \nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
 \n\nMaterials\nZinc, Nickel plated', 'IDEALISK\nCorkscrew\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(69,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(69,
 '103.468.31', 'The blade of the knife has a ceramic non-stick coating. This makes the knife easy to clean and prevents food from sticking to the blade when cutting and chopping.
 \n\nThe handle has a synthetic rubber feature that provides a better grip and helps prevent the knife from slipping in your hand.
 \n\nWith the included knife block you have proper storage for your knives, since it protects the blade of the knife and keeps the edge sharper longer.
@@ -779,41 +779,41 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'The knife block can be wiped clean with a damp cloth. The knives should be washed by hand.', 'Materials\nBase/ Stand:\nABS plastic
 \n\nRivet:\nSynthetic rubber\n\nBlade:\nStainless steel\n\nHandle:\nSynthetic rubber, Polypropylene\n\nFoot:\nSilicone rubber', 'JÄMFÖRA
 \nKnife block with 3 knives\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(70,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(70,
 '702.576.24', 'Materials in the handle provide a firm grip.
 \n\nIncludes: Bread knife 9" (tot. length 13¾"), cook\'s knife 5¾" (tot. length 11") and paring knife 4" (tot. lenght 8").
 \n\nWash this product before using it for the first time.\n\nDesigner\nD Crafoord/U Vejbrink', null,  'Handwash only.', 'Materials\nHandle:
 \nPolypropylene, Synthetic rubber\n\nBlade:\nStainless steel', 'ÄNDLIG\n3-piece knife set\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(71,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(71,
 '004.367.90', 'Materials in the handle provide a firm grip.
 \n\nIncludes: Cook\'s knife 5½" (tot. length 10⅝") and paring knife 3" (tot. length 7").
 \n\nWash this product before using it for the first time.\n\nDesigner\nH Crondahl/A Pitkäjärvi', null, 'Handwash only.', 'Materials\nBlade:
 \nStainless steel\n\nHandle:\nPolypropylene', 'FÖRDUBBLA\n2-piece knife set\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(72,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(72,
 '503.468.29', 'Includes: Cooks knife 6¾" (tot. length 12"), cook’s knife 5" (tot. length 11") and paring knife 3" (tot. lenght 7½").
 \n\nWash this product before using it for the first time.\n\nDesigner\nAaron Probyn', null, 'Handwash only.', 
 'Materials\nBlade:\nStainless steel\n\nHandle:\nPolypropylene, Synthetic rubber\n\nCover cap:\nStainless steel, Non stick coating', 
 'FÖRSLAG\n3-piece knife set\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(73,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(73,
 '303.411.73', 'Includes: 1 cook’s knife 5½" (tot. length 10"), 1 cook’s knife 6¾" (tot. length 12") and 1 utility knife 8" (tot. length 13").
 \n\nDesigner\nHåkan Olsson', null, 'Handwash only.', 'Materials\nBlade:\nStainless steel\n\nHandle:\nPolypropylene, Synthetic rubber', 
 'VÖRDA\n3-piece knife set\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(74,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(74,
 '700.917.61', 'Includes: Fork, knife, spoon, teaspoon and dessert/salad fork, 4 of each.\n\nWash this product before using it for the first time.
 \n\nDesigner\nCarl-Gustaf Jahnsson', null, 'Dishwasher-safe.\n\nFor the flatware to be easy to clean and to reduce the risk of corrosion, always rinse off the remains of any food immediately.', 
 'Environment\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
 \n\nMaterials\nSpoon/ Fork/ Salad fork/ Tea spoon:\nStainless steel\n\nKnife:\nStainless steel, Stainless steel', 
 'DRAGON\n20-piece flatware set\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(75,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(75,
 '702.334.16', 'You can easily turn the chopping board and use both sides when you prepare food, because it has easy-to-grip slanted edges.
 \n\nWash this product before using it for the first time.\n\nDesigner\nJon Karlsson', 'Length: 13 ½ "\nWidth: 9 ½ "\nThickness: ½ "', 
 'Dishwasher-safe.', 'Environment\nNo BPA (Bisphenol A) added.\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
 \n\nMaterials\nMiddle part:\nReinforced polypropylene\n\nUpper part/ Lower part:\nPolyethylene, Polypropylene', 
 'MATLUST\nChopping board\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(76,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(76,
 '000.467.86', 'The oil prolongs the life of kitchen accessories in untreated wood.\nApproved for use on surfaces where food is prepared.', 
 'Volume: 17 oz', null, 'Materials\nWhite mineral oil', 'SKYDD\nWood treatment oil, indoor use\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(77,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(77,
 '002.334.29', 'The chopping board collects food juice in the milled groove and prevents it from spilling on to your countertop.
 \n\nYou can easily turn the chopping board and use both sides when you prepare food, because it has easy-to-grip slanted edges.
 \n\nCan be placed over the bowl on BOHOLMEN, BREDSKÄR or FYNDIG sink to get an extra work surface for preparing food.
@@ -822,15 +822,15 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nWash this product before using it for the first time.\n\nDesigner\nJon Karlsson', 'Length: 17 ¾ "\nWidth: 14 ¼ "\nThickness: 1 ¼ "', 
 'Should be treated with food approved oil now and then.\nHandwash only.', 'Environment\nRenewable material (bamboo).\n\nMaterials\nBamboo, Oil', 
 'APTITLIG\nButcher block\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(78,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(78,
 '300.833.34', 'Includes: 13" spoon, 11" ladle, 13" turner and 13" spaghetti server.\n\nWash this product before using it for the first time.
 \n\nDesigner\nIKEA of Sweden', null, 'Dishwasher-safe.', 'Environment\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
 \n\nMaterials\nStainless steel', 'GRUNKA\n4-piece kitchen utensil set\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(79,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(79,
 '902.257.31', 'Gentle to pots and pans with non-stick coating.\n\nWash this product before using it for the first time.\n\nDesigner\nJozephine Duker', 
 'Length: 10 "', 'Dishwasher-safe.', 'Environment\nPossible to separate for recycling or energy recovery if available in your community.
 \nNo BPA (Bisphenol A) added.\n\nMaterials\nHandle:\nABS plastic\n\nBlade:\nSilicone rubber', 'GUBBRÖRA\nRubber spatula\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(80,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(80,
 '102.336.69', 'Two gears allow you to choose the speed and vary the power.
 \n\nThe metal bridge between the whisks rests against the bottom of the bowl, which gives you extra support when whisking.
 \n\nYou don’t need electricity, as the whisk is cranked by hand, which saves energy.\n\nEasy to clean, as the entire handheld whisk can be rinsed under running water.
@@ -838,21 +838,23 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
 \n\nMaterials\nHandle/ Knob:\nSynthetic rubber\n\nMetal parts:\nStainless steel\n\nHousing/ Top:\nABS plastic\n\nWhisk:\nReinforced polyamide', 
 'JÄMFÖRLIG\nHand held whisk\nPackage(s): 1'); 
-/*81!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/*/
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(82,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(81,
+'700.286.80', 'Only natural ingredients: meat, onion, breadcrumbs, egg, water, salt and pepper.', 'Net weight: 
+2.20 lb', null, null, 'KÖTTBULLAR\nMeatballs, frozen\nPackage(s): 1'); 
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(82,
 '292.960.01', "You sit comfortably thanks to the chair's shaped back and seat. \n\nor increased stability, re-tighten the screws about two weeks after assembly and when necessary.", 
 'Length: 55 1/8 "\nWidth: 30 3/4 "\nHeight: 37 3/8 "', 'Bar table/barstool frame/seat shell\nWipe clean with a damp cloth.', 
 'Materials\nBar table\nTable top:\nFiberboard, Acrylic paint\n\nFeet:\nSynthetic rubber\n\nLeg/ Underframe:\nSolid eucalyptus wood, Paint
 \n\nBarstool frame\nLeg/ Leg rail:\nSolid eucalyptus wood, Paint\n\nFeet:\nSynthetic rubber\n\nFitting:\nSteel, Galvanized\n\nSeat shell\nPolypropylene', 
 'Packages: 9\n\nFANBYN\nbar table\nPackage(s): 1\n\nFANBYN\nseat shell\nPackage(s): 4\n\nFANBYN\nbarstool frame\nPackage(s): 4'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(83,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(83,
 '392.602.47', 'You sit comfortably thanks to the shaped back and armrests.\n\nMay be combined with FANBYN bar table.
 \n\nFor increased stability, re-tighten the screws about two weeks after assembly and when necessary.', 
 'Tested for: 243 lb\nWidth: 21 1/4 "\nDepth: 24 3/4 "\nHeight: 40 1/8 "\nSeat width: 20 7/8 "\nSeat depth: 16 1/2 "\nSeat height: 25 1/4 "', 
 'Seat shell/barstool frame\nWipe clean with a damp cloth.', 'Materials\nSeat shell\nPolypropylene\n\nBarstool frame\nLeg/ Leg rail:
 \nSolid eucalyptus wood, Paint\n\nFeet:\nSynthetic rubber\n\nFitting:\nSteel, Galvanized', 'Packages: 2\n\nFANBYN\nseat shell\nPackage(s): 1
 \n\nFANBYN\nbarstool frame\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(84,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(84,
 '592.530.81', 'You can just shake off water from a light rain, as the cushion cover is water repellent.
 \n\nThe cover is easy to keep clean because it is removable and machine washable.\n\nThe color stays fresh for longer, as the fabric is fade resistant.
 \n\nThe dope-dyeing process reduces consumption of water and dye while improving color fastness compared to traditional dyeing techniques.
@@ -866,7 +868,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nNo perfluorinated chemicals (e.g. PFOS, PFOA, PFOSA) are used to make this product water repellent. As perfluorinated chemicals are non-degradable, it’s better for you and the environment to avoid them.
 \n\nMaterials\nCover for seat pad\n100% polyester (min. 90% recycled)\n\nInner seat pad\nCover/ Filling/ Smolder resistant lining:\nPolyester wadding
 \n\nCore filling:\nPolyurethane foam', 'Packages: 2\n\nDUVHOLMEN\ninner seat pad\nPackage(s): 1\n\nFRÖSÖN\ncover for seat pad\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(85,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(85,
 '402.085.31', 'The drop-leaves can be folded and removed, so you can quickly adjust the table size according to your needs.
 \n\nThe hole in the middle of the table top keeps your umbrella in place.
 \n\nFor added durability and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with several layers of semi-transparent wood stain.
@@ -880,7 +882,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. By 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.
 \n100% renewable material. (Fixtures excluded)\nMaterials\nSolid acacia wood, Acrylic stain', 
 'ÄPPLARÖ\nDrop-leaf table, outdoor\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(86,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(86,
 '102.051.81', 'For added durability and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with several layers of semi-transparent wood stain.
 \n\nThis bench has been tested for home use and meets the requirements for durability and safety, set forth in the following standards: EN 581.
 \n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.\n\nOnly recommended for outdoor use.\n\nDesigner\nK Hagberg/M Hagberg',
@@ -891,7 +893,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Environment\nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. By 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.
 \n100% renewable material. (Fixtures excluded)\nProduct possible to recycle or use for energy recovery, if available in your community.
 \n\nMaterials\nSolid acacia wood, Acrylic stain', 'ÄPPLARÖ\nBench, outdoor\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(87,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(87,
 '902.085.43', 'The back can be adjusted to five different position.\n\nWheels make it easy to move.
 \n\nYou can make your chaise more comfortable and personal by adding a chaise pad in a style you like.
 \n\nFor added durability and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with several layers of semi-transparent wood stain.
@@ -905,7 +907,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. By 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.
 \n100% renewable material. (Fixtures excluded)\nProduct possible to recycle or use for energy recovery, if available in your community.
 \n\nMaterials\nMain parts:\nSolid acacia wood, Acrylic stain\n\nTire:\nSynthetic rubber', 'ÄPPLARÖ\nChaise\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(88,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(88,
 '702.085.39', 'The back can be adjusted to five different position.\n\nEasy to fold up and put away.\n\nYou can make your chair more comfortable and personal by adding a chair pad in a style you like.
 \n\nFor added durability and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with several layers of semi-transparent wood stain.
 \n\nCushions are sold separately.\n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.
@@ -920,7 +922,7 @@ The best way to extend the life of your wooden outdoor furniture is by cleaning 
 \nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. By 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.
 \n100% renewable material. (Fixtures excluded)\n\nMaterials\nSolid acacia wood, Acrylic stain', 
 'ÄPPLARÖ\nReclining chair, outdoor\nPackage(s): 1');
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(89,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(89,
 '892.531.07', 'You can just shake off water from a light rain, as the cushion cover is water repellent.
 \n\nThe color stays fresh for longer, as the fabric is fade resistant.\n\nThe cover is easy to keep clean because it is removable and machine washable.
 \n\nFits SOLLERÖN, ÄPPLARÖ and KUNGSHOLMEN seating sections.\n\nUse with FRÖSÖN cover for back cushion so that you have a spare cover when you want to change the look of the back cushion or when the back cushion cover needs to be washed.
@@ -934,7 +936,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nMaterials\nCover for back cushion\n100% polyester (min. 90% recycled)\n\nInner back cushion\nCover/ Smolder resistant lining:
 \nPolyester wadding\n\nFilling:\n100 % polyester (100% recycled)', 'Packages: 2\n\nDUVHOLMEN\ninner back cushion\nPackage(s): 1
 \n\nFRÖSÖN\ncover for back cushion\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(90,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(90,
 '192.519.65', 'In HAVSTEN you sit deep and low with a comfortable resilience thanks to the elastic mesh in the bottom.
 \n\nCreate an armchair, loveseat, a sofa or a sectional as large as you like.
 \n\nYou can just shake off water from a light rain, as the cushion cover is water repellent.
@@ -958,7 +960,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \n\nMetal tube:\nSteel, Galvanized, Polyester powder coating\n\nEnd cap:\nReinforced polyamide\n\nBuckle:\nZinc, Galvanized\n\nLocking ring:\nSteel, Chrome plated
 \n\nSeat frame, outdoor\nFrame:\nSteel, Polyester powder coating\n\nFeet:\nPolyamide', 'Packages: 9\n\nHAVSTEN\nseat frame, outdoor
 \nPackage(s): 3\n\nHAVSTEN\nseat pad, outdoor\nPackage(s): 2\n\nHAVSTEN\nseat and back frame, outdoor\nPackage(s): 2\n\nHAVSTEN\nback cushion, outdoor\nPackage(s): 2'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(91,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(91,
 '403.326.82', 'Easy to fold up and put away.\n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.\n\nOnly recommended for outdoor use.
 \n\nDesigner\nIKEA of Sweden', 'Width: 18 7/8 "\nDepth: 36 1/4 "\nHeight: 35 "\nSeat width: 16 7/8 "\nSeat depth: 15 3/8 "\nSeat height: 16 7/8 "',
 'The best way to extend the life of your wooden outdoor furniture is by cleaning it regularly, not leaving it outdoors unprotected more than necessary, and re-staining it on a regular basis.
@@ -966,7 +968,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nMaintenance: To prevent the surface from drying out and cracking, and moisture from penetrating into the wood, we recommend you to re-stain the furniture on a regular basis, for example once or twice a year.
 \nStoring: If possible, store in a cool dry place indoors. If the furniture is stored outside, cover it with a waterproof cover. After a rain or snowfall, wipe off excess water or snow from flat surfaces. Allow air to circulate to avoid condensation.',
 'Materials\nFrame:\nSolid acacia wood, Acrylic stain\n\nRope:\nPolypropylene','BROMMÖ\nChaise, outdoor\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(92,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(92,
 '202.085.27', 'The curved back ensures that you sit comfortably.\n\nYou can make your chair more comfortable and personal by adding a chair pad in a style you like.
 \n\nFor added durability and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with several layers of semi-transparent wood stain.
 \n\nCushions are sold separately.\n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.
@@ -982,7 +984,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. By 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.
 \n100% renewable material. (Fixtures excluded)\n\nMaterials\nSolid acacia wood, Acrylic stain',
 'ÄPPLARÖ\nArmchair, outdoor\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(93,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(93,
 '002.645.38', 'The cover is easy to keep clean because it is removable and machine washable.
 \n\nThe cushion has a longer life because it can be turned over and used on both sides.\n\nFits SOLLERÖN, ÄPPLARÖ and KUNGSHOLMEN seating sections.
 \n\nDesigner\nIKEA of Sweden', 'Width: 24 "\nDepth: 24 "\nThickness: 3 1/8 "', 'Cushion cover\nMachine wash warm, normal cycle.
@@ -991,7 +993,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Environment\nProduct possible to recycle or use for energy recovery, if available in your community.\n\nMaterials\nCushion cover:\n100% polyester (min. 90% recycled)
 \n\nInner fabric:\n100 % polypropylene\n\nFilling:\nPolyester wadding\n\nCore filling:\nPolyurethane foam 1.5 lb/cu.ft.',
 'HÅLLÖ\nSeat pad, outdoor\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(94,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(94,
 '092.526.87', '
 By combining different seating sections you can create a sofa in a shape and size that perfectly suits your outdoor space.
 \n\nPractical storage space under the seat.\n\nThe color on the seat pad and back cushion stays fresh longer as the cover is fade resistant.
@@ -1014,7 +1016,7 @@ By combining different seating sections you can create a sofa in a shape and siz
 \n\nCore filling:\nPolyurethane foam', 'Packages: 19\n\nDUVHOLMEN\ninner back cushion\nPackage(s): 3\n\nSOLLERÖN\narmrest, outdoor\nPackage(s): 1
 \n\nFRÖSÖN\ncover for back cushion\nPackage(s): 3\n\nSOLLERÖN\nstool, outdoor\nPackage(s): 1\n\nDUVHOLMEN\ninner seat pad\nPackage(s): 4
 \n\nSOLLERÖN\none-seat section, outdoor\nPackage(s): 3\n\nFRÖSÖN\ncover for seat pad\nPackage(s): 4'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(95,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(95,
 '390.539.31', 'The drop-leaves can be folded and removed, so you can quickly adjust the table size according to your needs.
 \n\nThe hole in the middle of the table top keeps your umbrella in place.\n\nThe curved back ensures that you sit comfortably.
 \n\nFor added durability and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with several layers of semi-transparent wood stain.
@@ -1028,7 +1030,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nWe have clear requirements for all the wood we use, including a ban on illegally harvested wood. By 2020, we want all our wood to come from more sustainable sources, defined as certified or recycled.
 \nProduct possible to recycle or use for energy recovery, if available in your community.\n\nMaterials\nSolid acacia wood, Acrylic stain', 
 'Packages: 3\n\nÄPPLARÖ\nbench, outdoor\nPackage(s): 1\n\nÄPPLARÖ\ndrop-leaf table, outdoor\nPackage(s): 1\n\nÄPPLARÖ\nbench with backrest, outdoor\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(96,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(96,
 '900.954.28', 'Easy to fold up and put away.\n\nFor added durability, and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with a layer of semi-transparent wood stain.
 \n\nCushions are sold separately.\n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.
 \n\nMay be completed with KUDDARNA chair cushion (12⅝x14⅛"), FRÖSÖN/DUVHOLMEN or YTTERÖN chair cushion or BENÖ chair pad (dia. 13⅜").
@@ -1043,7 +1045,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
 \nRenewable material (wood).\n\nMaterials\nSeat/ Back:\nSolid acacia wood, Acrylic stain\n\nLeg/ Seat rail/ Support:\nSteel, Polyester powder coating\n\nFeet:\nPolypropylene',
 'TÄRNÖ\nChair, outdoor\nackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(97,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(97,
 '704.114.99', 'TOSTERÖ waterproof covers will protect your outdoor furniture from rain, sun, snow, dirt, dust, and pollen when not in use.
 \n\nProtecting your outdoor furniture with a waterproof cover is an easy and effective way to keep it looking fresh and new longer, before any maintenance is needed.
 \n\nFits for example outdoor 3-seat corner sofas and a coffee table with total max. length 102", max. width 65" and max. height 34".
@@ -1057,13 +1059,13 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Length: 102 3/8 "\nWidth: 65 "\nHeight: 33 1/2 "', 'Cover\n\nHand wash warm water.\nDo not bleach.\nDo not tumble dry.\nDo not iron.\nDo not dry clean.',
 'Environment\nNo perfluorinated chemicals (e.g. PFOS, PFOA, PFOSA) are used to make this product waterproof. As perfluorinated chemicals are non-degradable, it’s better for you and the environment to avoid them.
 \n\nMaterials\n100 % polyester', 'TOSTERÖ\n\nCover for outdoor furniture\nPackage(s): 1'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(98,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(98,
 '192.622.90', 'The furniture is made of eucalyptus, a naturally durable and sturdy hardwood because of the high density of its wood fibers.
 \n\nFor added durability and so you can enjoy the natural expression of the wood, the furniture has been pre-treated with several layers of semi-transparent wood stain.
 \n\nThe seat cushion provides great comfort, thanks to its thick high resilience foam filling.\n\nYou can just shake off water from a light rain, as the cushion cover is water repellent.
 \n\nThe cushion covers are dope dyed, a process that reduces consumption of water and dyestuff while improving color fastness compared to traditional dyeing techniques.
 \n\nThe cover on the seat pad and back cushion is easy to keep clean and fresh, as you can take it off and machine wash it.\n\nOnly recommended for outdoor use.
-\n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.\n\nDesigner\nEva Lilja Löwenhielm/IKEA of Sweden',
+\n\nUse VÅRDA wood stain, for outdoor-use when re-staining the furniture.\n\nDesigner\nEva Lilja Löwenhielm/IKEA of Sweden', null, 
 'Furniture\n4-seat conversation set, outdoor
 \n\nThe best way to extend the life of your wooden outdoor furniture is by cleaning it regularly, not leaving it outdoors unprotected more than necessary, and re-staining it on a regular basis.
 \nClean: Use a mild soapy solution. Wipe dry with a clean dry cloth.
@@ -1083,12 +1085,12 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Packages: 20\n\nDUVHOLMEN\ninner back cushion\nPackage(s): 4\n\nKLÖVEN\narmchair, outdoor\nPackage(s): 2\n\nFRÖSÖN\ncover for back cushion
 \nPackage(s): 4\n\nDUVHOLMEN\ninner seat pad\nPackage(s): 4\n\nKLÖVEN\ncoffee table, outdoor\nPackage(s): 1\n\nKLÖVEN\nloveseat, outdoor
 \nPackage(s): 1\n\nFRÖSÖN\ncover for seat pad\nPackage(s): 4'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(99,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(99,
 '392.879.25', 'By combining different seating sections you can create a sofa in a shape and size that perfectly suits your outdoor space.
 \n\nPractical storage space under the seat.\n\nThe color on the seat pad and back cushion stays fresh longer as the cover is fade resistant.
 \n\nYou can just shake off water from a light rain, as the cushion cover is water repellent.\n\nThe cushion cover is easy to keep clean since it can be removed and machine washed.
 \n\nYou can have a personal touch to your sofa by adding one or more decorative cushions to your style and taste.\n\nHardware to connect sections included.
-\n\nMay be completed with TOSTERÖ storage bag.\n\nDesigner\nEva Lilja Löwenhielm/Jonas Hultqvist/IKEA of Sweden',
+\n\nMay be completed with TOSTERÖ storage bag.\n\nDesigner\nEva Lilja Löwenhielm/Jonas Hultqvist/IKEA of Sweden', null, 
 'Inner cushion\n4-seat conversation set, outdoor
 \n\nDo not wash.\nDo not bleach.\nDo not tumble dry.\nDo not iron.\nDo not dry clean.\nMachine wash warm, normal cycle.\nClose the zipper before washing.
 \nDo not bleach.\nTumble dry, low, normal cycle.\nIron low.\nDo not dry clean.
@@ -1108,7 +1110,7 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Packages: 24\n\nDUVHOLMEN\ninner back cushion\nPackage(s): 4\n\nFRÖSÖN\ncover for back cushion\nPackage(s): 4\n\nDUVHOLMEN\ninner seat pad
 \nPackage(s): 4\n\nSOLLERÖN\ncoffee table, outdoor\nPackage(s): 1\n\nSOLLERÖN\none-seat section, outdoor\nPackage(s): 4
 \n\nSOLLERÖN\narmrest, outdoor\nPackage(s): 3\n\nFRÖSÖN\ncover for seat pad\nPackage(s): 4'); 
-INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(100,
+INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(100,
 '292.875.63', 'The color stays fresh longer as the cover is fade resistant.\n\nThe cover is easy to keep clean because it is removable and machine washable.
 \n\nWhen your mood changes, you can quickly change the look of your outdoor space with the separate OTTERÖN ottoman covers.\n\nDesigner\nIKEA of Sweden/Maria Vinka',
 'Height: 16 1/8 "\nDiameter: 18 7/8 "', 'Pouffe cover, indoor/outdoor\nThe best way to extend the life of your product is to clean it regularly and store it in a cool, dry place indoors, or in a storage bag or storage box when not in use.
