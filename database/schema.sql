@@ -606,6 +606,116 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 'Wipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.', 
 'Environment\nRenewable material (cork).\n\nMaterials\nJar: Glass\nLid/ Tray: Cork', 
 'SAXBORGA\nJar with lid and tray, set of 5\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(51,
+'092.165.95', "With SKÅDIS pegboard it's easy to organize all the rooms of the home and quickly find what you need.
+\n\nThe accessories are easy to attach anywhere on the board and are easy to move when you like.
+\n\nDifferent wall materials require different types of fasteners. Use fasteners suitable for the walls in your home.
+\n\nTested and approved for bathroom use.\n\nDesigner\nEva Lilja Löwenhielm", 'Width: 22 "\nDepth: 4 ¾ "\nHeight: 22 "', 
+null, 'Environment\n\nContainer with lid/container/hook/pegboard/shelf:
+\nProduct possible to recycle or use for energy recovery, if available in your community.\n\nMaterials
+\nContainer with lid\nMain parts:\nSteel, Epoxy/polyester powder coating\n\nContainer:\nPET plastic\n\nContainer/ shelf
+\nSteel, Steel, Epoxy/polyester powder coating\n\nHook\nSteel, Galvanized, Powder coating\n\nPegboard\nMain parts:
+\nFiberboard, Acrylic paint\n\nMetal parts:\nSteel, Powder coating', 'Packages: 6\n\nSKÅDIS\nshelf\nPackage(s): 2
+\n\nSKÅDIS\npegboard\nPackage(s): 1\n\nSKÅDIS\ncontainer\nPackage(s): 1\n\nSKÅDIS\nhook\nPackage(s): 1\n\nSKÅDIS\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(52,
+'601.931.28', "Anti-slip material on the bottom. The potty won't move easily when your child is using it.
+\n\nMade from harmless plastic, the same material used in baby bottles, disposable diapers and food boxes.
+\n\nEasy to empty and clean.\n\nRecommended for children 12 months and older.\n\nDesigner\nMonika Mulder", 
+'Length: 14 ¼ "\nWidth: 10 ¾ "\nHeight: 11 "', 'Wipe clean with a mild soapy solution.', 'Environment
+\n\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
+\nBPA (Bisphenol A) free\nIKEA has banned BPA (Bisphenol A) in plastic products in the children’s range (0-7 years) and in all food-contact products. IKEA phased out BPA in 2006.
+\n\nMaterials\nPolypropylene, Synthetic rubber', "LOCKIG\nChildren's potty\nPackage(s): 1"); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(53,
+'803.918.82', 'Bring the storage box wherever you like, to put on your contact lenses, jewelry or make-up. You don’t have to look for a mirror, there’s one inside.
+\n\nPerfect for storing tweezers, nail files, scissors, contact lenses or make-up since the storage box has 2 inserts and 12 small compartments.
+\n\nCan be used with other SAXBORGA products.\n\nDesigner\nH Preutz/M Seipel', 'Length: 9 ½ "\nWidth: 6 ¾ "\nHeight: 5 ½ "', 
+'Wipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.', 'Environment\nRenewable material (cork).
+\n\nMaterials\nLid: Cork\nBox: Wood Plastic Composite\nMirror: Glass', 'SAXBORGA\nStorage box with mirrored lid\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(54,
+'203.242.92', 'Perfect when your child wants to learn how to brush their teeth and hair on their own.
+\n\nYou can quickly mount the storage board at the right height with the four included suction cups. The only thing needed is a smooth surface such as glass, mirrors or tiles.
+\n\nThe storage board has holes which make it easy for your child to hang all the pieces up.
+\n\nJust as clean – quicker and with less water. With the hourglass, you can teach your child to save nature’s resources. The sand runs through for 6 minutes and has a marking for each 2-minute interval.
+\n\nOnly sticks on flat surfaces such as glass, mirrors, and tiles.
+\n\nFor increased stability, make sure to retighten the screws every 3 months.\n\nClean your tiles before mounting the suction cup to ensure a better grip.
+\n\nHolds up to 6 lbs.\n\nCan be used with LÅDDAN storage bag and hook.\n\nDesigner\nS Fager/M Vinka', 'Max. load: 7 lb', 
+'Wipe clean using a damp cloth and a mild cleaner.\n\nWipe clean with a dry cloth.
+\n\nFor increased stability, make sure to retighten the screws every 3 months.', 
+'Environment\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
+\n\nMaterials\nBasket/ Shelf:\nPolypropylene\n\nMirror glass:\nAcrylic, Polypropylene\n\nBoard/ Knob/ Cover cap/ Holder/ Lid:
+\nABS plastic\n\nSuction cups:\nSynthetic rubber\n\nInsert:\nZinc, Galvanized\n\nContainer:\nABS plastic, Sand', 
+'LÅDDAN\n6-piece storage board set\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(55,
+'603.033.63', 'Suction cups keep the mat safely in place in your bathtub or shower.\n\nYou can keep the mat clean and fresh longer by hanging it up to dry after you’ve used it. The hole in the mat is perfect for hanging.
+\n\nDesigner\nJohanna Jelinek', 'Length: 33 "\nWidth: 13 "', 'Machine wash warm, normal cycle.\nDo not bleach.\nDo not tumble dry.
+\nDo not iron.\nDo not dry clean.\nLine dry.', 'Environment\nProduct possible to recycle or use for energy recovery, if available in your community.
+\n\nMaterials\nNatural rubber, Calcium carbonate', 'DOPPA\nBathtub mat\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(56,
+'403.812.53', 'Water drains easily through the holes in the bottom.\n\nOne push assembly - clean the wall surface and push to attach. No tools are needed.
+\n\nTo release and remove, insert a credit card (or similar) between the suction cup and the wall. No ugly holes or marks are left behind.
+\n\nThe suction cups have a tight grip on smooth surfaces like glass or tiles.\n\nOnly sticks on flat surfaces such as glass, mirrors, and tiles.
+\n\nClean the surface before mounting the suction cup to ensure better grip.\n\nHolds up to 6 lbs.\n\nCombines with other products in TISKEN series.
+\n\nDesigner\nIKEA of Sweden', 'Width: 11 "\nDepth: 6 ¾ "\nHeight: 6 ¾ "\nMax. load: 106 oz', 
+'Wipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.', 
+'Materials\nFrame/ Plate:\nPolycarbonate plastic\n\nSuction cup:\nSynthetic rubber\n\nCover/ Body/ Basket:\nRecycled ABS plastic', 
+'TISKEN\nBasket with suction cup\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(57,
+'601.483.29', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
+\n\nCan be used as a shelf for a soap dish and tumbler, thanks to the depth of the frame.
+\n\nStrainer and water-trap included.\n\nTowel hanger, soap dish and tray in stainless steel included.
+\n\nAvailable in three widths, 15¾" and 23⅝".\n\nFits LILLÅNGEN bathroom cabinets.
+\n\nIf you are uncertain about the installation, contact a professional. The installation shall be made in accordance with valid local building and plumbing regulations.
+\n\nDesigner\nInma Bermudez', 'Width: 16 1/8 "\nsink cabinet width: 15 3/4 "\nDepth: 16 "\nThickness: 5 1/8 "', 
+'Wipe clean with a water dampened soft cloth and a mild non-abrasive dish detergent or soap, if necessary.
+\nDo not use scouring powder, steel wool, hard or sharp tools which can scratch the surface of the sink.', 
+'Environment\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
+\n\nMaterials\nMain parts:\nCeramic, Colored glaze\n\nMain parts/ Strainer/ Stopper/ Knob:\nStainless steel
+\n\nWater trap/ Washer:\nPolypropylene\n\nScrew:\nBrass, Chrome plated\n\nSeal:\nSynthetic rubber, Polyethylene foam
+\n\nShaft:\nAcetal plastic', 'LILLÅNGEN\nSink\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(58,
+'103.549.63', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
+\n\nUnique water trap design gives room for a full sized drawer.\n\nA countertop sink gives your bathroom a complete, personal look.
+\n\nStrainer and water-trap included.\n\nUse the included measuring template before attaching the sink to the countertop.
+\n\nLet the silicone underneath the sink harden for 2 hours before connecting the water trap.
+\n\nIf you are uncertain about the installation, contact a professional. The installation shall be made in accordance with valid local building and plumbing regulations.
+\n\nThe sink is resistant to most chemicals, except for strong acids and strong alkalis.\n\nDesigner\nIKEA of Sweden', 
+'Width: 11 3/8 "\nDepth: 15 3/8 "\nHeight: 3 7/8 "', 'Wipe clean with a water dampened soft cloth and a mild non-abrasive dish detergent or soap, if necessary.
+\nDo not use scouring powder, steel wool, hard or sharp tools which can scratch the surface of the sink.', 
+'Materials\nMain parts:\nChina, Colored glaze\n\nWater trap/ Washer:\nPolypropylene\n\nScrew:\nBrass, Chrome plated
+\n\nStrainer/ Stopper/ Knob:\nStainless steel\n\nSeal:\nSynthetic rubber, Polyethylene foam\n\nShaft:\nAcetal plastic', 
+'GUTVIKEN\nCountertop sink\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(59,
+'302.915.16', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
+\n\nUnique water trap design gives room for a full sized drawer.\n\nA countertop sink gives your bathroom a complete, personal look.
+\n\nStrainer and water-trap included.\n\nUse the included measuring template before attaching the sink to the countertop.
+\n\nLet the silicone underneath the sink harden for 2 hours before connecting the water trap.
+\n\nIf you are uncertain about the installation, contact a professional. The installation shall be made in accordance with valid local building and plumbing regulations.
+\n\nThe sink is resistant to most chemicals, except for strong acids and strong alkalis.\n\nMay be completed with TOLKEN countertop and GODMORGON sink cabinet.
+\n\nDesigner\nIKEA of Sweden', 'Height: 5 1/2 "\nDiameter: 17 3/4 "', 'Wipe clean with a water dampened soft cloth and a mild non-abrasive dish detergent or soap, if necessary.
+\nDo not use scouring powder, steel wool, hard or sharp tools which can scratch the surface of the sink.', 
+'Environment\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
+\n\nMaterials\nMain parts:\nChina, Colored glaze\n\nWater trap/ Washer:\nPolypropylene\n\nScrew:\nBrass, Chrome plated
+\n\nStrainer/ Stopper/ Knob:\nStainless steel\n\nSeal:\nSynthetic rubber, Polyethylene foam\n\nShaft:\nAcetal plastic', 
+'TÖRNVIKEN\nCountertop sink\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(60,
+'301.483.21', '10-year Limited Warranty. Read about the terms in the Limited Warranty brochure.
+\n\nPerfect for more than one since the sinks has two bowls.\n\nUnique water trap design gives room for a full sized drawer.
+\n\nStrainer and water-trap included.\n\nThe sink is resistant to most chemicals, except for strong acids and strong alkalis.
+\n\nCeramic sinks are kiln-fired, which makes each one unique and the size may vary slightly from the measurements given.
+\n\nIf you are uncertain about the installation, contact a professional. The installation shall be made in accordance with valid local building and plumbing regulations.
+\n\nDesigner\nMagnus Elebäck', 'Width: 40 1/2 "\nsink cabinet width: 39 3/8 "\nDepth: 19 1/4 "\nDepth of sink: 4 3/8 "\nThickness: 2 3/8 "', 
+'Wipe clean with a water dampened soft cloth and a mild non-abrasive dish detergent or soap, if necessary.
+\nDo not use scouring powder, steel wool, hard or sharp tools which can scratch the surface of the sink.', 
+'Environment\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
+\n\nMaterials\nMain parts:\nCeramic, Colored glaze\n\nWater trap/ Washer:\nPolypropylene\n\nScrew:
+\nBrass, Chrome plated\n\nStrainer/ Stopper/ Knob:\nStainless steel\n\nSeal:\nSynthetic rubber, Polyethylene foam\n\nShaft:
+\nAcetal plastic', 'ODENSVIK\nDouble bowl sink\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(61,
+
+
+
+
+
 
 
 
