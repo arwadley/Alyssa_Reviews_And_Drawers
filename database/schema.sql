@@ -711,6 +711,138 @@ INSERT IGNORE INTO items(id, box_number, product_description, product_size, care
 \nBrass, Chrome plated\n\nStrainer/ Stopper/ Knob:\nStainless steel\n\nSeal:\nSynthetic rubber, Polyethylene foam\n\nShaft:
 \nAcetal plastic', 'ODENSVIK\nDouble bowl sink\nPackage(s): 1'); 
 INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(61,
+'201.301.66', 'Encourages role play which helps children to develop social skills by imitating grown-ups and inventing their own roles.
+\n\nRecommended for children 3 years and older.\n\nThe rolling pin and pastry cutters can be used for regular baking. All other parts are only suitable for play and are not heat-resistant.
+\n\nThis product bears the CE mark.\n\nDesigner\nIKEA of Sweden', null, 'Not oven-safe.\nNot dishwasher-safe.', 
+'Environment\nProduct possible to recycle or use for energy recovery, if available in your community.
+\n\nMaterials\nMold:\nAluminum\n\nBowl/ Plate:\nSteel, Tin plated\n\nTray:\nSteel, Non stick coating\n\nWooden part(s):\nSolid birch, Acrylic paint, Clear acrylic lacquer', 
+'DUKTIG\n7-piece toy baking set\nPackage(s): 1');
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(62,
+'203.300.66', 'An entire city where your train chugs along through tunnels and goes up steep hills on its journey passing high buildings and lush trees.
+\n\nCan be used with most other railway systems on the market.
+\n\nIn order to conserve our resources, we use as much of the tree as possible when we manufacture the LILLABO series. That’s why each item is unique with varying grain patterns and natural color shifts.
+\n\nDevelops the imagination, fine motor skills and logical thinking of your child.
+\n\nRecommended for children 3 years and older.\n\nThe train set connects together using the magnets on the train cars.
+\n\nThis product bears the CE mark.\n\nDesigner\nHenrik Johansson', null, 'Wipe clean with a damp cloth.', 
+'Materials\nTrack:\nSolid beech\n\nVehicles/ Tree:\nSolid beech, Acrylic paint, Clear acrylic lacquer
+\n\nNail/ Axle:\nSteel, Galvanized\n\nWheel:\nPolyethylene\n\nHouse/ Roof/ Post:\nSolid beech, Stain, Clear acrylic lacquer
+\n\nBridge/ Station:\nPolypropylene\n\nCrossing/ Tunnel:\nABS plastic', 'LILLABO\n45-piece train set with track\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(63,
+'703.568.22', 'Honk and drive! On this rug there are roads, parking spaces, traffic signs and railroads – just like in a city. Perfect to use with toy cars and figures from the LILLABO series.
+\n\nThe pile of the rug dampens sound, creating a snug feeling, and is soft to walk on.
+\n\nChildren\'s play can place tough demands on surroundings, something that also applies to rugs. That’s why the rug is made from durable, stain-resistant synthetic fibers which are easy to care for.
+\n\nThe play rug stays firmly in place and protects against cold floors thanks to the rubber coated underside.
+\n\nLet play time begin! The rug is made from polyamide (nylon) - a soft, harmless plastic that is water/dirt resistant and easy to clean.
+\n\nWe know that children are extra sensitive, but not to worry. This product has been tested and approved ‒ and is completely free from substances that may harm your child\'s skin or health.
+\n\nRecommended for children 18 months and older.
+\n\nThis rug is machine washable at 104°F on the delicate cycle. Because of the rug’s large size, we recommend professional rug cleaning.
+\n\nDesigner\nHenrik Johansson', 'Length: 52 3/8 "\nWidth: 29 1/2 "\nArea: 11 sq feet', 'Machine wash warm, normal cycle.
+\nDo not bleach.\nDo not tumble dry.\nDo not iron.\nDo not dry clean.\nShrinkage 4%.\nVacuum and rotate the rug regularly.', 
+'Materials\nPile:\n100 % nylon\n\nBase fabric:\n100 % polypropylene\n\nBacking:\nSynthetic rubber', 
+'STORABO\nRug\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(64,
+'300.557.60', 'Can be placed on its back or hung on the wall.\n\nScrews are sold separately.\n\nDesigner\nKarl Malmvall', 
+'Width: 4 3/4 "\nDepth: 3 7/8 "\nHeight: 17 3/4 "', 'Wipe clean with a damp cloth.', 'Environment
+\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
+\n\nMaterials\nStainless steel', 'VURM\n4-bottle wine rack\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(65,
+'403.712.25', 'You can choose to either mount the dish drainer directly on the wall or in the KUNGSFORS system, or place it on the countertop.
+\n\nRemovable tray underneath to collect water from the drainer.\n\nThe dish drainer has soft plastic feet with an anti-slip surface so the dish drainer stands firm on the countertop.
+\n\nThe spikes on the dish drainer can be folded down if you want to use it as a shelf.\n\nCan be used in high humidity areas.
+\n\nMake sure that the space is high enough for your dishes before placing the dish drainer on the wall.\n\nYou can choose to mount it directly to the wall or with the help of KUNGSFORS suspension rail.
+\n\nDifferent wall materials require different types of fasteners. Use fasteners suitable for the walls in your home.
+\n\nBe aware that different wall materails are able to support different loads of weight. For instance, walls made of drywall cannot support as much weight as walls made of wood, concrete or brick.
+\n\nIf you are uncertain about what type of mounting devices to use, please contact your local hardware store.\n\nMay be combined with other products in the KUNGSFORS series.
+\n\nRecommended for indoor use only.\n\nDesigner\nEhlén Johansson', 'Width: 23 ½ "\nDepth: 11 ¾ "\nHeight: 4 "', 
+'Wipe clean using a damp cloth and a mild cleaner.\nWipe dry with a clean cloth.\nAlways wipe surfaces of stainless steel lengthwise for an even, shiny finish.
+\nDo not use scouring-powder, steel wool, hard or sharp tools which can scratch the stainless steel surface.', 
+'Materials\nStrip/ Tray:\nStainless steel, Stainless steel\n\nBracket/ Rivet:\nStainless steel\n\nWire:\nSteel, Galvanized, Powder coating', 
+'KUNGSFORS\nDish drainer\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(66,
+'301.317.16', 'Suitable for large kitchen utensils.', 'Height: 7 1/8 "\nDiameter: 4 3/4 "', 'Dishwasher-safe.', 'Environment
+\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
+\n\nMaterials\nStainless steel', 'ORDNING\nUtensil holder\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(67,
+'002.086.70', 'The paper towel holder has a support bar that makes it easier to tear off a sheet.\n\nDesigner\nIKEA of Sweden', 
+'Height: 11 "', 'Wipe clean with a damp cloth.', 'Environment\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
+\n\nMaterials\nSteel, Galvanized', 'TORKAD\nPapertowel holder\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(68,
+'101.490.29', 'Levers make uncorking bottles easier.\n\nBottle opener in the handle.', 'Length: 6 ¼ "', 'Handwash only.', 'Environment
+\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
+\n\nMaterials\nZinc, Nickel plated', 'IDEALISK\nCorkscrew\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(69,
+'103.468.31', 'The blade of the knife has a ceramic non-stick coating. This makes the knife easy to clean and prevents food from sticking to the blade when cutting and chopping.
+\n\nThe handle has a synthetic rubber feature that provides a better grip and helps prevent the knife from slipping in your hand.
+\n\nWith the included knife block you have proper storage for your knives, since it protects the blade of the knife and keeps the edge sharper longer.
+\n\nIncludes: Cook\'s knife 7½" (tot. length 13"), cook’s knife 5¾" (tot. length 11"), paring knife 3" (tot. lenght 7½") and knife block.
+\n\nWash this product before using it for the first time.\n\nDesigner\nH Crondahl/A Pitkäjärvi', 'Length: 11 "\nHeight: 13 "', 
+'The knife block can be wiped clean with a damp cloth. The knives should be washed by hand.', 'Materials\nBase/ Stand:\nABS plastic
+\n\nRivet:\nSynthetic rubber\n\nBlade:\nStainless steel\n\nHandle:\nSynthetic rubber, Polypropylene\n\nFoot:\nSilicone rubber', 'JÄMFÖRA
+\nKnife block with 3 knives\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(70,
+'702.576.24', 'Materials in the handle provide a firm grip.
+\n\nIncludes: Bread knife 9" (tot. length 13¾"), cook\'s knife 5¾" (tot. length 11") and paring knife 4" (tot. lenght 8").
+\n\nWash this product before using it for the first time.\n\nDesigner\nD Crafoord/U Vejbrink', null,  'Handwash only.', 'Materials\nHandle:
+\nPolypropylene, Synthetic rubber\n\nBlade:\nStainless steel', 'ÄNDLIG\n3-piece knife set\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(71,
+'004.367.90', 'Materials in the handle provide a firm grip.
+\n\nIncludes: Cook\'s knife 5½" (tot. length 10⅝") and paring knife 3" (tot. length 7").
+\n\nWash this product before using it for the first time.\n\nDesigner\nH Crondahl/A Pitkäjärvi', null, 'Handwash only.', 'Materials\nBlade:
+\nStainless steel\n\nHandle:\nPolypropylene', 'FÖRDUBBLA\n2-piece knife set\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(72,
+'503.468.29', 'Includes: Cooks knife 6¾" (tot. length 12"), cook’s knife 5" (tot. length 11") and paring knife 3" (tot. lenght 7½").
+\n\nWash this product before using it for the first time.\n\nDesigner\nAaron Probyn', null, 'Handwash only.', 
+'Materials\nBlade:\nStainless steel\n\nHandle:\nPolypropylene, Synthetic rubber\n\nCover cap:\nStainless steel, Non stick coating', 
+'FÖRSLAG\n3-piece knife set\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(73,
+'303.411.73', 'Includes: 1 cook’s knife 5½" (tot. length 10"), 1 cook’s knife 6¾" (tot. length 12") and 1 utility knife 8" (tot. length 13").
+\n\nDesigner\nHåkan Olsson', null, 'Handwash only.', 'Materials\nBlade:\nStainless steel\n\nHandle:\nPolypropylene, Synthetic rubber', 
+'VÖRDA\n3-piece knife set\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(74,
+'700.917.61', 'Includes: Fork, knife, spoon, teaspoon and dessert/salad fork, 4 of each.\n\nWash this product before using it for the first time.
+\n\nDesigner\nCarl-Gustaf Jahnsson', null, 'Dishwasher-safe.\n\nFor the flatware to be easy to clean and to reduce the risk of corrosion, always rinse off the remains of any food immediately.', 
+'Environment\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
+\n\nMaterials\nSpoon/ Fork/ Salad fork/ Tea spoon:\nStainless steel\n\nKnife:\nStainless steel, Stainless steel', 
+'DRAGON\n20-piece flatware set\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(75,
+'702.334.16', 'You can easily turn the chopping board and use both sides when you prepare food, because it has easy-to-grip slanted edges.
+\n\nWash this product before using it for the first time.\n\nDesigner\nJon Karlsson', 'Length: 13 ½ "\nWidth: 9 ½ "\nThickness: ½ "', 
+'Dishwasher-safe.', 'Environment\nNo BPA (Bisphenol A) added.\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
+\n\nMaterials\nMiddle part:\nReinforced polypropylene\n\nUpper part/ Lower part:\nPolyethylene, Polypropylene', 
+'MATLUST\nChopping board\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(76,
+'000.467.86', 'The oil prolongs the life of kitchen accessories in untreated wood.\nApproved for use on surfaces where food is prepared.', 
+'Volume: 17 oz', null, 'Materials\nWhite mineral oil', 'SKYDD\nWood treatment oil, indoor use\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(77,
+'002.334.29', 'The chopping board collects food juice in the milled groove and prevents it from spilling on to your countertop.
+\n\nYou can easily turn the chopping board and use both sides when you prepare food, because it has easy-to-grip slanted edges.
+\n\nCan be placed over the bowl on BOHOLMEN, BREDSKÄR or FYNDIG sink to get an extra work surface for preparing food.
+\n\nMade of bamboo, which is an easy-care, durable natural material that is also gentle on your knives.\n\nThe weight provides a stable base for cutting.
+\n\nFits in the bowl of all sinks in the BOHOLMEN series.\n\nSKYDD wood treatment oil for indoor use is recommended for maintenance.
+\n\nWash this product before using it for the first time.\n\nDesigner\nJon Karlsson', 'Length: 17 ¾ "\nWidth: 14 ¼ "\nThickness: 1 ¼ "', 
+'Should be treated with food approved oil now and then.\nHandwash only.', 'Environment\nRenewable material (bamboo).\n\nMaterials\nBamboo, Oil', 
+'APTITLIG\nButcher block\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(78,
+'300.833.34', 'Includes: 13" spoon, 11" ladle, 13" turner and 13" spaghetti server.\n\nWash this product before using it for the first time.
+\n\nDesigner\nIKEA of Sweden', null, 'Dishwasher-safe.', 'Environment\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
+\n\nMaterials\nStainless steel', 'GRUNKA\n4-piece kitchen utensil set\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(79,
+'902.257.31', 'Gentle to pots and pans with non-stick coating.\n\nWash this product before using it for the first time.\n\nDesigner\nJozephine Duker', 
+'Length: 10 "', 'Dishwasher-safe.', 'Environment\nPossible to separate for recycling or energy recovery if available in your community.
+\nNo BPA (Bisphenol A) added.\n\nMaterials\nHandle:\nABS plastic\n\nBlade:\nSilicone rubber', 'GUBBRÖRA\nRubber spatula\nPackage(s): 1'); 
+INSERT IGNORE INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(80,
+'102.336.69', 'Two gears allow you to choose the speed and vary the power.
+\n\nThe metal bridge between the whisks rests against the bottom of the bowl, which gives you extra support when whisking.
+\n\nYou don’t need electricity, as the whisk is cranked by hand, which saves energy.\n\nEasy to clean, as the entire handheld whisk can be rinsed under running water.
+\n\nDesigner\nWiebke Braasch', 'Length: 11 "', 'Dishwasher-safe.', 'Environment\nNo BPA (Bisphenol A) added.
+\nThe material in this product MAY BE recyclable. Please check the recycling rules in your community and if recycling facilities exist in your area.
+\n\nMaterials\nHandle/ Knob:\nSynthetic rubber\n\nMetal parts:\nStainless steel\n\nHousing/ Top:\nABS plastic\n\nWhisk:\nReinforced polyamide', 
+'JÄMFÖRLIG\nHand held whisk\nPackage(s): 1'); 
+
+
+
+
+
 
 
 
