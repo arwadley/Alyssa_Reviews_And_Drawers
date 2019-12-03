@@ -1,46 +1,82 @@
-.aw_container_horizontal, 
-#aw_last_drawer{
-    border-top: 1px solid #C8C8C8; 
-    width: 50%; 
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-left: auto;
-    margin-right: auto; 
+.aw_container_horizontal,
+#aw_last_drawer {
+  border-top: 1px solid #c8c8c8;
+  width: 50%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.aw_container_horizontal:hover, 
-#aw_last_drawer:hover{
-    background-color: #F5F5F5; 
-}
-.aw_drawer_label_styling, 
-.aw_x_icon{
-    display: inline-block; 
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 550; 
+.aw_drop_down_container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%;
 }
 
-.aw_drawer_label_text{
-    padding-left: 2rem;
+.aw_drop_down_text {
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 100%;
+  font-size: 1rem;
+  font-weight: 300;
+  display: block;
+}
+
+.aw_box_number {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 0.25% 0.5%;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 0.75rem;
+}
+
+.aw_container_horizontal:hover,
+#aw_last_drawer:hover {
+  background-color: #f5f5f5;
+}
+.aw_drawer_label_styling,
+.aw_x_icon {
+  display: inline-block;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+
+.aw_drawer_label_text {
+  padding-left: 2rem;
 }
 .aw_x_icon {
-    padding-top: auto; 
-    padding-bottom: auto; 
-    padding-left: 10px; 
+  padding-top: auto;
+  padding-bottom: auto;
+  padding-left: 10px;
 }
 
 #aw_last_drawer {
-    border-bottom: 1px solid #C8C8C8;
+  border-bottom: 1px solid #c8c8c8;
 }
 
 .rotate {
-    transition: transform 0.2s;
-    transform: rotate(-45deg) translateY(5px);  
-    transform-origin: center; 
+  transition: transform 0.2s;
+  transform: rotate(-45deg) translateY(5px);
+  transform-origin: center;
 }
 
 .rotate_original {
-    transition: transform 0.2s;
-    transform: rotate(0deg);  
-    transform-origin: center;
+  transition: transform 0.2s;
+  transform: rotate(0deg);
+  transform-origin: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+.drawer-enter {
+  opacity: 0;
+}
+
+.drawer-enter-active {
+  opacity: 0.5;
+  transition: opacity 1000ms ease-in;
 }

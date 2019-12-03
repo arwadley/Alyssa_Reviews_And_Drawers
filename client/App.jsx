@@ -48,7 +48,6 @@ export default class App extends React.Component {
       environment_and_materials,
       package_details
     } = this.state.currentItem;
-    console.log({ product_description });
     return (
       <div>
         <ProductDescription id={id} boxNumber={box_number} description={product_description} />
