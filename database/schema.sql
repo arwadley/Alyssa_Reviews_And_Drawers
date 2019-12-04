@@ -19,16 +19,19 @@ CREATE TABLE reviews (
     product_id INT,
     user_name TEXT, 
     posted_date DATE, 
+    review_title TEXT, 
     review_text TEXT,
     product_value_for_money INT, 
     product_quality INT, 
     product_appearance INT, 
     product_ease_of_assembly INT, 
     product_works_as_expected INT,
-    review_helpful TEXT, 
-    product_recommended TEXT, 
+    review_helpful_yes INT, 
+    review_helpful_no INT,
+    product_recommended TINYINT(1), 
     FOREIGN KEY(product_id) REFERENCES items(id)
-); 
+);
+
 
 INSERT INTO items(id, box_number, product_description, product_size, care_instructions, environment_and_materials, package_details) VALUES(1, '892.284.34', 
 'A highchair makes it easier for small children to sit at the same table as adults, which helps them develop social and eating skills.\nEasy to disassemble and transport.\n
@@ -1122,6 +1125,17 @@ INSERT INTO items(id, box_number, product_description, product_size, care_instru
 'Packages: 2\n\nINNERSKÄR\npouffe frame, indoor/outdoor\nPackage(s): 1\n\nOTTERÖN\npouffe cover, indoor/outdoor\nPackage(s): 1'); 
 
 
+INSERT INTO reviews(product_id, user_name, posted_date, review_title, review_text, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) VALUES
+(23, 'alyssaW', '2019-12-01', 'Beautiful frame!','I bought this bedframe 3 months ago + its been a delight to have! it looks even better in my room than it did online, and its not squeaky at all like my old one. Assembly is for sure a two person job, but with two people it was a piece of cake.',
+ 5, 5, 5, 5, 5, 0, 0, 1); 
+INSERT INTO reviews(product_id, user_name, posted_date, review_title, review_text, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) VALUES
+(23, 'johnDoe', '2019-11-19', 'I hate it.', 'must have spent three days trying to put it together. Missing pieces too!', 2, 1, 4, 1, 3, 0, 0, 0); 
+INSERT INTO reviews(product_id, user_name, posted_date, review_title, review_text, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) VALUES
+(23, 'maryJ', '2019-11-05', 'Perfect for my son!', 'This works great for my son\s bedroom. Have been looking for somethibng like it for ages. Hope it holds up.', 4, 5, 5, 2, 3, 0, 0, 1); 
+INSERT INTO reviews(product_id, user_name, posted_date, review_title, review_text, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) VALUES
+(23, 'JoeyT', '2019-12-04', 'It\s alright', 'It\s nice, but I sure wish it was easier to put together.', 5, 3, 3, 1, 4, 0, 0, 1); 
+INSERT INTO reviews(product_id, user_name, posted_date, review_title, review_text, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) VALUES
+(23, 'MonicaG', '2019-10-15', 'It looks nice', 'Doesn\t feel super sturdy. But it looks nice and it will due for now.', 3, 2, 4, 3, 4, 0, 0, 0); 
 
 
 

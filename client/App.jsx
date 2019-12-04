@@ -22,7 +22,7 @@ export default class App extends React.Component {
   }
 
   componentDidMount() {
-    this.getCurrentItem(35);
+    this.getCurrentItem(23);
   }
 
   getCurrentItem(currentId) {
