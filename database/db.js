@@ -14,5 +14,12 @@ let retrieveItem = (itemId, callback) => {
   });
 };
 
+let retrieveReviews = (itemId, callback) => {
+  connection.query('SELECT * FROM reviews WHERE product_id=?', itemId, function(error, result) {
+    callback(error, result);
+  });
+};
+
 module.exports.connection = connection;
 module.exports.retrieveItem = retrieveItem;
+module.exports.retrieveReviews = retrieveReviews;
