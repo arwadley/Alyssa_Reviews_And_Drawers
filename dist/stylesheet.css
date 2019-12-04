@@ -12,14 +12,16 @@
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0.75%;
+  margin-bottom: 0.75%;
   padding-left: 5%;
 }
 
 .aw_drop_down_text {
   font-family: 'Noto Sans TC', sans-serif;
-  line-height: 100%;
+  line-height: 120%;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .aw_box_number {

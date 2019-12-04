@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ProductSizeText = props => {
-  if (props.sizeData !== undefined) {
+  if (props.sizeData) {
     console.log(props.sizeData);
     return (
       <div>
@@ -16,7 +16,7 @@ const ProductSizeText = props => {
       </div>
     );
   } else {
-    return <div></div>;
+    return <div>Not Available</div>;
   }
 };
 
