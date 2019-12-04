@@ -1,6 +1,6 @@
 import React from 'react';
-import ProductDescription from './Components/ProductDescription.jsx';
-import ProductSize from './Components/ProductSize.jsx';
+import ProductDescription from './Components/ProductDescription/ProductDescriptionComponent.jsx';
+import ProductSize from './Components/ProductSize/ProductSize.jsx';
 import CareInstructions from './Components/CareInstructions.jsx';
 import EnvironmentAndMaterials from './Components/EnvironmentAndMaterials.jsx';
 import PackageDetails from './Components/PackageDetails.jsx';
@@ -18,10 +18,11 @@ export default class App extends React.Component {
     };
 
     this.getCurrentItem = this.getCurrentItem.bind(this);
+    this.formatSizeData = this.formatSizeData.bind(this);
   }
 
   componentDidMount() {
-    this.getCurrentItem(80);
+    this.getCurrentItem(9);
   }
 
   getCurrentItem(currentId) {
@@ -29,13 +30,31 @@ export default class App extends React.Component {
       .get('/item', {
         params: { itemId: currentId }
       })
-      .then(data => {
-        console.log(data.data[0]);
+      .then(result => {
+        let data = result.data[0];
+        data.product_size = this.formatSizeData(data.product_size);
+        console.log(data.product_size);
         this.setState({
-          currentItem: data.data[0]
+          currentItem: data
         });
       })
       .catch(error => console.log(error));
+  }
+
+  formatSizeData(data) {
+    let formattedData = data;
+    if (formattedData.includes('\n')) {
+      formattedData = formattedData.split('\n');
+    }
+    let newData = [];
+    for (let i = 0; i < formattedData.length; i++) {
+      if (formattedData[i] !== '') {
+        let current = formattedData[i].split(':');
+        current[0] = current[0] + ':';
+        newData.push(current);
+      }
+    }
+    return newData;
   }
 
   render() {

@@ -26,7 +26,9 @@ export default class ProductDescription extends React.Component {
     return (
       <div>
         <div onClick={this.clickHandler} className="aw_container_horizontal">
-          <div className={'aw_x_icon rotate_original'}>+</div>
+          <div className={'aw_x_icon ' + (this.state.clicked ? 'rotate' : 'rotate_original')}>
+            +
+          </div>
           <div className="aw_drawer_label_styling  aw_drawer_label_text">Product description</div>
         </div>
         {this.state.visible ? (
