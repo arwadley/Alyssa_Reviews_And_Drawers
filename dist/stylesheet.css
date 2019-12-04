@@ -86,6 +86,11 @@
   visibility: hidden;
   line-height: 100%;
 }
+
+.review_list_text {
+  font-family: 'Verdana', sans-serif;
+  font-size: 11px;
+}
 /* 
 @-webkit-keyframes fadeIn {
   0% {
