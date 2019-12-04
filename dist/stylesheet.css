@@ -74,6 +74,19 @@
   font-weight: bold;
 }
 
+.aw_env_materials {
+  width: 50%;
+  margin-top: 0.75%;
+  margin-bottom: 0.75%;
+  padding-left: 5%;
+  line-height: 150%;
+}
+
+.hidden {
+  visibility: hidden;
+  line-height: 100%;
+}
+/* 
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -95,4 +108,4 @@
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-}
+} */
