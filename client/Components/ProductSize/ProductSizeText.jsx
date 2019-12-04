@@ -16,7 +16,7 @@ const ProductSizeText = props => {
       </div>
     );
   } else {
-    return <div>Not Available</div>;
+    return <div className="aw_drop_down_text aw_drop_down_container">Not Available</div>;
   }
 };
 

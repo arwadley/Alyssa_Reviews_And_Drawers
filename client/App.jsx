@@ -3,7 +3,7 @@ import ProductDescription from './Components/ProductDescription/ProductDescripti
 import ProductSize from './Components/ProductSize/ProductSize.jsx';
 import CareInstructions from './Components/CareInstructions/CareInstructions.jsx';
 import EnvironmentAndMaterials from './Components/EnvironmentAndMaterials/EnvironmentAndMaterials.jsx';
-import PackageDetails from './Components/PackageDetails.jsx';
+import PackageDetails from './Components/PackageDetails/PackageDetails.jsx';
 import AssemblyAndDocuments from './Components/AssemblyAndDocuments.jsx';
 import Reviews from './Components/Reviews.jsx';
 import ProductAvailability from './Components/ProductAvailability.jsx';
@@ -22,7 +22,7 @@ export default class App extends React.Component {
   }
 
   componentDidMount() {
-    this.getCurrentItem(10);
+    this.getCurrentItem(35);
   }
 
   getCurrentItem(currentId) {
@@ -33,7 +33,7 @@ export default class App extends React.Component {
       .then(result => {
         let data = result.data[0];
         data.product_size = this.formatSizeData(data.product_size);
-        console.log(data.environment_and_materials);
+        console.log(data.package_details);
         this.setState({
           currentItem: data
         });

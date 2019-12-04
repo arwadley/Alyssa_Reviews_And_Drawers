@@ -1,17 +1,14 @@
 import React from 'react';
 
 const EnvironmentAndMaterialsText = props => {
-  if (props.environmentAndMaterials) {
-    let EnvAndMatArray = props.environmentAndMaterials.split('\n');
+  if (props.packageDetails) {
+    let detailsArray = props.packageDetails.split('\n');
+    console.log(detailsArray);
     return (
       <div className="aw_env_materials">
-        {EnvAndMatArray.map((line, i) => {
-          if (line == 'Environment' || line == 'Materials') {
-            return (
-              <div className="aw_drop_down_text bold" key={'environment' + i}>
-                {line}
-              </div>
-            );
+        {detailsArray.map((line, i) => {
+          if (i === 0 || detailsArray[i - 1] === '') {
+            return <div className="aw_drop_down_text bold">{line}</div>;
           } else if (line === '') {
             return (
               <div className="hidden" key={'environment' + i}>
@@ -19,11 +16,7 @@ const EnvironmentAndMaterialsText = props => {
               </div>
             );
           } else {
-            return (
-              <div className="aw_drop_down_text" key={'environment' + i}>
-                {line}
-              </div>
-            );
+            return <div className="aw_drop_down_text">{line}</div>;
           }
         })}
       </div>
