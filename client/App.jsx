@@ -21,6 +21,7 @@ export default class App extends React.Component {
     this.getCurrentItem = this.getCurrentItem.bind(this);
     this.getReviews = this.getReviews.bind(this);
     this.formatSizeData = this.formatSizeData.bind(this);
+    this.updateReviewHelpful = this.updateReviewHelpful.bind(this);
   }
 
   componentDidMount() {
@@ -53,6 +54,20 @@ export default class App extends React.Component {
           reviews: result.data
         });
       })
+      .catch(error => console.log(error));
+  }
+
+  updateReviewHelpful(review, yesPlus, noPlus) {
+    let reviewId = review.review_id;
+    let yesCount = review.review_helpful_yes + yesPlus;
+    let noCount = review.review_helpful_no + noPlus;
+    axios
+      .put('/reviews', {
+        reviewId: reviewId,
+        yesAdd: yesCount,
+        noAdd: noCount
+      })
+      .then(this.getReviews(this.state.currentItem.id))
       .catch(error => console.log(error));
   }
 
@@ -91,7 +106,7 @@ export default class App extends React.Component {
         <EnvironmentAndMaterials id={id} environmentAndMaterials={environment_and_materials} />
         <PackageDetails id={id} packageDetails={package_details} />
         <AssemblyAndDocuments />
-        <Reviews reviews={reviews} />
+        <Reviews clickUpdateHelpful={this.updateReviewHelpful} reviews={reviews} />
         <ProductAvailability />
       </div>
     );

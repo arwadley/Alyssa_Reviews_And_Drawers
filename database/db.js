@@ -20,6 +20,21 @@ let retrieveReviews = (itemId, callback) => {
   });
 };
 
+let updateHelpfulReviews = (reviewId, yesCount, noCount, callback) => {
+  connection.query(
+    'UPDATE reviews SET review_helpful_yes=?, review_helpful_no=? WHERE review_id=?',
+    [yesCount, noCount, reviewId],
+    function(error, result) {
+      if (error) {
+        callback(error, null);
+      } else {
+        callback(error, result);
+      }
+    }
+  );
+};
+
 module.exports.connection = connection;
 module.exports.retrieveItem = retrieveItem;
 module.exports.retrieveReviews = retrieveReviews;
+module.exports.updateHelpfulReviews = updateHelpfulReviews;

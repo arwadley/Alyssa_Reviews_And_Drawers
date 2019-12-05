@@ -21,12 +21,24 @@ app.get('/item', (req, res) => {
 });
 
 app.get('/reviews', (req, res) => {
-  console.log(req.query.itemId);
   let itemId = req.query.itemId;
   db.retrieveReviews(itemId, function(error, result) {
     if (error) {
-      console.log(error);
       res.status(404).send(error);
+    } else {
+      res.status(200).send(result);
+    }
+  });
+});
+
+app.put('/reviews', (req, res) => {
+  console.log(req.body);
+  db.updateHelpfulReviews(req.body.reviewId, req.body.yesAdd, req.body.noAdd, function(
+    error,
+    result
+  ) {
+    if (error) {
+      res.status(400).end();
     } else {
       res.status(200).send(result);
     }
