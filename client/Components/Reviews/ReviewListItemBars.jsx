@@ -3,7 +3,7 @@ import React from 'react';
 const ReviewListItemBars = props => {
   return (
     <div>
-      <div>
+      <div className="aw_column">
         <div className="aw_review_list_text">Value for money</div>
         <span className="aw_review_bars aw_selected_golden"></span>
         <span

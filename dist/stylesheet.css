@@ -175,6 +175,14 @@
 .aw_unselected {
   background-color: white;
 }
+
+.aw_row {
+  display: flex;
+}
+
+.aw_column {
+  flex: 50%;
+}
 /* 
 @-webkit-keyframes fadeIn {
   0% {
