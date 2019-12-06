@@ -10,7 +10,7 @@ const ReviewListItem = props => {
     console.log(props.review.product_value_for_money);
     return (
       <div className="aw_review_list_box aw_row">
-        <div className="aw_column review_text_side">
+        <div className="aw_column aw_review_text_side">
           <div>
             <StarRatingComponent
               name="overallRating"

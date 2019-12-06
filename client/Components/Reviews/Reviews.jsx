@@ -1,5 +1,6 @@
 import React from 'react';
 import ReviewList from './ReviewList.jsx';
+import ReviewMetrics from './ReviewMetrics.jsx';
 
 export default class Reviews extends React.Component {
   constructor(props) {
@@ -28,10 +29,13 @@ export default class Reviews extends React.Component {
           <span className="aw_drawer_label_styling  aw_drawer_label_text">Reviews</span>
         </div>
         {this.state.rotated ? (
-          <ReviewList
-            clickUpdateHelpful={this.props.clickUpdateHelpful}
-            reviews={this.props.reviews}
-          />
+          <div>
+            <ReviewMetrics reviews={this.props.reviews} />
+            <ReviewList
+              clickUpdateHelpful={this.props.clickUpdateHelpful}
+              reviews={this.props.reviews}
+            />
+          </div>
         ) : null}
       </div>
     );
