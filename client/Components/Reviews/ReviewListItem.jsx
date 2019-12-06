@@ -10,7 +10,7 @@ const ReviewListItem = props => {
     console.log(props.review.product_value_for_money);
     return (
       <div className="aw_review_list_box aw_row">
-        <div className="aw_column">
+        <div className="aw_column review_text_side">
           <div>
             <StarRatingComponent
               name="overallRating"
@@ -58,13 +58,15 @@ const ReviewListItem = props => {
             <button className="aw_helpful_buttons">Report</button>
           </div>
         </div>
-        <ReviewListItemBars
-          valueForMoney={props.review.product_value_for_money}
-          productQuality={props.review.product_quality}
-          appearance={props.review.product_appearance}
-          easeOfAssembly={props.review.product_ease_of_assembly}
-          worksAsExpected={props.review.product_works_as_expected}
-        />
+        <div>
+          <ReviewListItemBars
+            valueForMoney={props.review.product_value_for_money}
+            productQuality={props.review.product_quality}
+            appearance={props.review.product_appearance}
+            easeOfAssembly={props.review.product_ease_of_assembly}
+            worksAsExpected={props.review.product_works_as_expected}
+          />
+        </div>
       </div>
     );
   }
