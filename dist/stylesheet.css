@@ -256,7 +256,7 @@
 }
 
 .aw_review_modal {
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 400px;
   bottom: 50px;
