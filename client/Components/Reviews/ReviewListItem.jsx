@@ -7,7 +7,6 @@ const ReviewListItem = props => {
     let postedDate = props.review.posted_date.split(/[- :T]/);
     let timeSincePosted = calculateTimeSincePosted(postedDate);
 
-    console.log(props.review.product_value_for_money);
     return (
       <div className="aw_review_list_box aw_row">
         <div className="aw_column aw_review_text_side">

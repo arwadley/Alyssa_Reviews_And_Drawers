@@ -34,7 +34,49 @@ let updateHelpfulReviews = (reviewId, yesCount, noCount, callback) => {
   );
 };
 
+let writeNewReview = (
+  productId,
+  overallRating,
+  reviewTitle,
+  reviewText,
+  username,
+  valueForMoney,
+  productQuality,
+  productAppearance,
+  easeOfAssembly,
+  worksAsExpected,
+  recommended,
+  date,
+  callback
+) => {
+  connection.query(
+    'INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, 0, ?);',
+    [
+      productId,
+      username,
+      date,
+      reviewTitle,
+      reviewText,
+      overallRating,
+      valueForMoney,
+      productQuality,
+      productAppearance,
+      easeOfAssembly,
+      worksAsExpected,
+      recommended
+    ],
+    function(error, result) {
+      if (error) {
+        callback(error, null);
+      } else {
+        callback(error, result);
+      }
+    }
+  );
+};
+
 module.exports.connection = connection;
 module.exports.retrieveItem = retrieveItem;
 module.exports.retrieveReviews = retrieveReviews;
 module.exports.updateHelpfulReviews = updateHelpfulReviews;
+module.exports.writeNewReview = writeNewReview;

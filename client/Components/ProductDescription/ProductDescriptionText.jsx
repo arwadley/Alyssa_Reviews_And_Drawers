@@ -7,21 +7,23 @@ const ProductDescriptionText = props => {
     return (
       <div className="aw_drop_down_container">
         <div className="aw_box_number">{props.boxNumber}</div>
-        {descriptionArray.map((line, i) => {
-          if (line == 'Designer') {
-            return (
-              <pre className={'aw_drop_down_text bold fadeIn'} key={i}>
-                {line}
-              </pre>
-            );
-          } else {
-            return (
-              <pre className={'aw_drop_down_text fadeIn'} key={i}>
-                {line}
-              </pre>
-            );
-          }
-        })}
+        <div className="aw_wordwrap">
+          {descriptionArray.map((line, i) => {
+            if (line == 'Designer') {
+              return (
+                <pre className={'aw_drop_down_text bold fadeIn aw_wordwrap'} key={i}>
+                  {line}
+                </pre>
+              );
+            } else {
+              return (
+                <pre className={'aw_drop_down_text fadeIn aw_wordwrap'} key={i}>
+                  {line}
+                </pre>
+              );
+            }
+          })}
+        </div>
       </div>
     );
   } else {

@@ -8,6 +8,7 @@ import AssemblyAndDocuments from './Components/AssemblyAndDocuments.jsx';
 import Reviews from './Components/Reviews/Reviews.jsx';
 import ProductAvailability from './Components/ProductAvailability.jsx';
 const axios = require('axios');
+import ReviewFormModal from './Components/ReviewFormModal.jsx';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -15,13 +16,16 @@ export default class App extends React.Component {
 
     this.state = {
       currentItem: {},
-      reviews: []
+      reviews: [],
+      showModal: false
     };
 
     this.getCurrentItem = this.getCurrentItem.bind(this);
     this.getReviews = this.getReviews.bind(this);
     this.formatSizeData = this.formatSizeData.bind(this);
     this.updateReviewHelpful = this.updateReviewHelpful.bind(this);
+    this.addNewReviewClickhandler = this.addNewReviewClickhandler.bind(this);
+    this.submitNewReviewClickHandler = this.submitNewReviewClickHandler.bind(this);
   }
 
   componentDidMount() {
@@ -87,6 +91,19 @@ export default class App extends React.Component {
     return newData;
   }
 
+  addNewReviewClickhandler() {
+    this.setState({
+      showModal: true
+    });
+  }
+
+  submitNewReviewClickHandler() {
+    this.setState({
+      showModal: false
+    });
+    this.getReviews(this.state.currentItem.id);
+  }
+
   render() {
     const {
       id,
@@ -98,6 +115,7 @@ export default class App extends React.Component {
       package_details
     } = this.state.currentItem;
     const { reviews } = this.state;
+    const { showModal } = this.state;
     return (
       <div>
         <ProductDescription id={id} boxNumber={box_number} description={product_description} />
@@ -106,8 +124,19 @@ export default class App extends React.Component {
         <EnvironmentAndMaterials id={id} environmentAndMaterials={environment_and_materials} />
         <PackageDetails id={id} packageDetails={package_details} />
         <AssemblyAndDocuments />
-        <Reviews clickUpdateHelpful={this.updateReviewHelpful} reviews={reviews} />
+        <Reviews
+          clickUpdateHelpful={this.updateReviewHelpful}
+          reviews={reviews}
+          newReviewHandler={this.addNewReviewClickhandler}
+        />
         <ProductAvailability />
+        {this.state.showModal ? (
+          <ReviewFormModal
+            getReviews={this.getReviews}
+            itemId={id}
+            submitReview={this.submitNewReviewClickHandler}
+          />
+        ) : null}
       </div>
     );
   }

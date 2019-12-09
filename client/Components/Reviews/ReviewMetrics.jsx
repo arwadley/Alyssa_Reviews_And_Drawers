@@ -3,16 +3,16 @@ import StarRatingComponent from 'react-star-rating-component';
 import ReviewListItemBars from './ReviewListItemBars.jsx';
 
 const ReviewMetrics = props => {
-  console.log(props.reviews);
   let averages = calculateAveragePerCategory(props.reviews);
   let overallScoreCounter = overallScorePercent(props.reviews);
   let pixels = calculatePixels(overallScoreCounter, props.reviews.length);
-  console.log(overallScoreCounter);
   return (
     <div className="aw_drop_down_container">
       <div className="aw_review_top_bar  aw_no_left_padding">
         <span className="aw_review_list_title">Reviews</span>
-        <button id="submit_review_button">Write a review</button>
+        <button onClick={() => props.newReviewHandler()} id="submit_review_button">
+          Write a review
+        </button>
       </div>
       <div className="aw_row">
         <div className="aw_column">

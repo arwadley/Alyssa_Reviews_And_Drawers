@@ -2,9 +2,10 @@ import React from 'react';
 import ReviewListItem from './ReviewListItem.jsx';
 
 const ReviewList = props => {
+  let reviews = props.reviews.reverse();
   return (
     <div className="aw_drop_down_container aw_no_left_padding">
-      {props.reviews.map((review, i) => {
+      {reviews.map((review, i) => {
         return (
           <ReviewListItem
             clickUpdateHelpful={props.clickUpdateHelpful}

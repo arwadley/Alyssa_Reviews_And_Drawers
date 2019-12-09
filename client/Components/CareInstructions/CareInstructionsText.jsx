@@ -8,7 +8,7 @@ const CareInstructionsText = props => {
       <div className="aw_drop_down_container">
         {instructionArray.map((line, i) => {
           return (
-            <div className="aw_drop_down_text" key={'instruction' + i}>
+            <div className="aw_drop_down_text aw_wordwrap" key={'instruction' + i}>
               {line}
             </div>
           );

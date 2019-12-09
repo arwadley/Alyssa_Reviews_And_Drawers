@@ -30,7 +30,10 @@ export default class Reviews extends React.Component {
         </div>
         {this.state.rotated ? (
           <div>
-            <ReviewMetrics reviews={this.props.reviews} />
+            <ReviewMetrics
+              newReviewHandler={this.props.newReviewHandler}
+              reviews={this.props.reviews}
+            />
             <ReviewList
               clickUpdateHelpful={this.props.clickUpdateHelpful}
               reviews={this.props.reviews}

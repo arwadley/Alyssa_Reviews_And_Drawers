@@ -250,3 +250,53 @@
   margin-right: 60px;
   margin-top: 0;
 }
+
+.aw_button_clicked_form {
+  background: grey;
+}
+
+.aw_review_modal {
+  position: absolute;
+  top: 20px;
+  right: 400px;
+  bottom: 50px;
+  left: 400px;
+  z-index: 1000;
+  background: #f5f6f7;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+.aw_modal_text {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 300px;
+  font-size: 18px;
+  margin: auto;
+  width: 70%;
+  color: black;
+  margin-top: 5%;
+  margin-left: 20%;
+  line-height: 200%;
+  padding: 5px;
+  /* text-shadow: 2px 2px 2px black; */
+}
+.aw_button_form {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-size: 18px;
+  padding-bottom: 5px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.aw_form_submit_button {
+  margin-right: 36%;
+}
+
+.aw_wordwrap {
+  white-space: pre-wrap; /* CSS3 */
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -pre-wrap; /* Opera <7 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* IE */
+}
