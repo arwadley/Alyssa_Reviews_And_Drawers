@@ -1124,23 +1124,1506 @@ INSERT INTO items(id, box_number, product_description, product_size, care_instru
 \n\nMaterials\nPouffe cover, indoor/outdoor\n100 % polypropylene
 \n\nPouffe frame, indoor/outdoor\nFrame/ Rim:\nSteel, Polyester powder coating\n\nRivet:\nSteel, Galvanized\n\nFeet:\nPolyamide',
 'Packages: 2\n\nINNERSKÄR\npouffe frame, indoor/outdoor\nPackage(s): 1\n\nOTTERÖN\npouffe cover, indoor/outdoor\nPackage(s): 1'); 
-
-
-INSERT INTO reviews(product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) VALUES
-(23, 'alyssaW', '2019-12-01', 'Beautiful frame!','I bought this bedframe 3 months ago + its been a delight to have! it looks even better in my room than it did online, and its not squeaky at all like my old one. Assembly is for sure a two person job, but with two people it was a piece of cake.',
- 5, 5, 5, 5, 5, 5, 0, 0, 1); 
-INSERT INTO reviews(product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) VALUES
-(23, 'johnDoe', '2019-11-19', 'I hate it.', 'must have spent three days trying to put it together. Missing pieces too!', 1, 2, 1, 4, 1, 3, 0, 0, 0); 
-INSERT INTO reviews(product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) VALUES
-(23, 'maryJ', '2019-11-05', 'Perfect for my son!', 'This works great for my son\s bedroom. Have been looking for somethibng like it for ages. Hope it holds up.', 4, 4, 5, 5, 2, 3, 0, 0, 1); 
-INSERT INTO reviews(product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) VALUES
-(23, 'JoeyT', '2019-12-04', 'It\s alright', 'It\s nice, but I sure wish it was easier to put together.', 4, 5, 3, 3, 1, 4, 0, 0, 1); 
-INSERT INTO reviews(product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) VALUES
-(23, 'MonicaG', '2019-10-15', 'It looks nice', 'Doesn\t feel super sturdy. But it looks nice and it will due for now.', 3, 3, 2, 4, 3, 4, 0, 0, 0); 
-
-
-
-
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (1, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (1, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (1, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (1, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (1, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (2, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (2, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (2, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (2, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (2, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (3, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (3, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (3, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (3, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (3, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (4, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (4, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (4, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (4, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (4, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (5, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (5, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (5, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (5, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (5, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (6, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (6, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (6, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (6, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (6, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (7, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (7, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (7, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (7, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (7, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (8, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (8, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (8, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (8, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (8, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (9, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (9, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (9, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (9, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (9, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (10, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (10, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (10, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (10, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (10, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (11, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (11, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (11, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (11, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (11, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (12, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (12, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (12, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (12, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (12, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (13, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (13, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (13, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (13, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (13, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (14, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (14, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (14, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (14, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (14, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (15, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (15, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (15, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (15, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (15, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (16, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (16, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (16, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (16, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (16, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (17, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (17, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (17, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (17, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (17, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (18, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (18, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (18, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (18, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (18, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (19, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (19, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (19, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (19, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (19, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (20, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (20, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (20, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (20, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (20, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (21, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (21, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (21, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (21, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (21, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (22, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (22, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (22, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (22, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (22, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (23, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (23, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (23, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (23, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (23, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (24, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (24, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (24, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (24, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (24, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (25, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (25, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (25, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (25, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (25, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (26, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (26, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (26, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (26, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (26, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (27, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (27, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (27, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (27, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (27, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (28, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (28, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (28, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (28, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (28, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (29, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (29, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (29, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (29, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (29, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (30, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (30, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (30, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (30, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (30, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (31, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (31, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (31, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (31, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (31, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (32, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (32, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (32, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (32, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (32, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (33, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (33, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (33, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (33, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (33, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (34, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (34, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (34, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (34, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (34, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (35, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (35, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (35, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (35, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (35, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (36, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (36, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (36, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (36, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (36, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (37, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (37, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (37, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (37, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (37, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (38, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (38, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (38, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (38, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (38, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (39, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (39, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (39, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (39, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (39, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (40, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (40, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (40, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (40, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (40, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (41, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (41, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (41, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (41, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (41, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (42, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (42, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (42, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (42, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (42, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (43, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (43, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (43, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (43, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (43, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (44, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (44, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (44, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (44, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (44, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (45, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (45, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (45, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (45, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (45, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (46, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (46, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (46, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (46, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (46, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (47, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (47, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (47, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (47, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (47, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (48, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (48, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (48, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (48, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (48, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (49, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (49, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (49, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (49, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (49, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (50, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (50, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (50, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (50, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (50, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (51, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (51, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (51, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (51, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (51, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (52, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (52, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (52, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (52, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (52, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (53, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (53, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (53, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (53, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (53, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (54, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (54, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (54, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (54, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (54, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (55, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (55, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (55, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (55, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (55, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (56, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (56, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (56, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (56, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (56, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (57, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (57, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (57, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (57, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (57, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (58, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (58, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (58, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (58, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (58, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (59, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (59, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (59, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (59, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (59, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (60, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (60, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (60, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (60, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (60, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (61, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (61, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (61, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (61, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (61, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (62, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (62, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (62, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (62, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (62, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (63, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (63, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (63, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (63, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (63, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (64, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (64, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (64, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (64, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (64, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (65, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (65, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (65, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (65, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (65, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (66, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (66, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (66, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (66, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (66, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (67, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (67, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (67, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (67, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (67, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (68, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (68, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (68, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (68, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (68, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (69, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (69, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (69, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (69, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (69, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (70, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (70, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (70, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (70, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (70, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (71, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (71, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (71, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (71, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (71, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (72, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (72, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (72, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (72, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (72, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (73, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (73, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (73, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (73, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (73, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (74, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (74, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (74, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (74, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (74, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (75, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (75, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (75, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (75, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (75, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (76, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (76, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (76, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (76, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (76, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (77, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (77, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (77, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (77, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (77, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (78, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (78, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (78, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (78, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (78, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (79, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (79, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (79, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (79, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (79, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (80, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (80, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (80, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (80, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (80, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (81, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (81, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (81, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (81, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (81, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (82, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (82, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (82, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (82, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (82, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (83, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (83, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (83, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (83, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (83, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (84, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (84, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (84, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (84, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (84, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (85, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (85, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (85, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (85, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (85, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (86, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (86, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (86, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (86, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (86, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (87, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (87, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (87, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (87, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (87, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (88, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (88, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (88, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (88, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (88, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (89, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (89, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (89, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (89, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (89, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (90, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (90, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (90, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (90, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (90, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (91, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (91, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (91, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (91, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (91, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (92, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (92, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (92, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (92, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (92, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (93, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (93, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (93, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (93, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (93, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (94, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (94, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (94, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (94, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (94, "OscarG.", "2019-10-18", "So many complements!", "SO many people have complemented me on this item! ah! It's great!", 5, 5, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (95, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (95, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (95, "JD", "2019-05-03", "Wearing down already", "We love the look of it, but the quality is lacking. Unfortunately, after only 6 months it is already showing wear...", 2, 2, 
+            1, 5, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (95, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (95, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (96, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (96, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (96, "Kelly Clarkson", "2019-06-29", "Got this as a birthday gift, and I am so pleased!", "Wow! This looks looks beautiful in my house!", 5, 4, 
+            4, 5, 3, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (96, "amyG", "2019-10-30", "This thing is great!", "Exceeded expectations. It seriously fit our home perfectly", 5, 5, 
+            5, 5, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (96, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (97, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (97, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (97, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (97, "Sven", "2019-09-01", "I'm a happy clam!", "Great product, great price. IKEA for the win!", 4, 5, 
+            5, 4, 5, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (97, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (98, "Elsa", "2019-10-10", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 1, 3, 
+            3, 5, 1, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (98, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (98, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (98, "McLovin", "2019-10-29", "Missing parts! ", "I spent four hours trying to put this together, only to realize I was missing a part! Ugh. I was able to get them, but had to return to the store.", 3, 3, 
+            3, 5, 1, 2, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (98, "the Mandalorian", "2019-09-03", "Not a fan...", "Didn't fit my space right, and had a knick in it right out of the box. Just not for me.", 3, 1, 
+            2, 3, 2, 1, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (99, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (99, "Ivan Ivanovich", "2019-01-16", "Beautiful piece, but so hard to assemble. ", "I love how this looks in my home! I could not be happier with it now. But boy did it give me trouble with assembly!", 4, 5, 
+            4, 5, 2, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (99, "Jason Bourne", "2019-08-11", "Did not end up meeting our needs.", "From the photos, I thought it would look different than it did. Not a bad product, but not suited for my needs", 2, 3, 
+            4, 2, 4, 2, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (99, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (99, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (100, "Joe Pumpkin", "2019-12-01", "Nice fit to our home", "Overall we are satisfied with it. However, I do wish it was easier to assemble. Must have spent three hours putting it together!", 4, 4, 
+            5, 4, 2, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (100, "Will Ferrell", "2019-07-18", "Assembly was a breeze", "I was worried about assembling my own furniture for the first time, but their instructions were SO easy to follow! This product is great!", 5, 4, 
+            5, 4, 5, 4, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (100, "Olaf", "2019-05-19", "Next time I'll order with the assembly!", "Their instructions were good, but I guess I have two left thumbs and coulnd't get all the pieces together. Finally got things together with my son's help, and I love it!", 5, 5, 
+            4, 4, 2, 3, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (100, "betty C", "2019-11-25", "I love it!", "This was perfect for us. Even my mother-in-law complemented me on it(and she usually hates everything I pick)!", 5, 4, 
+            4, 5, 3, 5, 0, 0, 1);
+INSERT INTO reviews (product_id, user_name, posted_date, review_title, review_text, overall_rating, product_value_for_money, product_quality, product_appearance, product_ease_of_assembly, product_works_as_expected, review_helpful_yes, review_helpful_no, product_recommended) 
+        VALUES (100, "Left Shark", "2019-03-12", "OK, but feels a little cheap.", "I ordered online, and was hopigng it would feel higher quality. Alas, here we are. But it works, so I'm keeping it.", 2, 2, 
+            3, 3, 4, 4, 0, 0, 0);
 
 
 

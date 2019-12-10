@@ -1,9 +1,9 @@
 import React from 'react';
 
 const CareInstructionsText = props => {
-  if (props.careInstructions) {
+  console.log(props.careInstructions);
+  if (props.instructions) {
     let instructionArray = props.instructions.split('\n');
-
     return (
       <div className="aw_drop_down_container">
         {instructionArray.map((line, i) => {

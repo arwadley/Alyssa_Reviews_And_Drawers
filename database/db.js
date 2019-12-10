@@ -2,8 +2,9 @@ let mysql = require('mysql');
 let sqlPassword = require('../config');
 
 let connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
+  host: 'database-1.cxthsdknnl0n.us-east-2.rds.amazonaws.com',
+  port: 3306,
+  user: 'arwadley',
   password: sqlPassword,
   database: 'ReviewsAndDrawers'
 });
