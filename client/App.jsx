@@ -10,6 +10,9 @@ import ProductAvailability from './Components/ProductAvailability.jsx';
 const axios = require('axios');
 import ReviewFormModal from './Components/ReviewFormModal.jsx';
 
+const baseURL = 'http://drawersreviews-env.bz3ikgcjmi.us-east-2.elasticbeanstalk.com/';
+//const baseURL = 'localhost:3020';
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -29,15 +32,19 @@ export default class App extends React.Component {
   }
 
   componentDidMount() {
-    this.getCurrentItem(3);
-    this.getReviews(3);
+    this.getCurrentItem(81);
+    this.getReviews(81);
   }
 
   getCurrentItem(currentId) {
     axios
-      .get('/item', {
-        params: { itemId: currentId }
-      })
+      .get(
+        '/item',
+        {
+          params: { itemId: currentId }
+        },
+        { baseURL: baseURL }
+      )
       .then(result => {
         let data = result.data[0];
         data.product_size = this.formatSizeData(data.product_size);
@@ -50,9 +57,13 @@ export default class App extends React.Component {
 
   getReviews(currentId) {
     axios
-      .get('/reviews', {
-        params: { itemId: currentId }
-      })
+      .get(
+        '/reviews',
+        {
+          params: { itemId: currentId }
+        },
+        { baseURL: baseURL }
+      )
       .then(result => {
         this.setState({
           reviews: result.data
@@ -66,11 +77,15 @@ export default class App extends React.Component {
     let yesCount = review.review_helpful_yes + yesPlus;
     let noCount = review.review_helpful_no + noPlus;
     axios
-      .put('/reviews', {
-        reviewId: reviewId,
-        yesAdd: yesCount,
-        noAdd: noCount
-      })
+      .put(
+        '/reviews',
+        {
+          reviewId: reviewId,
+          yesAdd: yesCount,
+          noAdd: noCount
+        },
+        { baseURL: baseURL }
+      )
       .then(this.getReviews(this.state.currentItem.id))
       .catch(error => console.log(error));
   }

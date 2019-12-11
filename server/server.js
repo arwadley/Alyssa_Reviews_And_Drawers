@@ -3,12 +3,19 @@ let app = express();
 let db = require('../database/db.js');
 const port = 3020;
 let reviewOptions = require('../database/populateReviews.js');
+let cors = require('cors')();
+
+app.use(cors);
 
 db.connection.connect(() => console.log('connected to db'));
 
 app.use(express.json());
 
 app.use(express.static(__dirname + '/../dist'));
+
+app.use('/bundle', express.static(__dirname + '/../dist/bundle.js'));
+
+app.use('/css', express.static(__dirname + '/../dist/stylesheet.css'));
 
 app.get('/item', (req, res) => {
   let itemId = req.query.itemId;
