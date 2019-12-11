@@ -38,13 +38,10 @@ export default class App extends React.Component {
 
   getCurrentItem(currentId) {
     axios
-      .get(
-        '/item',
-        {
-          params: { itemId: currentId }
-        },
-        { baseURL: baseURL }
-      )
+      .get('/item', {
+        params: { itemId: currentId },
+        baseURL: baseURL
+      })
       .then(result => {
         let data = result.data[0];
         data.product_size = this.formatSizeData(data.product_size);
@@ -57,13 +54,10 @@ export default class App extends React.Component {
 
   getReviews(currentId) {
     axios
-      .get(
-        '/reviews',
-        {
-          params: { itemId: currentId }
-        },
-        { baseURL: baseURL }
-      )
+      .get('/reviews', {
+        params: { itemId: currentId },
+        baseURL: baseURL
+      })
       .then(result => {
         this.setState({
           reviews: result.data
