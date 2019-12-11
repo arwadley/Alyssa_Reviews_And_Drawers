@@ -100,8 +100,7 @@ export default class ReviewFormModal extends React.Component {
     axios
       .post('/reviews', newReview, { baseURL: baseURL })
       .then(result => console.log(result))
-      .then(this.props.getReviews())
-      .then(this.props.submitReview())
+      .then(this.props.submitReview(this.props.itemId))
       .catch(error => console.log(error));
   }
 

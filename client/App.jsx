@@ -106,11 +106,11 @@ export default class App extends React.Component {
     });
   }
 
-  submitNewReviewClickHandler() {
+  submitNewReviewClickHandler(id) {
     this.setState({
       showModal: false
     });
-    this.getReviews(this.state.currentItem.id);
+    this.getReviews(id);
   }
 
   render() {
