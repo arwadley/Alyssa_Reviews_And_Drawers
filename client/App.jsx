@@ -56,7 +56,7 @@ export default class App extends React.Component {
     axios
       .get('/reviews', {
         params: { itemId: currentId },
-        baseURL: baseURL
+        baseURL: 'http://drawersreviews-env.bz3ikgcjmi.us-east-2.elasticbeanstalk.com/'
       })
       .then(result => {
         this.setState({
