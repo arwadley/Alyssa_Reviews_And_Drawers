@@ -16,6 +16,7 @@ let retrieveItem = (itemId, callback) => {
 };
 
 let retrieveReviews = (itemId, callback) => {
+  console.log(itemId);
   connection.query('SELECT * FROM reviews WHERE product_id=?', itemId, function(error, result) {
     callback(error, result);
   });

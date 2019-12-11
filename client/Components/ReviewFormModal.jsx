@@ -2,6 +2,7 @@ import React from 'react';
 import StarRatingComponent from 'react-star-rating-component';
 const axios = require('axios');
 const baseURL = 'http://drawersreviews-env.bz3ikgcjmi.us-east-2.elasticbeanstalk.com/';
+
 //const baseURL = 'localhost:3020';
 
 export default class ReviewFormModal extends React.Component {
@@ -97,7 +98,7 @@ export default class ReviewFormModal extends React.Component {
     let newReview = this.state;
     newReview.productId = this.props.itemId;
     axios
-      .post('/reviews', newReview, { baseUrl: baseURL })
+      .post('/reviews', newReview, { baseURL: baseURL })
       .then(result => console.log(result))
       .then(this.props.getReviews())
       .then(this.props.submitReview())
