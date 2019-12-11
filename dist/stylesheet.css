@@ -18,7 +18,7 @@
 }
 
 .aw_drop_down_text {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   line-height: 120%;
   font-size: 1rem;
   font-weight: 400;
@@ -29,7 +29,7 @@
   color: white;
   display: inline-block;
   padding: 0.25% 0.5%;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 0.75rem;
 }
 
@@ -40,7 +40,7 @@
 .aw_drawer_label_styling,
 .aw_x_icon {
   display: inline-block;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 1.2rem;
   font-weight: 550;
 }
@@ -267,7 +267,7 @@
   border-radius: 5px;
 }
 .aw_modal_text {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: 300px;
   font-size: 18px;
   margin: auto;
@@ -286,7 +286,7 @@
   border: 2px solid black;
   font-size: 18px;
   padding-bottom: 5px;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .aw_form_submit_button {

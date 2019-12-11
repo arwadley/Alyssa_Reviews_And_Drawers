@@ -32,8 +32,8 @@ export default class App extends React.Component {
   }
 
   componentDidMount() {
-    this.getCurrentItem(81);
-    this.getReviews(81);
+    this.getCurrentItem(22);
+    this.getReviews(22);
   }
 
   getCurrentItem(currentId) {
