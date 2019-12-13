@@ -92,7 +92,6 @@
 .aw_review_list_box {
   border-top: 1px dotted #c8c8c8;
   padding-top: 2%;
-
   width: 100%;
 }
 
@@ -264,26 +263,31 @@
 
 .aw_review_modal {
   position: fixed;
-  top: 20px;
-  right: 400px;
-  bottom: 50px;
-  left: 400px;
+  display: flex;
+  top: 10%;
+  right: 30%;
+  bottom: 10%;
+  left: 30%;
   z-index: 1000;
   background: #f5f6f7;
-  border: 5px solid black;
+  border: 1px solid darkgrey;
   border-radius: 5px;
 }
+
+.aw_modal_line {
+  width: 100%;
+  justify-content: center;
+  padding: 2%;
+  border-bottom: 1px solid darkgrey;
+}
+
 .aw_modal_text {
   font-family: 'Noto Sans', sans-serif;
   font-weight: 300px;
-  font-size: 18px;
+  font-size: 16px;
   margin: auto;
-  width: 70%;
   color: black;
-  margin-top: 5%;
-  margin-left: 20%;
-  line-height: 200%;
-  padding: 5px;
+  text-align: left;
   /* text-shadow: 2px 2px 2px black; */
 }
 .aw_button_form {
@@ -294,6 +298,11 @@
   font-size: 18px;
   padding-bottom: 5px;
   font-family: 'Noto Sans', sans-serif;
+}
+
+.aw_bottom_padding_star_label {
+  padding-bottom: 40%;
+  padding-right: 15px;
 }
 
 .aw_form_submit_button {

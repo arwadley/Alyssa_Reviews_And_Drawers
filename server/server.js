@@ -2,7 +2,6 @@ let express = require('express');
 let app = express();
 let db = require('../database/db.js');
 const port = 3020;
-let reviewOptions = require('../database/populateReviews.js');
 let cors = require('cors')();
 
 app.use(cors);
@@ -40,7 +39,6 @@ app.get('/reviews', (req, res) => {
 });
 
 app.put('/reviews', (req, res) => {
-  console.log(req.body);
   db.updateHelpfulReviews(req.body.reviewId, req.body.yesAdd, req.body.noAdd, function(
     error,
     result
@@ -54,7 +52,6 @@ app.put('/reviews', (req, res) => {
 });
 
 app.post('/reviews', (req, res) => {
-  console.log(req.body);
   let currentDate = getCurrentDate();
   db.writeNewReview(
     req.body.productId,
@@ -79,44 +76,6 @@ app.post('/reviews', (req, res) => {
     }
   );
 });
-
-let randomizeReviews = function() {
-  let min = Math.ceil(0);
-  let max = Math.floor(14);
-  for (let i = 1; i <= 100; i++) {
-    let current = [];
-    while (current.length < 5) {
-      let random = Math.floor(Math.random() * (max - min + 1)) + min;
-      console.log(random);
-      let review = reviewOptions.reviewOptions[random];
-      console.log(review);
-      if (!current.includes(review)) {
-        current.push(review);
-        db.writeNewReview(
-          i,
-          review.overall_rating,
-          review.review_title,
-          review.review_text,
-          review.user_name,
-          review.product_value_for_money,
-          review.product_quality,
-          review.product_appearance,
-          review.product_ease_of_assembly,
-          review.product_works_as_expected,
-          review.product_recommended,
-          review.posted_date,
-          function(error, result) {
-            if (error) {
-              console.log(error);
-            } else {
-              console.log(result);
-            }
-          }
-        );
-      }
-    }
-  }
-};
 
 app.listen(port, () => console.log(`listening on port ${port}`));
 

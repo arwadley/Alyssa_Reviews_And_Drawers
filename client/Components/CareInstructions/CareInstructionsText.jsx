@@ -1,7 +1,6 @@
 import React from 'react';
 
 const CareInstructionsText = props => {
-  console.log(props.careInstructions);
   if (props.instructions) {
     let instructionArray = props.instructions.split('\n');
     return (
