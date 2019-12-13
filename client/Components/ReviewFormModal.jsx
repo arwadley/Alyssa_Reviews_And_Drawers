@@ -132,17 +132,22 @@ export default class ReviewFormModal extends React.Component {
               />
             </div>
             <div className="aw_modal_line">
-              <span>Review Title:</span>
+              <span className="aw_bottom_padding_star_label">Review Title:</span>
               <input
+                className="aw_input_box"
                 type="text"
+                size="50"
                 value={this.state.reviewTitle}
                 onChange={this.onChangeReviewTitle}
+                outline="none"
               ></input>
             </div>
             <div className="aw_modal_line">
               <span className="aw_bottom_padding_star_label">Review:</span>
               <input
+                className="aw_input_box"
                 type="text"
+                size="80"
                 value={this.state.reviewText}
                 onChange={this.onChangeReviewText}
               ></input>
@@ -228,16 +233,17 @@ export default class ReviewFormModal extends React.Component {
             <div className="aw_modal_line">
               <span className="aw_bottom_padding_star_label">Nickname:</span>
               <input
+                className="aw_input_box"
                 type="text"
                 value={this.state.username}
                 onChange={this.onChangeUsername}
               ></input>
             </div>
-            <div className="aw_form_submit_button">
-              <button className="aw_helpful_button" onClick={this.processReviewSubmit}>
+            <div className="aw_button_center_form">
+              <button className="aw_submit_button" onClick={this.processReviewSubmit}>
                 Submit Review
               </button>
-              <button className="aw_helpful_button" onClick={this.props.submitReview}>
+              <button className="aw_cancel_button" onClick={this.props.submitReview}>
                 Cancel
               </button>
             </div>

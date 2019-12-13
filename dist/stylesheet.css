@@ -161,6 +161,7 @@
   border: none;
   font-size: 12px;
   font-family: 'Arial', 'Helvetica', sans-serif;
+  outline: none;
 }
 
 .aw_helpful_buttons:hover {
@@ -255,6 +256,7 @@
   float: right;
   margin-right: 60px;
   margin-top: 0;
+  outline: none;
 }
 
 .aw_button_clicked_form {
@@ -291,13 +293,15 @@
   /* text-shadow: 2px 2px 2px black; */
 }
 .aw_button_form {
-  width: 50px;
-  height: 30px;
+  width: 40px;
+  height: 25px;
   border-radius: 5px;
-  border: 2px solid black;
-  font-size: 18px;
-  padding-bottom: 5px;
+  border: 1px solid darkgrey;
+  font-size: 16px;
+  padding-bottom: 3px;
   font-family: 'Noto Sans', sans-serif;
+  margin: 5px;
+  outline: none;
 }
 
 .aw_bottom_padding_star_label {
@@ -315,4 +319,36 @@
   white-space: -pre-wrap; /* Opera <7 */
   white-space: -o-pre-wrap; /* Opera 7 */
   word-wrap: break-word; /* IE */
+}
+
+.aw_submit_button {
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid darkgrey;
+  font-size: 16px;
+  padding-bottom: 3px;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 5px;
+  outline: none;
+}
+
+.aw_cancel_button {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid darkgrey;
+  font-size: 16px;
+  padding-bottom: 3px;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 5px;
+  outline: none;
+}
+
+.aw_input_box {
+  height: 1.5rem;
+  outline: none;
+}
+.aw_button_center_form {
+  margin-left: 20%;
 }
