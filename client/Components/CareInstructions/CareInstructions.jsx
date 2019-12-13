@@ -31,7 +31,10 @@ export default class CareInstructions extends React.Component {
           <span className="aw_drawer_label_styling  aw_drawer_label_text">Care instructions</span>
         </div>
         {this.state.visible ? (
-          <CareInstructionsText instructions={this.props.instructions} />
+          <CareInstructionsText
+            // style={transition: innerHeight 2s}
+            instructions={this.props.instructions}
+          />
         ) : null}
       </div>
     );

@@ -11,7 +11,7 @@ const axios = require('axios');
 import ReviewFormModal from './Components/ReviewFormModal.jsx';
 
 const baseURL = 'http://drawersreviews-env.bz3ikgcjmi.us-east-2.elasticbeanstalk.com/';
-//const baseURL = 'localhost:3020';
+// const baseURL = 'localhost:3020';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -34,6 +34,11 @@ export default class App extends React.Component {
   componentDidMount() {
     this.getCurrentItem(22);
     this.getReviews(22);
+    window.addEventListener('productChanged', event => {
+      let id = event.detail.productId;
+      this.getCurrentItem(id);
+      this.getReviews(id);
+    });
   }
 
   getCurrentItem(currentId) {
@@ -59,8 +64,10 @@ export default class App extends React.Component {
         baseURL: 'http://drawersreviews-env.bz3ikgcjmi.us-east-2.elasticbeanstalk.com/'
       })
       .then(result => {
+        let data = result.data;
+        data = data.reverse();
         this.setState({
-          reviews: result.data
+          reviews: data
         });
       })
       .catch(error => console.log(error));
@@ -110,7 +117,6 @@ export default class App extends React.Component {
     this.setState({
       showModal: false
     });
-    this.getReviews(id);
   }
 
   render() {

@@ -3,7 +3,7 @@ import StarRatingComponent from 'react-star-rating-component';
 const axios = require('axios');
 const baseURL = 'http://drawersreviews-env.bz3ikgcjmi.us-east-2.elasticbeanstalk.com/';
 
-//const baseURL = 'localhost:3020';
+// const baseURL = 'localhost:3020';
 
 export default class ReviewFormModal extends React.Component {
   constructor(props) {
@@ -33,6 +33,7 @@ export default class ReviewFormModal extends React.Component {
     this.onClickRecommendedNo = this.onClickRecommendedNo.bind(this);
     this.addWorksAsExpectedRating = this.addWorksAsExpectedRating.bind(this);
     this.processReviewSubmit = this.processReviewSubmit.bind(this);
+    this.sendReviewToProxy = this.sendReviewToProxy.bind(this);
   }
 
   addOverallRating(nextValue) {
@@ -94,12 +95,23 @@ export default class ReviewFormModal extends React.Component {
     });
   }
 
+  sendReviewToProxy(review) {
+    window.dispatchEvent(
+      new CustomEvent('newReview', {
+        bubbles: true,
+        detail: review
+      })
+    );
+  }
+
   processReviewSubmit() {
     let newReview = this.state;
     newReview.productId = this.props.itemId;
+    let reviewToProxy = { id: this.props.itemId, newRating: this.state.overallRating };
     axios
       .post('/reviews', newReview, { baseURL: baseURL })
       .then(result => console.log(result))
+      .then(this.sendReviewToProxy(reviewToProxy))
       .then(this.props.getReviews(this.props.itemId))
       .then(this.props.submitReview(this.props.itemId))
       .catch(error => console.log(error));
