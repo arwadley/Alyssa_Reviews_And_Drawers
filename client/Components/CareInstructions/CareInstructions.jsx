@@ -6,18 +6,15 @@ export default class CareInstructions extends React.Component {
     super(props);
 
     this.state = {
-      clicked: false,
-      visible: false
+      clicked: false
     };
     this.clickHandler = this.clickHandler.bind(this);
   }
 
   clickHandler() {
     let currentClicked = this.state.clicked;
-    let currentVisible = this.state.visible;
     this.setState({
-      clicked: !currentClicked,
-      visible: !currentVisible
+      clicked: !currentClicked
     });
   }
 
@@ -30,11 +27,8 @@ export default class CareInstructions extends React.Component {
           </div>
           <span className="aw_drawer_label_styling  aw_drawer_label_text">Care instructions</span>
         </div>
-        {this.state.visible ? (
-          <CareInstructionsText
-            // style={transition: innerHeight 2s}
-            instructions={this.props.instructions}
-          />
+        {this.state.clicked ? (
+          <CareInstructionsText instructions={this.props.instructions} />
         ) : null}
       </div>
     );

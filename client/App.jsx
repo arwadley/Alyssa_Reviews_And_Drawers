@@ -50,6 +50,7 @@ export default class App extends React.Component {
       .then(result => {
         let data = result.data[0];
         data.product_size = this.formatSizeData(data.product_size);
+        console.log(data);
         this.setState({
           currentItem: data
         });
@@ -130,7 +131,6 @@ export default class App extends React.Component {
       package_details
     } = this.state.currentItem;
     const { reviews } = this.state;
-    const { showModal } = this.state;
     return (
       <div>
         <ProductDescription id={id} boxNumber={box_number} description={product_description} />

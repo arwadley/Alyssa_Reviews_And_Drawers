@@ -27,13 +27,13 @@ export default class ReviewFormModal extends React.Component {
     this.addValueForMoneyRating = this.addValueForMoneyRating.bind(this);
     this.addProductQualityRating = this.addProductQualityRating.bind(this);
     this.addProductAppearanceRating = this.addProductAppearanceRating.bind(this);
+    this.addWorksAsExpectedRating = this.addWorksAsExpectedRating.bind(this);
     this.addEaseOfAssemblyRating = this.addEaseOfAssemblyRating.bind(this);
-    this.onChangeUsername = this.onChangeUsername.bind(this);
     this.onClickRecommendedYes = this.onClickRecommendedYes.bind(this);
     this.onClickRecommendedNo = this.onClickRecommendedNo.bind(this);
-    this.addWorksAsExpectedRating = this.addWorksAsExpectedRating.bind(this);
     this.processReviewSubmit = this.processReviewSubmit.bind(this);
     this.sendReviewToWindow = this.sendReviewToWindow.bind(this);
+    this.onChangeUsername = this.onChangeUsername.bind(this);
   }
 
   addOverallRating(nextValue) {

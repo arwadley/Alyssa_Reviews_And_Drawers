@@ -6,27 +6,24 @@ export default class PackageDetails extends React.Component {
     super(props);
 
     this.state = {
-      rotated: false,
-      visible: false
+      clicked: false
     };
     this.clickHandler = this.clickHandler.bind(this);
   }
 
   clickHandler() {
-    let currentRotation = this.state.rotated;
-    let currentVisible = this.state.visible;
+    let currentClicked = this.state.clicked;
     this.setState({
-      rotated: !currentRotation,
-      visible: !currentVisible
+      clicked: !currentClicked
     });
   }
 
   render() {
     return (
       <div onClick={this.clickHandler} className="aw_container_horizontal">
-        <div className={'aw_x_icon ' + (this.state.rotated ? 'rotate' : 'rotate_original')}>+</div>
+        <div className={'aw_x_icon ' + (this.state.clicked ? 'rotate' : 'rotate_original')}>+</div>
         <span className="aw_drawer_label_styling  aw_drawer_label_text">Package details</span>
-        {this.state.visible ? (
+        {this.state.clicked ? (
           <PackageDetailsText packageDetails={this.props.packageDetails} />
         ) : null}
       </div>
