@@ -50,7 +50,6 @@ export default class App extends React.Component {
       .then(result => {
         let data = result.data[0];
         data.product_size = this.formatSizeData(data.product_size);
-        console.log(data);
         this.setState({
           currentItem: data
         });
@@ -118,6 +117,7 @@ export default class App extends React.Component {
     this.setState({
       showModal: false
     });
+    
   }
 
   render() {
