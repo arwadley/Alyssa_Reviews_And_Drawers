@@ -1,10 +1,12 @@
 let express = require('express');
 let app = express();
+
+let cors = require('cors');
+
+app.use(cors());
+
 let db = require('../database/db.js');
 const port = 3020;
-let cors = require('cors')();
-
-app.use(cors);
 
 db.connection.connect(() => console.log('connected to db'));
 

@@ -61,10 +61,11 @@ export default class App extends React.Component {
     axios
       .get('/reviews', {
         params: { itemId: currentId },
-        baseURL: 'http://drawersreviews-env.bz3ikgcjmi.us-east-2.elasticbeanstalk.com/'
+        baseURL: baseURL
       })
       .then(result => {
         let data = result.data;
+        console.log(data);
         data = data.reverse();
         this.setState({
           reviews: data
@@ -117,7 +118,7 @@ export default class App extends React.Component {
     this.setState({
       showModal: false
     });
-    
+    this.getReviews(this.state.currentItem.id);
   }
 
   render() {
