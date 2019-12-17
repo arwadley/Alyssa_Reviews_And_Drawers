@@ -65,7 +65,6 @@ export default class App extends React.Component {
       })
       .then(result => {
         let data = result.data;
-        console.log(data);
         data = data.reverse();
         this.setState({
           reviews: data

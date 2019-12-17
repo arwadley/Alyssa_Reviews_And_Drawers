@@ -2,7 +2,6 @@ import React from 'react';
 
 const ProductSizeText = props => {
   if (props.sizeData) {
-    console.log(props.sizeData);
     return (
       <div>
         {props.sizeData.map((lineItem, i) => {

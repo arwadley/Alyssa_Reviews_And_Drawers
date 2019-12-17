@@ -3,7 +3,6 @@ import React from 'react';
 const EnvironmentAndMaterialsText = props => {
   if (props.packageDetails) {
     let detailsArray = props.packageDetails.split('\n');
-    console.log(detailsArray);
     return (
       <div className="aw_env_materials">
         {detailsArray.map((line, i) => {
