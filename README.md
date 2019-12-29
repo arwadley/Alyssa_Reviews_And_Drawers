@@ -14,8 +14,9 @@
 <img src="https://i.imgur.com/tt12VM0.jpg">
 
 ### A pop-up modal allows users to write new reviews and buttons are available to rate individual review helpfulness. All review data is persistent and written to the database.
-
+##### Review modal:
 <img src="https://media.giphy.com/media/PnJdaM6NhIZIZHJiyS/giphy.gif">
+##### Clickable helpfulness buttons:
 <img src="https://media.giphy.com/media/cJ4cP3JxiKTZbtR4HN/giphy.gif">
 
 # View of the Overall Product
